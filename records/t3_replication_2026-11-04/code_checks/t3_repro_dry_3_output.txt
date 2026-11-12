@@ -1,0 +1,13 @@
+# run 2026-11-04T16:05:13Z; xfc7_t3_run ed54954a212e8241
+seconds 1
+T2 CR1 final reproduced: True
+max |difference| from R4's CR1, CR2-BM and bootstrap intervals (ms): 0.0
+three-method final: {'start': 'not ruled out', 'A': 'not ruled out', 'B': 'not ruled out', 'mid': 'not ruled out'}
+compositions final: {'rss': 'not ruled out', 'sum': 'not ruled out'}
+excluded-run theta-bar A (own weights): {'ring_front_left': 27.34, 'ring_side_left': 11.23, 'ring_rear_left': 96.38, 'ring_rear_right': 83.53}
+decidable, both runs, after timing: ['start-B']
+reading: {'timing_model_rejected': False, 'all_descriptive': False, 'decidable_contrasts': ['start-B'], 'h_start_informative_against': ['B']}
+composition readings: {'rss': {'timing_model_rejected': False, 'all_descriptive': False, 'decidable_contrasts': ['start-B'], 'h_start_informative_against': ['B'], 'undecidable': False, 'label': None}, 'sum': {'timing_model_rejected': False, 'all_descriptive': False, 'decidable_contrasts': [], 'h_start_informative_against': [], 'undecidable': True, 'label': 'undecidable under B_sum'}}
+C2 pooled theta-bar: CR1 66.18 [53.43, 78.94]; CR2-BM [47.84, 84.53], df 5.0
+failure labels, primary, start: {'ring_front_left': 'capacity failure', 'ring_side_left': 'rejected', 'ring_rear_left': 'capacity failure', 'ring_rear_right': 'estimate failure'}
+failure labels, primary, start, by method: {'ring_front_left': {'cr1': 'capacity failure', 'cr2_bm': 'capacity failure', 'bootstrap': 'capacity failure'}, 'ring_side_left': {'cr1': 'rejected', 'cr2_bm': 'rejected', 'bootstrap': 'rejected'}, 'ring_rear_left': {'cr1': 'rejected', 'cr2_bm': 'capacity failure', 'bootstrap': 'capacity failure'}, 'ring_rear_right': {'cr1': 'estimate failure', 'cr2_bm': 'estimate failure', 'bootstrap': 'estimate failure'}}

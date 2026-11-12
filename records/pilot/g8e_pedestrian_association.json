@@ -1,0 +1,12 @@
+{
+  "waymo_pairs_eligible": 272791,
+  "agreement": 0.8983727469014741,
+  "gate_95pct": false,
+  "our_assignments": 291990,
+  "our_assignments_with_waymo_pair": 258876,
+  "our_assignments_disagreeing_with_waymo": 13808,
+  "our_assignments_without_waymo_pair": 33114,
+  "unassigned_among_eligible_waymo_pairs": 13999,
+  "roster_rows": 382391,
+  "human_ped_boxes": 416205
+}

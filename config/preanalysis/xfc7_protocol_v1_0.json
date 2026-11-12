@@ -1,0 +1,143 @@
+{
+  "project": "XF-C7",
+  "protocol": "newpaper/autonomous_driving_crossmodal_fit_selection_2026-10-13/PILOT_PROTOCOL_XF-C7_v1_0.md",
+  "version": "1.0",
+  "status": "frozen 2026-10-20 (hash in FREEZE_RECORD_XF-C7_v1_0.md)",
+  "dataset": {
+    "name": "Waymo Open Dataset Perception v2.0.1",
+    "split": "validation",
+    "segments": 202,
+    "root_env_var": "WAYMO_V2_ROOT",
+    "lidar_subset": {
+      "n": 40,
+      "seed": 20261018,
+      "rule": "random.Random(seed).sample(sorted segment names from the camera_image bucket listing, n)",
+      "drawn": "after the freeze"
+    }
+  },
+  "time_origin": "frame start = key.frame_timestamp_micros (first top-LiDAR scan); all times in ms after it",
+  "hypotheses": {
+    "H_frame": "tau = 0",
+    "H_lidar": "tau = T_rot * ((pi - theta) mod 2pi) / (2pi); theta = azimuth of the box centre in vehicle axes about the top-LiDAR position (CCW from +x); T_rot = segment median frame interval; one frame = one rotation, so T_rot = sweep period",
+    "H_pose": "tau = per-frame fitted frame-pose time; frames with ego speed < 2 m/s use 49.8",
+    "H_cam": "tau = GetPixelTimestamp (segment readout direction) at the column of world_to_image(T_frame*c), the static-point projection of the box centre (exact fixed point; no iteration)"
+  },
+  "velocity_convention": "label speed is in world axes (G4b passed 2026-10-20: median ratio 0.9995 in [0.9,1.1], median angle 0.13 deg <= 10 deg)",
+  "inclusion": {
+    "type": 1,
+    "camera": "most_visible_camera_name",
+    "min_top_lidar_points": 20,
+    "moving_min_planar_speed_mps": 3.0,
+    "static_max_planar_speed_mps": 0.5,
+    "fast_speed_mps": 8.0,
+    "hull_margin_px": 10,
+    "hull_under_all_hypotheses": true,
+    "max_overlap_iou_other_vehicle": 0.1,
+    "min_image_speed_px_per_ms": 0.25,
+    "along_axis_exclusion_deg": 20,
+    "along_axis_definition": "3D angle between label velocity and the line of sight from the camera position (image pose) to the box centre T_frame*c, both in world axes"
+  },
+  "association": {
+    "anchor": "midpoint of p(0) and p(tau_max), tau_max = max(t_lidar, t_pose, t_cap); static: p(0)",
+    "gate_px": "0.5*|p(0) - p(tau_max)| + 40 + 0.25*hull_width; hull_width = mean width of the tau=0 and tau_max hulls",
+    "cost": "|u_ref - a|/gate + |ln(w_ref/w_hull)|, infinite outside gate",
+    "solver": "Hungarian per image over all projected vehicle hulls and all human vehicle boxes",
+    "margin_flag": 0.2,
+    "widening": {
+      "factor": 1.5,
+      "times": 1,
+      "trigger": "unassigned share >= 0.30 among included moving vehicles >= 8 m/s in any camera"
+    },
+    "pedestrian_validation_min_agreement": 0.95,
+    "anchor_hull": "tau=0 hull translated so that its centre is the anchor"
+  },
+  "estimand": {
+    "projection": "Waymo world_to_image_moving_point, unmodified, float64; corners at T_frame*x + v*(t_pose_img - t_frame - tau)",
+    "direction": "d = s * e; e = image direction of body-forward axis (static-point projection of centre and centre + 1 m along heading); s = sign(v . heading)",
+    "image_speed": "(p(0) - p(10)) . d / 10 px/ms",
+    "tau_hat": "((p(0) - u_ref) . d - z) / image_speed",
+    "zero_line": {
+      "residual": "(p(0) - u_ref) . e for static vehicles",
+      "bins": {
+        "viewpoint_deg": 30,
+        "range_m": [
+          0,
+          15,
+          30,
+          50,
+          80
+        ],
+        "column_thirds": 3,
+        "ego_speed_mps": [
+          2,
+          8
+        ]
+      },
+      "min_per_bin": 30,
+      "collapse_order": [
+        "ego_speed",
+        "column_third"
+      ],
+      "centre": "median",
+      "scale": "1.4826*MAD"
+    },
+    "weights": "image_speed^2 / (sigma_b^2 * n_track)",
+    "slope_regressor": "xi = anchor_x / width - 0.5 (label-only)",
+    "interval": "95% cluster-robust by segment, CR1 with G/(G-1)",
+    "computed": "once"
+  },
+  "decision": {
+    "camera_eligibility": {
+      "min_moving_tracks": 30,
+      "max_predicted_ci_halfwidth_ms": 2.5,
+      "halfwidth_formula": "1.96*sqrt(DE_c*V_c); V_c = sum(w^2*sigma_b^2/sdot^2)/sum(w)^2; DE_c = CR1 variance / independent variance of the track-weighted mean static residual of camera c"
+    },
+    "equivalence_margin_ms": 5.0,
+    "slope_margin_ms_per_unit_xi": 10.0,
+    "slope_cells": "one pooled cell per readout direction (L2R, R2L), WLS with camera intercepts; per camera x readout slopes are displays",
+    "supported_if": "CI(delta_H,c) within +-5 ms in every decision camera AND CI(beta_H,r) within +-10 ms per unit xi in every readout direction passing the slope gate",
+    "slope_cell_eligibility": {
+      "max_predicted_ci_halfwidth_ms_per_unit_xi": 5.0,
+      "design_effect": "static residual slope on xi",
+      "min_directions": 1
+    },
+    "inside_margin_beyond_budget": "reported as a bound on the annotation convention, not interpreted"
+  },
+  "predicted": {
+    "H": "H_lidar",
+    "tau_bar_centre_ms": {
+      "SIDE_LEFT": 25.0,
+      "FRONT_LEFT": 37.5,
+      "FRONT": 50.0,
+      "FRONT_RIGHT": 62.5,
+      "SIDE_RIGHT": 75.0
+    }
+  },
+  "gates_post_freeze": {
+    "G3b_sweep_phase_ms": 3.0,
+    "G3b_period_ms": 1.0,
+    "G8b_front_median_edge_px": 0.1,
+    "G8b_side_constant_offset_px": 1.5,
+    "G8c_synced_reproduction_median_ms": 1.0,
+    "G8d_translation_invariance_px": 0.01,
+    "G8c_synced_reproduction_expected_mad_ms": 3.0
+  },
+  "robustness": {
+    "trimmed_mean": 0.1,
+    "gate_scale": [
+      0.5,
+      2.0
+    ],
+    "frustum_edge_deg": 5,
+    "exclude_difficulty": "LEVEL_2",
+    "min_top_to_total_points": 0.8,
+    "jackknife": "segment",
+    "margin_flag_excluded": true
+  },
+  "storage_cap_gb": {
+    "soft": 150,
+    "hard": 200
+  },
+  "cpu_hours_cap": 60,
+  "records": "post-freeze gate results, hashes and amendments: newpaper/autonomous_driving_crossmodal_fit_selection_2026-10-13/pilot/PILOT_RECORD_XF-C7.md"
+}

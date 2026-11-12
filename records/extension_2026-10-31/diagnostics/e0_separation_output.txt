@@ -1,0 +1,4 @@
+s050 common rows 7545 | frame-LiDAR separation (ms): FRONT 47.94, FRONT_LEFT 39.32, FRONT_RIGHT 59.86, SIDE_LEFT 24.55
+s050 common rows 7545 | frame-capture separation (ms): FRONT 54.68, FRONT_LEFT 37.14, FRONT_RIGHT 61.25, SIDE_LEFT 26.73
+s030 common rows 7570 | frame-LiDAR separation (ms): FRONT 47.91, FRONT_LEFT 39.32, FRONT_RIGHT 59.87, SIDE_LEFT 24.58
+s030 common rows 7570 | frame-capture separation (ms): FRONT 54.64, FRONT_LEFT 37.11, FRONT_RIGHT 61.03, SIDE_LEFT 26.64

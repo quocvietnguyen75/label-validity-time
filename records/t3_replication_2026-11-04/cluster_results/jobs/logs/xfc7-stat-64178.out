@@ -1,0 +1,41 @@
+worker-0
+Wed Nov  4 22:16:38 UTC 2026
+MEASURED module=careport.xfc7_t2_static peak_rss_GB=49.15 wall_s=2821 exit=0
+{
+ "decision_cameras": [
+  "ring_front_center",
+  "ring_front_left",
+  "ring_front_right",
+  "ring_rear_left",
+  "ring_rear_right",
+  "ring_side_left",
+  "ring_side_right"
+ ],
+ "thresholds_bm_max": {
+  "ring_front_center": 85.14,
+  "ring_front_left": 34.9,
+  "ring_front_right": 55.13,
+  "ring_rear_left": 39.57,
+  "ring_rear_right": 44.1,
+  "ring_side_left": 22.81,
+  "ring_side_right": 103.54
+ },
+ "decidable_bm_max": {
+  "start-A": true,
+  "start-B": true,
+  "start-mid": true,
+  "A-B": true,
+  "A-mid": true,
+  "B-mid": false
+ }
+}
+317528bf154692a8cfd00f16fd357d9dfbc90c7c639c01c0327dd0d669cdd515  /mnt/data/vietnq/xfc7/derived/pooled_static/S3_summary_s050.json
+cd73455a5c42611b9a7e8b44d483b44059802b1d87aae14bf4c23891b3986674  /mnt/data/vietnq/xfc7/derived/pooled_static/design_s050.json
+574f270bfa2d7a20e5a4cbe8a17d3160ac3a252bb485c91deba90048f2fbc681  /mnt/data/vietnq/xfc7/derived/pooled_static/s050/association.parquet
+8ff18ff8f4128c448ae02fbe2c6b03382f5a24f7f1cbb06608bb9d4e56449cc3  /mnt/data/vietnq/xfc7/derived/pooled_static/s050/moving_analysis_set_t2.parquet
+683dc043b0061fe2f909c859844d42b8f0209b3f0dd64dc54cb8ff14e8e651cd  /mnt/data/vietnq/xfc7/derived/pooled_static/s050/moving_assigned.parquet
+2bf493717a1df0f43ead3cf52900c41200439b6e3ce171fc5dc0d2e13aac7376  /mnt/data/vietnq/xfc7/derived/pooled_static/s050/reference_table.parquet
+201cf24ddc54e6d712928da0396488261607af445fe49455369d33c766b28a1b  /mnt/data/vietnq/xfc7/derived/pooled_static/s050/static_all.parquet
+1d66d1b370d90acb04cb9e9f0299ea080882d1d1f5302f74ae36191be2949268  /mnt/data/vietnq/xfc7/derived/pooled_static/s050/static_zero_lined.parquet
+Wed Nov  4 23:03:45 UTC 2026
+STATIC_DONE

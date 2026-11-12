@@ -1,0 +1,30 @@
+{
+  "segments": 40,
+  "frames_total": 7935,
+  "frames_used": 5728,
+  "segments_with_frames_used": 39,
+  "t_backward_ms_p05_median_p95": [
+    0.2218192745467408,
+    0.500128938737848,
+    0.7863324759477843
+  ],
+  "period_ms_p05_median_p95": [
+    98.46007295792843,
+    98.96238733125021,
+    99.58638912831177
+  ],
+  "frame_interval_ms_median": 99.993,
+  "residual_mad_ms_median": 0.24153185329597882,
+  "per_segment_t_backward_ms_p05_median_p95": [
+    0.29822593496492267,
+    0.4852819952145092,
+    0.6411342594338943
+  ],
+  "per_segment_period_minus_interval_ms_p05_median_p95": [
+    -1.2558435584106504,
+    -1.0332869455621534,
+    -0.8039476667042705
+  ],
+  "pass_phase_within_3ms": true,
+  "pass_period_within_1ms": false
+}

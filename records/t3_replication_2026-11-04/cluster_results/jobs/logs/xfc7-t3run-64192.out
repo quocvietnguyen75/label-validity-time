@@ -1,0 +1,48 @@
+worker-0
+Thu Nov  5 01:59:19 UTC 2026
+BUNDLE_OK
+Ran 179 tests in 1.708s
+OK
+MEASURED module=careport.xfc7_t3_run peak_rss_GB=54.71 wall_s=9437 exit=0
+{
+ "primary": {
+  "start": "ruled out",
+  "A": "not ruled out",
+  "B": "not ruled out",
+  "mid": "not ruled out"
+ },
+ "sensitivity_score_0_3": {
+  "start": "ruled out",
+  "A": "association-sensitive, not ruled out",
+  "B": "not ruled out",
+  "mid": "not ruled out"
+ },
+ "t2_h100_with_t2_frozen_budgets": {
+  "start": "not ruled out",
+  "A": "not ruled out",
+  "B": "not ruled out",
+  "mid": "not ruled out"
+ },
+ "t2_h100_recomputed": {
+  "start": "not ruled out",
+  "A": "not ruled out",
+  "B": "not ruled out",
+  "mid": "not ruled out"
+ },
+ "t2_h100_recomputed_score_0_3": {
+  "start": "not ruled out",
+  "A": "not ruled out",
+  "B": "not ruled out",
+  "mid": "not ruled out"
+ },
+ "pooled_457": {
+  "start": "ruled out",
+  "A": "not ruled out",
+  "B": "not ruled out",
+  "mid": "not ruled out"
+ }
+}
+results: /mnt/data/vietnq/xfc7/results/T3_RESULTS_2026-11-05.json sha256 e28f472dca12f9438bc9d7fe7bc4cd95d3cbe0ff488a1dcfd388b8ae94d6f3dc
+e28f472dca12f9438bc9d7fe7bc4cd95d3cbe0ff488a1dcfd388b8ae94d6f3dc  /mnt/data/vietnq/xfc7/results/T3_RESULTS_2026-11-05.json
+Thu Nov  5 04:36:40 UTC 2026
+T3RUN_DONE

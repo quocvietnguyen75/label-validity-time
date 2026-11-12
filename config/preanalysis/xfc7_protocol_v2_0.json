@@ -1,0 +1,24 @@
+{
+  "project": "XF-C7",
+  "protocol": "newpaper/autonomous_driving_crossmodal_fit_selection_2026-10-13/PILOT_PROTOCOL_XF-C7_v2_0.md",
+  "version": "2.0",
+  "supersedes_inference_of": "v1.0 (SHA-256 1ddc751a241509f0c38a28244506aa639e024043b4e482e6679950e7ddeadd6d)",
+  "unchanged_from_v1": ["hypotheses and predictions (with amendment A1)", "inclusion", "association (gate scale 1.0)", "zero line", "weights", "tau-hat", "CR1 intervals by segment"],
+  "analysis_set_sha256": "54016253c11a29c367dc0c2590fcbdf793d380e6a6529cafcb98e2ef6bbff32f",
+  "g5_summary_sha256": "5b5deac23258455aa10de9a3695d3892d6c57716745916a52f39a634727f9ea8",
+  "cameras": {"min_moving_tracks": 30, "in_analysis": ["FRONT", "FRONT_LEFT", "FRONT_RIGHT", "SIDE_LEFT"], "descriptive": ["SIDE_RIGHT"]},
+  "budget_ms": {"definition": "max of neighbour-bin spread, ego-class spread, ego-speed slope component (G5, static only)",
+                "FRONT": 16.28, "FRONT_LEFT": 18.76, "FRONT_RIGHT": 36.85, "SIDE_LEFT": 12.64},
+  "rule": {
+    "primary": "rejected in camera c if 95% CI of delta_H,c lies entirely outside [-(5 + B_c), +(5 + B_c)] ms",
+    "secondary_reported": "CI entirely outside [-5, +5] AND |delta_H,c| > B_c",
+    "ruled_out": "rejected in >= 2 cameras in both the primary run and the margin-flag-excluded run (margin < 0.2 dropped)",
+    "one_run_only": "association-sensitive, not ruled out",
+    "other_robustness_runs": "reported, never change a verdict",
+    "not_ruled_out_is_not_confirmation": true
+  },
+  "precision_gate": "dropped",
+  "slopes": "descriptive; predicted half-widths 44/85 (pre-registered) and 32/46 (A3) ms per unit xi for L2R/R2L",
+  "descriptive": "best single convention = argmin_H sum_c |delta_H,c| / B_c",
+  "predicted_outcome": {"frame": "ruled out", "lidar": "not ruled out", "cam": "not ruled out", "pose": "not ruled out (possibly rejected in SIDE_LEFT only)"}
+}

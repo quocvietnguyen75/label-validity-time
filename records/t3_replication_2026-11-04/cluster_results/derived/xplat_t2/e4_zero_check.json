@@ -1,0 +1,12 @@
+{
+ "baseline_delta_start_ms": {
+  "ring_front_left": 39.44900761249337,
+  "ring_side_left": 41.45481863246282,
+  "ring_rear_left": 70.6613338770713,
+  "ring_rear_right": 32.80095476100074
+ },
+ "baseline_reproduced": true,
+ "zero_shift_changed_share": 0.0,
+ "runs": {},
+ "pass_band_90_110": true
+}

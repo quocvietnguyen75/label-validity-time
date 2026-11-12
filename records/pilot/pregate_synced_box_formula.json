@@ -1,0 +1,163 @@
+{
+  "n": 85310,
+  "pooled": {
+    "frame": {
+      "median_ms": -48.98323267894665,
+      "mad_ms": 7.796728000156971,
+      "within_2ms": 0.002731215566756535
+    },
+    "lidar": {
+      "median_ms": -0.4848590466721747,
+      "mad_ms": 3.2513083488589443,
+      "within_2ms": 0.3767553627945141
+    },
+    "pose": {
+      "median_ms": 0.8667673210533495,
+      "mad_ms": 7.796728000156971,
+      "within_2ms": 0.16545539796037978
+    }
+  },
+  "by_camera_readout": [
+    {
+      "camera": "FRONT",
+      "readout": "LEFT_TO_RIGHT",
+      "n": 24617,
+      "frame_median_ms": -50.41152136923212,
+      "frame_mad_ms": 3.640495983696603,
+      "frame_within_2ms": 4.06223341593208e-05,
+      "lidar_median_ms": -0.8465192658292366,
+      "lidar_mad_ms": 2.2874665355986457,
+      "lidar_within_2ms": 0.448145590445627,
+      "pose_median_ms": -0.5615213692321142,
+      "pose_mad_ms": 3.640495983696602,
+      "pose_within_2ms": 0.2914652475931267
+    },
+    {
+      "camera": "FRONT",
+      "readout": "RIGHT_TO_LEFT",
+      "n": 23139,
+      "frame_median_ms": -49.4168628315823,
+      "frame_mad_ms": 4.2690167053521435,
+      "frame_within_2ms": 0.001080426984744371,
+      "lidar_median_ms": 0.3421526199372722,
+      "lidar_mad_ms": 4.241129511529458,
+      "lidar_within_2ms": 0.2970309866459225,
+      "pose_median_ms": 0.4331371684177032,
+      "pose_mad_ms": 4.269016705352141,
+      "pose_within_2ms": 0.2540299926530965
+    },
+    {
+      "camera": "FRONT_LEFT",
+      "readout": "LEFT_TO_RIGHT",
+      "n": 8123,
+      "frame_median_ms": -39.35255032466854,
+      "frame_mad_ms": 3.7536997306254136,
+      "frame_within_2ms": 0.000738643358365136,
+      "lidar_median_ms": -0.5685328837953936,
+      "lidar_mad_ms": 1.8785885070689199,
+      "lidar_within_2ms": 0.5076942016496369,
+      "pose_median_ms": 10.497449675331461,
+      "pose_mad_ms": 3.75369973062541,
+      "pose_within_2ms": 0.03299273667364274
+    },
+    {
+      "camera": "FRONT_LEFT",
+      "readout": "RIGHT_TO_LEFT",
+      "n": 8383,
+      "frame_median_ms": -38.59847987302313,
+      "frame_mad_ms": 8.230504819196664,
+      "frame_within_2ms": 0.0009543122986997495,
+      "lidar_median_ms": -1.0528251267967477,
+      "lidar_mad_ms": 6.40105736578165,
+      "lidar_within_2ms": 0.2978647262316593,
+      "pose_median_ms": 11.251520126976871,
+      "pose_mad_ms": 8.230504819196664,
+      "pose_within_2ms": 0.043182631516163666
+    },
+    {
+      "camera": "FRONT_RIGHT",
+      "readout": "LEFT_TO_RIGHT",
+      "n": 3877,
+      "frame_median_ms": -62.047369675715466,
+      "frame_mad_ms": 4.0131010126838405,
+      "frame_within_2ms": 0.0,
+      "lidar_median_ms": 0.4460184243129781,
+      "lidar_mad_ms": 1.8866322584424107,
+      "lidar_within_2ms": 0.5019344854268765,
+      "pose_median_ms": -12.19736967571546,
+      "pose_mad_ms": 4.013101012683844,
+      "pose_within_2ms": 0.0196027856590147
+    },
+    {
+      "camera": "FRONT_RIGHT",
+      "readout": "RIGHT_TO_LEFT",
+      "n": 4380,
+      "frame_median_ms": -63.285264888325386,
+      "frame_mad_ms": 4.802650731872465,
+      "frame_within_2ms": 0.0,
+      "lidar_median_ms": -0.06411483072872493,
+      "lidar_mad_ms": 2.698073044471162,
+      "lidar_within_2ms": 0.4276255707762557,
+      "pose_median_ms": -13.435264888325388,
+      "pose_mad_ms": 4.8026507318724665,
+      "pose_within_2ms": 0.021232876712328767
+    },
+    {
+      "camera": "SIDE_LEFT",
+      "readout": "LEFT_TO_RIGHT",
+      "n": 4543,
+      "frame_median_ms": -29.837190191500746,
+      "frame_mad_ms": 8.384234033848447,
+      "frame_within_2ms": 0.0162887959498129,
+      "lidar_median_ms": -1.9484222585999937,
+      "lidar_mad_ms": 7.824686448232239,
+      "lidar_within_2ms": 0.28945630640545894,
+      "pose_median_ms": 20.012809808499256,
+      "pose_mad_ms": 8.384234033848447,
+      "pose_within_2ms": 0.02993616552938587
+    },
+    {
+      "camera": "SIDE_LEFT",
+      "readout": "RIGHT_TO_LEFT",
+      "n": 4830,
+      "frame_median_ms": -26.872353097586437,
+      "frame_mad_ms": 11.601503485023235,
+      "frame_within_2ms": 0.023809523809523808,
+      "lidar_median_ms": -0.4761105272705679,
+      "lidar_mad_ms": 7.155030245973527,
+      "lidar_within_2ms": 0.2784679089026915,
+      "pose_median_ms": 22.977646902413564,
+      "pose_mad_ms": 11.601503485023235,
+      "pose_within_2ms": 0.022567287784679087
+    },
+    {
+      "camera": "SIDE_RIGHT",
+      "readout": "LEFT_TO_RIGHT",
+      "n": 1470,
+      "frame_median_ms": -73.84600141365047,
+      "frame_mad_ms": 5.551001182205049,
+      "frame_within_2ms": 0.0013605442176870747,
+      "lidar_median_ms": -0.11138934143817203,
+      "lidar_mad_ms": 3.2421474323708903,
+      "lidar_within_2ms": 0.40272108843537413,
+      "pose_median_ms": -23.99600141365047,
+      "pose_mad_ms": 5.551001182205049,
+      "pose_within_2ms": 0.005442176870748299
+    },
+    {
+      "camera": "SIDE_RIGHT",
+      "readout": "RIGHT_TO_LEFT",
+      "n": 1948,
+      "frame_median_ms": -77.86061798359246,
+      "frame_mad_ms": 8.713302015670926,
+      "frame_within_2ms": 0.001026694045174538,
+      "lidar_median_ms": -0.9628892745548678,
+      "lidar_mad_ms": 6.468794194362371,
+      "lidar_within_2ms": 0.2792607802874743,
+      "pose_median_ms": -28.01061798359246,
+      "pose_mad_ms": 8.713302015670923,
+      "pose_within_2ms": 0.00513347022587269
+    }
+  ],
+  "perp_m_median": 0.005554444377828751
+}

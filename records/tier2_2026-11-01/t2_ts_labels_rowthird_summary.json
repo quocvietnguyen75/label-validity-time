@@ -1,0 +1,9 @@
+{
+ "file": "$TRUCKSCENES_DERIVED/t2_labels_rowthird_label_side.parquet",
+ "sha256": "b4233d529a4f172e8e920901894e629511e753b91a6a60991df45c04000339da",
+ "rows": 28610,
+ "scenes": 10,
+ "incl_moving": 301,
+ "incl_static": 955,
+ "moving_tracks": 148
+}

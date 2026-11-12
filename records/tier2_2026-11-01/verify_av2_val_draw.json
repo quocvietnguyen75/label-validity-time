@@ -1,0 +1,11 @@
+{
+ "logs": 40,
+ "objects_expected": 95811,
+ "missing": 0,
+ "size_mismatch": 0,
+ "md5_checked": 95811,
+ "md5_mismatch": 0,
+ "multipart_skipped": 0,
+ "bytes": 38747701938,
+ "logs_with_problems": []
+}

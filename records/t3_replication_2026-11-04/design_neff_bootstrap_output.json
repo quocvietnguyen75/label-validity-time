@@ -1,0 +1,252 @@
+{
+ "source_columns": [
+  "segment",
+  "camera",
+  "object_id",
+  "w"
+ ],
+ "reps": 4000,
+ "seed": 20261104,
+ "observed": {
+  "ring_front_center": {
+   "logs_with_rows": 7,
+   "kish": 1.74
+  },
+  "ring_front_left": {
+   "logs_with_rows": 37,
+   "kish": 10.84
+  },
+  "ring_front_right": {
+   "logs_with_rows": 11,
+   "kish": 3.11
+  },
+  "ring_side_left": {
+   "logs_with_rows": 30,
+   "kish": 7.62
+  },
+  "ring_side_right": {
+   "logs_with_rows": 5,
+   "kish": 3.22
+  },
+  "ring_rear_left": {
+   "logs_with_rows": 36,
+   "kish": 4.61
+  },
+  "ring_rear_right": {
+   "logs_with_rows": 14,
+   "kish": 1.62
+  }
+ },
+ "bootstrap": {
+  "50": {
+   "ring_front_center": {
+    "median": 2.6,
+    "p10": 1.5
+   },
+   "ring_front_left": {
+    "median": 11.7,
+    "p10": 8.9
+   },
+   "ring_front_right": {
+    "median": 3.5,
+    "p10": 1.9
+   },
+   "ring_side_left": {
+    "median": 8.9,
+    "p10": 6.0
+   },
+   "ring_side_right": {
+    "median": 3.2,
+    "p10": 1.3
+   },
+   "ring_rear_left": {
+    "median": 4.9,
+    "p10": 3.1
+   },
+   "ring_rear_right": {
+    "median": 2.6,
+    "p10": 1.4
+   }
+  },
+  "108": {
+   "ring_front_center": {
+    "median": 4.1,
+    "p10": 2.6
+   },
+   "ring_front_left": {
+    "median": 24.3,
+    "p10": 20.3
+   },
+   "ring_front_right": {
+    "median": 6.9,
+    "p10": 4.5
+   },
+   "ring_side_left": {
+    "median": 17.3,
+    "p10": 13.7
+   },
+   "ring_side_right": {
+    "median": 6.8,
+    "p10": 3.9
+   },
+   "ring_rear_left": {
+    "median": 10.2,
+    "p10": 7.3
+   },
+   "ring_rear_right": {
+    "median": 3.8,
+    "p10": 2.4
+   }
+  },
+  "208": {
+   "ring_front_center": {
+    "median": 7.3,
+    "p10": 5.2
+   },
+   "ring_front_left": {
+    "median": 45.8,
+    "p10": 40.6
+   },
+   "ring_front_right": {
+    "median": 13.1,
+    "p10": 9.5
+   },
+   "ring_side_left": {
+    "median": 32.5,
+    "p10": 27.6
+   },
+   "ring_side_right": {
+    "median": 13.2,
+    "p10": 9.2
+   },
+   "ring_rear_left": {
+    "median": 19.4,
+    "p10": 15.2
+   },
+   "ring_rear_right": {
+    "median": 6.8,
+    "p10": 4.7
+   }
+  },
+  "308": {
+   "ring_front_center": {
+    "median": 10.7,
+    "p10": 8.1
+   },
+   "ring_front_left": {
+    "median": 67.5,
+    "p10": 60.8
+   },
+   "ring_front_right": {
+    "median": 19.2,
+    "p10": 15.1
+   },
+   "ring_side_left": {
+    "median": 47.7,
+    "p10": 41.6
+   },
+   "ring_side_right": {
+    "median": 19.8,
+    "p10": 14.9
+   },
+   "ring_rear_left": {
+    "median": 28.4,
+    "p10": 23.3
+   },
+   "ring_rear_right": {
+    "median": 9.9,
+    "p10": 7.2
+   }
+  },
+  "408": {
+   "ring_front_center": {
+    "median": 14.1,
+    "p10": 11.0
+   },
+   "ring_front_left": {
+    "median": 89.4,
+    "p10": 81.5
+   },
+   "ring_front_right": {
+    "median": 25.4,
+    "p10": 20.4
+   },
+   "ring_side_left": {
+    "median": 63.0,
+    "p10": 55.9
+   },
+   "ring_side_right": {
+    "median": 26.2,
+    "p10": 20.4
+   },
+   "ring_rear_left": {
+    "median": 37.9,
+    "p10": 31.9
+   },
+   "ring_rear_right": {
+    "median": 13.1,
+    "p10": 10.0
+   }
+  },
+  "508": {
+   "ring_front_center": {
+    "median": 17.7,
+    "p10": 14.0
+   },
+   "ring_front_left": {
+    "median": 110.7,
+    "p10": 102.6
+   },
+   "ring_front_right": {
+    "median": 31.8,
+    "p10": 26.1
+   },
+   "ring_side_left": {
+    "median": 78.3,
+    "p10": 70.1
+   },
+   "ring_side_right": {
+    "median": 32.8,
+    "p10": 26.2
+   },
+   "ring_rear_left": {
+    "median": 47.0,
+    "p10": 40.1
+   },
+   "ring_rear_right": {
+    "median": 16.5,
+    "p10": 12.9
+   }
+  },
+  "808": {
+   "ring_front_center": {
+    "median": 28.1,
+    "p10": 23.3
+   },
+   "ring_front_left": {
+    "median": 175.6,
+    "p10": 164.9
+   },
+   "ring_front_right": {
+    "median": 50.3,
+    "p10": 43.3
+   },
+   "ring_side_left": {
+    "median": 123.9,
+    "p10": 114.0
+   },
+   "ring_side_right": {
+    "median": 52.1,
+    "p10": 43.6
+   },
+   "ring_rear_left": {
+    "median": 74.5,
+    "p10": 66.0
+   },
+   "ring_rear_right": {
+    "median": 26.2,
+    "p10": 21.6
+   }
+  }
+ }
+}

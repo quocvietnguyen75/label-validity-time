@@ -1,0 +1,795 @@
+{
+  "run_utc": "2026-11-01T04:09:54Z",
+  "inputs": {
+    "protocol_sha256": "8c7b8d098c7027cebb00e7b0ed103941b261940b0a5a871024a4c6b353ffca5b",
+    "e0_primary_sha256": "12238bd66cdb9f231c781142b1ef5b9a912b7d144fb3d40825668393e8d89ca1",
+    "e0_sensitivity_sha256": "f8cfd7d8aed42b7ec6bf82d6b0b2fae5086184473633168d572f9028a8a29e91"
+  },
+  "primary": {
+    "E1": {
+      "cameras_in_analysis": [
+        "FRONT",
+        "FRONT_LEFT",
+        "FRONT_RIGHT",
+        "SIDE_LEFT"
+      ],
+      "budgets_ms": {
+        "FRONT": 24.23086199393664,
+        "FRONT_LEFT": 19.903480664692914,
+        "FRONT_RIGHT": 49.186091053474264,
+        "SIDE_LEFT": 11.212553450106487,
+        "SIDE_RIGHT": 7.249108885292031
+      },
+      "final_verdicts": {
+        "frame": "ruled out",
+        "lidar": "not ruled out",
+        "pose": "not ruled out",
+        "cam": "not ruled out"
+      },
+      "frame_labels_primary": {
+        "FRONT": "rejected",
+        "FRONT_LEFT": "rejected",
+        "FRONT_RIGHT": "estimate failure",
+        "SIDE_LEFT": "rejected"
+      },
+      "frame_labels_margin_flag_excluded": {
+        "FRONT": "rejected",
+        "FRONT_LEFT": "rejected",
+        "FRONT_RIGHT": "estimate failure",
+        "SIDE_LEFT": "rejected"
+      },
+      "capacity_exception": false,
+      "verdicts_primary_run": {
+        "frame": {
+          "rejected_in": [
+            "FRONT",
+            "FRONT_LEFT",
+            "SIDE_LEFT"
+          ],
+          "ruled_out": true
+        },
+        "lidar": {
+          "rejected_in": [],
+          "ruled_out": false
+        },
+        "pose": {
+          "rejected_in": [
+            "SIDE_LEFT"
+          ],
+          "ruled_out": false
+        },
+        "cam": {
+          "rejected_in": [],
+          "ruled_out": false
+        }
+      },
+      "verdicts_margin_flag_excluded": {
+        "frame": {
+          "rejected_in": [
+            "FRONT",
+            "FRONT_LEFT",
+            "SIDE_LEFT"
+          ],
+          "ruled_out": true
+        },
+        "lidar": {
+          "rejected_in": [],
+          "ruled_out": false
+        },
+        "pose": {
+          "rejected_in": [
+            "SIDE_LEFT"
+          ],
+          "ruled_out": false
+        },
+        "cam": {
+          "rejected_in": [],
+          "ruled_out": false
+        }
+      },
+      "estimates": {
+        "FRONT": {
+          "tracks": 300,
+          "obs": 1777,
+          "delta": {
+            "frame": {
+              "est": 48.766341689269346,
+              "se": 1.395645119326513,
+              "lo": 46.030877255389385,
+              "hi": 51.50180612314931
+            },
+            "lidar": {
+              "est": 1.1315359450847957,
+              "se": 1.2530073754068138,
+              "lo": -1.3243585107125595,
+              "hi": 3.587430400882151
+            },
+            "pose": {
+              "est": -1.2092921674571946,
+              "se": 1.4089336877799568,
+              "lo": -3.97080219550591,
+              "hi": 1.5522178605915207
+            },
+            "cam": {
+              "est": -7.316438431969924,
+              "se": 2.69211167751107,
+              "lo": -12.59297731989162,
+              "hi": -2.039899544048226
+            }
+          }
+        },
+        "FRONT_LEFT": {
+          "tracks": 526,
+          "obs": 3426,
+          "delta": {
+            "frame": {
+              "est": 33.67962868453938,
+              "se": 2.0886648906860756,
+              "lo": 29.585845498794672,
+              "hi": 37.773411870284086
+            },
+            "lidar": {
+              "est": -5.9157301789294525,
+              "se": 2.1619938610355116,
+              "lo": -10.153238146559055,
+              "hi": -1.6782222112998495
+            },
+            "pose": {
+              "est": -16.150197446062307,
+              "se": 2.0212621795975054,
+              "lo": -20.11187131807342,
+              "hi": -12.188523574051196
+            },
+            "cam": {
+              "est": -3.976287505764511,
+              "se": 3.2503427806411787,
+              "lo": -10.346959355821221,
+              "hi": 2.3943843442921993
+            }
+          }
+        },
+        "FRONT_RIGHT": {
+          "tracks": 137,
+          "obs": 1302,
+          "delta": {
+            "frame": {
+              "est": 20.878217608319385,
+              "se": 22.537164706261017,
+              "lo": -23.294625215952205,
+              "hi": 65.05106043259097
+            },
+            "lidar": {
+              "est": -39.85441393590112,
+              "se": 23.242579004127627,
+              "lo": -85.40986878399127,
+              "hi": 5.701040912189029
+            },
+            "pose": {
+              "est": -28.965367378029175,
+              "se": 22.537517738388598,
+              "lo": -73.13890214527082,
+              "hi": 15.208167389212473
+            },
+            "cam": {
+              "est": -38.63202735226994,
+              "se": 24.514963537667956,
+              "lo": -86.68135588609913,
+              "hi": 9.417301181559253
+            }
+          }
+        },
+        "SIDE_LEFT": {
+          "tracks": 307,
+          "obs": 979,
+          "delta": {
+            "frame": {
+              "est": 25.181578029308813,
+              "se": 0.8347868419350255,
+              "lo": 23.545395819116163,
+              "hi": 26.817760239501464
+            },
+            "lidar": {
+              "est": 0.42602793714926945,
+              "se": 0.783472561637561,
+              "lo": -1.10957828366035,
+              "hi": 1.961634157958889
+            },
+            "pose": {
+              "est": -24.404873098342907,
+              "se": 0.8904888454634906,
+              "lo": -26.15023123545135,
+              "hi": -22.659514961234464
+            },
+            "cam": {
+              "est": -1.2648797361843136,
+              "se": 1.1561916794895437,
+              "lo": -3.531015427983819,
+              "hi": 1.0012559556151919
+            }
+          }
+        },
+        "SIDE_RIGHT": {
+          "tracks": 18,
+          "obs": 78,
+          "delta": {
+            "frame": {
+              "est": -7.855781623119432,
+              "se": 70.54223131903139,
+              "lo": -146.11855500842097,
+              "hi": 130.4069917621821
+            },
+            "lidar": {
+              "est": -84.32437479977159,
+              "se": 71.84359144104083,
+              "lo": -225.13781402421162,
+              "hi": 56.48906442466844
+            },
+            "pose": {
+              "est": -58.37927327952424,
+              "se": 70.41428821672918,
+              "lo": -196.39127818431342,
+              "hi": 79.63273162526495
+            },
+            "cam": {
+              "est": -78.7770142151387,
+              "se": 66.5495403334254,
+              "lo": -209.21411326865248,
+              "hi": 51.66008483837507
+            }
+          }
+        }
+      },
+      "replicated": true
+    },
+    "E2_E3": {
+      "cameras": {
+        "FRONT": {
+          "common_obs": 1777,
+          "common_tracks": 300,
+          "segments": 86,
+          "delta_pair": {
+            "est": 0.6994580706125693,
+            "lo": -0.7305274285909982,
+            "hi": 2.1294435698161367,
+            "se": 0.7295844383691671
+          },
+          "e3_intercept_ms": {
+            "est": -1.681469680011698,
+            "se": 1.2840260406421915
+          },
+          "e3_slope_px": {
+            "est": 1.697995115623196,
+            "se": 1.031407600568717
+          },
+          "decision": "agree",
+          "frame_lidar_separation_ms": 47.94447309440934,
+          "copy_bound_rho": 0.0444147871981608,
+          "frame_capture_separation_ms": 54.681827335878424,
+          "copy_bound_rho_capture_seed": 0.03894243615408484
+        },
+        "FRONT_LEFT": {
+          "common_obs": 3418,
+          "common_tracks": 525,
+          "segments": 103,
+          "delta_pair": {
+            "est": 1.0985044391938326,
+            "lo": -0.26879141352581293,
+            "hi": 2.465800291913478,
+            "se": 0.697599924856962
+          },
+          "e3_intercept_ms": {
+            "est": 0.028340427367726087,
+            "se": 1.0093638032212497
+          },
+          "e3_slope_px": {
+            "est": 1.1525951264629157,
+            "se": 1.6761692913301458
+          },
+          "decision": "agree",
+          "frame_lidar_separation_ms": 39.31794371426655,
+          "copy_bound_rho": 0.06271437565079886,
+          "frame_capture_separation_ms": 37.14030938337403,
+          "copy_bound_rho_capture_seed": 0.06639148496208545
+        },
+        "FRONT_RIGHT": {
+          "common_obs": 1295,
+          "common_tracks": 134,
+          "segments": 45,
+          "delta_pair": {
+            "est": 0.6969978857405548,
+            "lo": -4.405210686440661,
+            "hi": 5.7992064579217715,
+            "se": 2.6031676388679674
+          },
+          "e3_intercept_ms": {
+            "est": 0.0765255749123877,
+            "se": 2.9747557596070306
+          },
+          "e3_slope_px": {
+            "est": 0.39335567561235496,
+            "se": 1.397806474007131
+          },
+          "decision": "inconclusive",
+          "frame_lidar_separation_ms": 59.85986110622119,
+          "copy_bound_rho": 0.09687971790698098,
+          "frame_capture_separation_ms": 61.25236269372311,
+          "copy_bound_rho_capture_seed": 0.09467726962499767
+        },
+        "SIDE_LEFT": {
+          "common_obs": 977,
+          "common_tracks": 306,
+          "segments": 69,
+          "delta_pair": {
+            "est": 0.5510757343934508,
+            "lo": -0.45773112826039164,
+            "hi": 1.5598825970472934,
+            "se": 0.5146973789050217
+          },
+          "e3_intercept_ms": {
+            "est": 0.6673133471812253,
+            "se": 0.7840632685804413
+          },
+          "e3_slope_px": {
+            "est": -0.29266135256069153,
+            "se": 1.1528908129075754
+          },
+          "decision": "agree",
+          "frame_lidar_separation_ms": 24.554766801243325,
+          "copy_bound_rho": 0.06352667120293357,
+          "frame_capture_separation_ms": 26.72998244616717,
+          "copy_bound_rho_capture_seed": 0.058357037839019084
+        }
+      },
+      "overall": "agree"
+    },
+    "E4": {
+      "-20ms": {
+        "assignment_changed_share": 0.0029092832583972493,
+        "cameras": {
+          "FRONT": {
+            "recovered_shift_ms": -20.03518016083735,
+            "recovery_ratio": 1.0017590080418675
+          },
+          "FRONT_LEFT": {
+            "recovered_shift_ms": -19.982701779611105,
+            "recovery_ratio": 0.9991350889805553
+          },
+          "FRONT_RIGHT": {
+            "recovered_shift_ms": -19.853637765039288,
+            "recovery_ratio": 0.9926818882519644
+          },
+          "SIDE_LEFT": {
+            "recovered_shift_ms": -18.210378037143613,
+            "recovery_ratio": 0.9105189018571807
+          },
+          "SIDE_RIGHT": {
+            "recovered_shift_ms": -19.348766311668967,
+            "recovery_ratio": 0.9674383155834484
+          }
+        }
+      },
+      "-10ms": {
+        "assignment_changed_share": 0.0014546416291986246,
+        "cameras": {
+          "FRONT": {
+            "recovered_shift_ms": -9.996264199099736,
+            "recovery_ratio": 0.9996264199099736
+          },
+          "FRONT_LEFT": {
+            "recovered_shift_ms": -9.98469268941747,
+            "recovery_ratio": 0.9984692689417469
+          },
+          "FRONT_RIGHT": {
+            "recovered_shift_ms": -9.995340393056438,
+            "recovery_ratio": 0.9995340393056438
+          },
+          "SIDE_LEFT": {
+            "recovered_shift_ms": -8.689587285542357,
+            "recovery_ratio": 0.8689587285542357
+          },
+          "SIDE_RIGHT": {
+            "recovered_shift_ms": -10.000000000000014,
+            "recovery_ratio": 1.0000000000000013
+          }
+        }
+      },
+      "+10ms": {
+        "assignment_changed_share": 0.0015868817773075905,
+        "cameras": {
+          "FRONT": {
+            "recovered_shift_ms": 9.997645055389684,
+            "recovery_ratio": 0.9997645055389685
+          },
+          "FRONT_LEFT": {
+            "recovered_shift_ms": 9.920119358167359,
+            "recovery_ratio": 0.9920119358167359
+          },
+          "FRONT_RIGHT": {
+            "recovered_shift_ms": 9.885524224176901,
+            "recovery_ratio": 0.9885524224176901
+          },
+          "SIDE_LEFT": {
+            "recovered_shift_ms": 9.914012102130172,
+            "recovery_ratio": 0.9914012102130172
+          },
+          "SIDE_RIGHT": {
+            "recovered_shift_ms": 9.828537880057567,
+            "recovery_ratio": 0.9828537880057567
+          }
+        }
+      },
+      "+20ms": {
+        "assignment_changed_share": 0.004099444591377942,
+        "cameras": {
+          "FRONT": {
+            "recovered_shift_ms": 19.60113887420021,
+            "recovery_ratio": 0.9800569437100105
+          },
+          "FRONT_LEFT": {
+            "recovered_shift_ms": 19.905111696981997,
+            "recovery_ratio": 0.9952555848490998
+          },
+          "FRONT_RIGHT": {
+            "recovered_shift_ms": 19.74154124705635,
+            "recovery_ratio": 0.9870770623528176
+          },
+          "SIDE_LEFT": {
+            "recovered_shift_ms": 19.777731075857837,
+            "recovery_ratio": 0.9888865537928918
+          },
+          "SIDE_RIGHT": {
+            "recovered_shift_ms": 19.60488133508065,
+            "recovery_ratio": 0.9802440667540324
+          }
+        }
+      }
+    },
+    "E4_pass_band_90_110": false
+  },
+  "sensitivity_score_0_3": {
+    "E1": {
+      "cameras_in_analysis": [
+        "FRONT",
+        "FRONT_LEFT",
+        "FRONT_RIGHT",
+        "SIDE_LEFT"
+      ],
+      "budgets_ms": {
+        "FRONT": 23.52553227025341,
+        "FRONT_LEFT": 20.06137045578858,
+        "FRONT_RIGHT": 49.67319341795849,
+        "SIDE_LEFT": 11.228442439968212,
+        "SIDE_RIGHT": 8.318096563510014
+      },
+      "final_verdicts": {
+        "frame": "ruled out",
+        "lidar": "not ruled out",
+        "pose": "not ruled out",
+        "cam": "not ruled out"
+      },
+      "frame_labels_primary": {
+        "FRONT": "rejected",
+        "FRONT_LEFT": "rejected",
+        "FRONT_RIGHT": "estimate failure",
+        "SIDE_LEFT": "rejected"
+      },
+      "frame_labels_margin_flag_excluded": {
+        "FRONT": "rejected",
+        "FRONT_LEFT": "rejected",
+        "FRONT_RIGHT": "estimate failure",
+        "SIDE_LEFT": "rejected"
+      },
+      "capacity_exception": false,
+      "verdicts_primary_run": {
+        "frame": {
+          "rejected_in": [
+            "FRONT",
+            "FRONT_LEFT",
+            "SIDE_LEFT"
+          ],
+          "ruled_out": true
+        },
+        "lidar": {
+          "rejected_in": [],
+          "ruled_out": false
+        },
+        "pose": {
+          "rejected_in": [
+            "SIDE_LEFT"
+          ],
+          "ruled_out": false
+        },
+        "cam": {
+          "rejected_in": [],
+          "ruled_out": false
+        }
+      },
+      "verdicts_margin_flag_excluded": {
+        "frame": {
+          "rejected_in": [
+            "FRONT",
+            "FRONT_LEFT",
+            "SIDE_LEFT"
+          ],
+          "ruled_out": true
+        },
+        "lidar": {
+          "rejected_in": [],
+          "ruled_out": false
+        },
+        "pose": {
+          "rejected_in": [
+            "SIDE_LEFT"
+          ],
+          "ruled_out": false
+        },
+        "cam": {
+          "rejected_in": [],
+          "ruled_out": false
+        }
+      },
+      "estimates": {
+        "FRONT": {
+          "tracks": 301,
+          "obs": 1792,
+          "delta": {
+            "frame": {
+              "est": 48.74602711026221,
+              "se": 1.3876942643846606,
+              "lo": 46.026146352068274,
+              "hi": 51.46590786845615
+            },
+            "lidar": {
+              "est": 1.0157452356029748,
+              "se": 1.3178025331989403,
+              "lo": -1.567147729466948,
+              "hi": 3.5986382006728976
+            },
+            "pose": {
+              "est": -1.244294347954878,
+              "se": 1.4192600554343568,
+              "lo": -4.026044056606217,
+              "hi": 1.5374553606964614
+            },
+            "cam": {
+              "est": -6.73568118097427,
+              "se": 2.2935115366269248,
+              "lo": -11.230963792763042,
+              "hi": -2.2403985691854977
+            }
+          }
+        },
+        "FRONT_LEFT": {
+          "tracks": 526,
+          "obs": 3431,
+          "delta": {
+            "frame": {
+              "est": 34.14103757990252,
+              "se": 1.9858215642773172,
+              "lo": 30.24882731391898,
+              "hi": 38.033247845886066
+            },
+            "lidar": {
+              "est": -5.445019532944779,
+              "se": 2.0533132456044214,
+              "lo": -9.469513494329444,
+              "hi": -1.4205255715601135
+            },
+            "pose": {
+              "est": -15.689972000043571,
+              "se": 1.9167608387848694,
+              "lo": -19.446823244061914,
+              "hi": -11.933120756025227
+            },
+            "cam": {
+              "est": -3.476417823913446,
+              "se": 3.2023822802641084,
+              "lo": -9.753087093231098,
+              "hi": 2.8002514454042067
+            }
+          }
+        },
+        "FRONT_RIGHT": {
+          "tracks": 137,
+          "obs": 1307,
+          "delta": {
+            "frame": {
+              "est": 23.893227894484635,
+              "se": 18.27022220889533,
+              "lo": -11.916407634950207,
+              "hi": 59.70286342391948
+            },
+            "lidar": {
+              "est": -36.8522911606227,
+              "se": 19.045503104025524,
+              "lo": -74.18147724451273,
+              "hi": 0.47689492326733074
+            },
+            "pose": {
+              "est": -25.950565138245548,
+              "se": 18.271215829755317,
+              "lo": -61.76214816456597,
+              "hi": 9.861017888074873
+            },
+            "cam": {
+              "est": -35.45456373590288,
+              "se": 20.435499277618884,
+              "lo": -75.50814232003589,
+              "hi": 4.599014848230134
+            }
+          }
+        },
+        "SIDE_LEFT": {
+          "tracks": 309,
+          "obs": 982,
+          "delta": {
+            "frame": {
+              "est": 24.8161983023933,
+              "se": 0.8202510870093387,
+              "lo": 23.208506171854996,
+              "hi": 26.423890432931604
+            },
+            "lidar": {
+              "est": 0.03932657258332816,
+              "se": 0.7759653810123734,
+              "lo": -1.481565574200924,
+              "hi": 1.56021871936758
+            },
+            "pose": {
+              "est": -24.807445471667183,
+              "se": 0.8737593677727806,
+              "lo": -26.52001383250183,
+              "hi": -23.094877110832535
+            },
+            "cam": {
+              "est": -1.5055923614124378,
+              "se": 1.1161590438424587,
+              "lo": -3.693264087343657,
+              "hi": 0.6820793645187813
+            }
+          }
+        },
+        "SIDE_RIGHT": {
+          "tracks": 18,
+          "obs": 81,
+          "delta": {
+            "frame": {
+              "est": -6.97323681720687,
+              "se": 69.77980683320285,
+              "lo": -143.74165821028447,
+              "hi": 129.79518457587073
+            },
+            "lidar": {
+              "est": -83.41475473044046,
+              "se": 71.07031757264355,
+              "lo": -222.7125771728218,
+              "hi": 55.88306771194088
+            },
+            "pose": {
+              "est": -57.52768641115046,
+              "se": 69.64527568854584,
+              "lo": -194.0324267607003,
+              "hi": 78.9770539383994
+            },
+            "cam": {
+              "est": -77.95926074586829,
+              "se": 65.82435249191357,
+              "lo": -206.9749916300189,
+              "hi": 51.05647013828231
+            }
+          }
+        }
+      },
+      "replicated": true
+    },
+    "E2_E3": {
+      "cameras": {
+        "FRONT": {
+          "common_obs": 1789,
+          "common_tracks": 301,
+          "segments": 86,
+          "delta_pair": {
+            "est": 0.7313268795591182,
+            "lo": -1.4783644503617333,
+            "hi": 2.9410182094799695,
+            "se": 1.1273935356739038
+          },
+          "e3_intercept_ms": {
+            "est": -2.5592268550477852,
+            "se": 1.6582021474274338
+          },
+          "e3_slope_px": {
+            "est": 2.3350772958563586,
+            "se": 1.069642890184892
+          },
+          "decision": "agree",
+          "frame_lidar_separation_ms": 47.912912560745276,
+          "copy_bound_rho": 0.06138258044219849,
+          "frame_capture_separation_ms": 54.63674283903912,
+          "copy_bound_rho_capture_seed": 0.05382857865711843
+        },
+        "FRONT_LEFT": {
+          "common_obs": 3420,
+          "common_tracks": 525,
+          "segments": 103,
+          "delta_pair": {
+            "est": 0.7549830303370787,
+            "lo": -0.08233727564952165,
+            "hi": 1.592303336323679,
+            "se": 0.4272042377482655
+          },
+          "e3_intercept_ms": {
+            "est": 0.598072147956485,
+            "se": 0.6788244641177712
+          },
+          "e3_slope_px": {
+            "est": 0.16904230018278366,
+            "se": 0.9747699677449301
+          },
+          "decision": "agree",
+          "frame_lidar_separation_ms": 39.32178655418044,
+          "copy_bound_rho": 0.0404941757702104,
+          "frame_capture_separation_ms": 37.108665845306106,
+          "copy_bound_rho_capture_seed": 0.042909204630569873
+        },
+        "FRONT_RIGHT": {
+          "common_obs": 1300,
+          "common_tracks": 134,
+          "segments": 45,
+          "delta_pair": {
+            "est": 3.2470267743804575,
+            "lo": -0.2718435340923606,
+            "hi": 6.765897082853275,
+            "se": 1.7953419941187847
+          },
+          "e3_intercept_ms": {
+            "est": 0.5354891769654005,
+            "se": 2.4732772214911583
+          },
+          "e3_slope_px": {
+            "est": 1.719951955643852,
+            "se": 1.4717250866135951
+          },
+          "decision": "inconclusive",
+          "frame_lidar_separation_ms": 59.87457298033624,
+          "copy_bound_rho": 0.11300117472362271,
+          "frame_capture_separation_ms": 61.031861887342714,
+          "copy_bound_rho_capture_seed": 0.11085844137185731
+        },
+        "SIDE_LEFT": {
+          "common_obs": 980,
+          "common_tracks": 308,
+          "segments": 69,
+          "delta_pair": {
+            "est": 0.7856113069686737,
+            "lo": -0.31983575130867004,
+            "hi": 1.8910583652460173,
+            "se": 0.5640036011619101
+          },
+          "e3_intercept_ms": {
+            "est": 0.9609690645738198,
+            "se": 0.8435046200657135
+          },
+          "e3_slope_px": {
+            "est": -0.44568372243118526,
+            "se": 1.1848851233823623
+          },
+          "decision": "agree",
+          "frame_lidar_separation_ms": 24.58056378800967,
+          "copy_bound_rho": 0.07693307531735584,
+          "frame_capture_separation_ms": 26.639796294940655,
+          "copy_bound_rho_capture_seed": 0.07098621717333331
+        }
+      },
+      "overall": "agree"
+    }
+  },
+  "tier2_gate": {
+    "E1_replicated": true,
+    "capacity_exception": false,
+    "no_camera_disagrees": true,
+    "E2_overall": "agree",
+    "route": "replicated",
+    "pass": true
+  }
+}

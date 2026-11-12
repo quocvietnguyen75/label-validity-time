@@ -1,0 +1,51 @@
+{
+  "E1": {
+    "L2R": {
+      "obs": 40267,
+      "segments": 91,
+      "b_xi_px": {
+        "est": 4.9316652320001975,
+        "lo": -9.303418196575997,
+        "hi": 19.166748660576392
+      },
+      "b_xi_x_ego_speed_px_per_mps": {
+        "est": -0.23810639685456056,
+        "lo": -1.3229502448133152,
+        "hi": 0.8467374511041942
+      },
+      "implied_moving_slope_ms_per_xi": 3.1973122840896187
+    },
+    "R2L": {
+      "obs": 39308,
+      "segments": 100,
+      "b_xi_px": {
+        "est": 85.88660391541661,
+        "lo": -12.328753130842998,
+        "hi": 184.10196096167624
+      },
+      "b_xi_x_ego_speed_px_per_mps": {
+        "est": -11.323223817005546,
+        "lo": -23.660662272580055,
+        "hi": 1.014214638568962
+      },
+      "implied_moving_slope_ms_per_xi": -18.07034523044071
+    },
+    "appears": false,
+    "implied_conflict_ms_per_xi": 21.26765751453033
+  },
+  "E2": {
+    "cells_n_ge_30": 428,
+    "share_abs_median_gt_5ms": 0.3037383177570093,
+    "cells_with_static_offset": 227,
+    "spearman_abs": -0.2262015292331327,
+    "spearman_p": 0.0005950273110285526,
+    "by_camera_share_gt_5ms": {
+      "FRONT": 0.22695035460992907,
+      "FRONT_LEFT": 0.3238095238095238,
+      "FRONT_RIGHT": 0.22033898305084745,
+      "SIDE_LEFT": 0.47674418604651164,
+      "SIDE_RIGHT": 0.2702702702702703
+    },
+    "cells_sha256": "516ec63e285a067739b6de9070a5c390d312769adfa94df6e1e2e636f3793a74"
+  }
+}

@@ -1,0 +1,95 @@
+config sha256 394607c9c6edca4bb114629fad4a6d7fa894d4e7eb5ce3e5ea9dd912e5da11fc
+  [ok] AV2 label-side table, 50 logs: exists=True pinned=b4f595ef2818 got=b4f595ef2818
+  [ok] AV2 S3 summary, score >= 0.5: exists=True pinned=23c05c24949e got=23c05c24949e
+  [ok] AV2 moving analysis set, score >= 0.5: exists=True pinned=cdccdbe561e8 got=cdccdbe561e8
+  [ok] AV2 zero-lined parked table, score >= 0.5: exists=True pinned=afffc639b8d5 got=afffc639b8d5
+  [ok] AV2 S3 summary, score >= 0.3: exists=True pinned=bee38a02be7d got=bee38a02be7d
+  [ok] AV2 moving analysis set, score >= 0.3: exists=True pinned=a2020a37817d got=a2020a37817d
+  [ok] AV2 zero-lined parked table, score >= 0.3: exists=True pinned=f739daada00d got=f739daada00d
+  [ok] TruckScenes S3 summary, score >= 0.5: exists=True pinned=c6452ce9c5b5 got=c6452ce9c5b5
+  [ok] TruckScenes label-side table (centre row third): exists=True pinned=b4233d529a4f got=b4233d529a4f
+  [ok] TruckScenes static_all: exists=True pinned=fb0db366d868 got=fb0db366d868
+  [ok] TruckScenes moving_assigned: exists=True pinned=8bab734b0463 got=8bab734b0463
+
+== primary moving set columns: ['ah_u0', 'ah_u1', 'ah_v0', 'ah_v1', 'along_axis_deg', 'anchor_u', 'anchor_v', 'assigned', 'camera', 'camera_object_id', 'category', 'column_third', 'cost', 'd_u', 'd_v', 'dt_fs_ms', 'e_u', 'e_v', 'ego_class', 'ego_speed', 'frame', 'frame_type', 'gate', 'h0_u0', 'h0_u1', 'h0_v0', 'h0_v1', 'height', 'hull_w0', 'hull_wmax', 'image_id', 'incl_moving', 'incl_static', 'inside_all', 'margin', 'most_visible', 'n_b', 'n_pts_A', 'n_pts_B', 'n_track', 'no_zero_line', 'num_pts', 'object_id', 'overlap', 'p0_u', 'p0_v', 'range_bin', 'range_m', 's', 'sdot', 'seam', 'segment', 'sigma_b', 'speed', 'spread_A', 'spread_B', 'static_proj_ok', 'sweep_ns', 'theta_A', 'theta_B', 'theta_fallback_A', 'theta_fallback_B', 'theta_mid', 'theta_start', 'u_ref', 'v_ref', 'var_theta', 'viewpoint_bin', 'vis_area', 'w', 'w_ref', 'width', 'z_b', 'zl_flagged', 'zl_level']
+  rows 6006 | summary moving_analysis_rows 6006
+  margin: NaN 0 inf 4539 <0.2 (finite) 61
+  sigma_b <= 0 or NaN: 0 | w NaN/inf: 0
+  theta_start: NaN 0, min 0.0, max 0.0
+  theta_A: NaN 0, min 1.8, max 101.5
+  theta_B: NaN 0, min 5.3, max 104.9
+  theta_mid: NaN 0, min 50.0, max 50.0
+  theta_fallback_A: NaN 0, min 0.0, max 1.0
+  theta_fallback_B: NaN 0, min 0.0, max 1.0
+  decision-camera rows 5599 tracks 323 logs 41
+   ring_front_left: obs 2464, tracks 218, logs 37, frame types {'A': np.int64(1239), 'B': np.int64(1225)}, margin<0.2 29, logs after margin excl 37
+   ring_side_left: obs 1302, tracks 175, logs 30, frame types {'B': np.int64(663), 'A': np.int64(639)}, margin<0.2 22, logs after margin excl 30
+   ring_rear_left: obs 1212, tracks 184, logs 36, frame types {'B': np.int64(624), 'A': np.int64(588)}, margin<0.2 4, logs after margin excl 36
+   ring_rear_right: obs 621, tracks 35, logs 14, frame types {'A': np.int64(312), 'B': np.int64(309)}, margin<0.2 4, logs after margin excl 14
+  P01 subgroup (decision cameras): rows 2584 logs 10
+   ring_front_left: obs 1259, tracks 106, logs 9, frame types {'A': np.int64(631), 'B': np.int64(628)}, logs after margin excl 9
+   ring_side_left: obs 849, tracks 101, logs 9, frame types {'B': np.int64(430), 'A': np.int64(419)}, logs after margin excl 9
+   ring_rear_left: obs 476, tracks 80, logs 10, frame types {'B': np.int64(246), 'A': np.int64(230)}, logs after margin excl 10
+  n_track stored == recomputed over the stored set: True | rows where stored n_track differs: 0
+
+== sensitivity_score_0_3 moving set columns: ['ah_u0', 'ah_u1', 'ah_v0', 'ah_v1', 'along_axis_deg', 'anchor_u', 'anchor_v', 'assigned', 'camera', 'camera_object_id', 'category', 'column_third', 'cost', 'd_u', 'd_v', 'dt_fs_ms', 'e_u', 'e_v', 'ego_class', 'ego_speed', 'frame', 'frame_type', 'gate', 'h0_u0', 'h0_u1', 'h0_v0', 'h0_v1', 'height', 'hull_w0', 'hull_wmax', 'image_id', 'incl_moving', 'incl_static', 'inside_all', 'margin', 'most_visible', 'n_b', 'n_pts_A', 'n_pts_B', 'n_track', 'no_zero_line', 'num_pts', 'object_id', 'overlap', 'p0_u', 'p0_v', 'range_bin', 'range_m', 's', 'sdot', 'seam', 'segment', 'sigma_b', 'speed', 'spread_A', 'spread_B', 'static_proj_ok', 'sweep_ns', 'theta_A', 'theta_B', 'theta_fallback_A', 'theta_fallback_B', 'theta_mid', 'theta_start', 'u_ref', 'v_ref', 'var_theta', 'viewpoint_bin', 'vis_area', 'w', 'w_ref', 'width', 'z_b', 'zl_flagged', 'zl_level']
+  rows 6025 | summary moving_analysis_rows 6025
+  margin: NaN 0 inf 4261 <0.2 (finite) 80
+  sigma_b <= 0 or NaN: 0 | w NaN/inf: 0
+  theta_start: NaN 0, min 0.0, max 0.0
+  theta_A: NaN 0, min 1.8, max 101.5
+  theta_B: NaN 0, min 5.3, max 104.9
+  theta_mid: NaN 0, min 50.0, max 50.0
+  theta_fallback_A: NaN 0, min 0.0, max 1.0
+  theta_fallback_B: NaN 0, min 0.0, max 1.0
+  decision-camera rows 5617 tracks 323 logs 41
+   ring_front_left: obs 2469, tracks 219, logs 37, frame types {'A': np.int64(1241), 'B': np.int64(1228)}, margin<0.2 37, logs after margin excl 37
+   ring_side_left: obs 1307, tracks 175, logs 30, frame types {'B': np.int64(666), 'A': np.int64(641)}, margin<0.2 27, logs after margin excl 30
+   ring_rear_left: obs 1212, tracks 184, logs 36, frame types {'B': np.int64(624), 'A': np.int64(588)}, margin<0.2 7, logs after margin excl 36
+   ring_rear_right: obs 629, tracks 35, logs 14, frame types {'B': np.int64(315), 'A': np.int64(314)}, margin<0.2 7, logs after margin excl 14
+  P01 subgroup (decision cameras): rows 2591 logs 10
+   ring_front_left: obs 1261, tracks 107, logs 9, frame types {'A': np.int64(632), 'B': np.int64(629)}, logs after margin excl 9
+   ring_side_left: obs 854, tracks 101, logs 9, frame types {'B': np.int64(433), 'A': np.int64(421)}, logs after margin excl 9
+   ring_rear_left: obs 476, tracks 80, logs 10, frame types {'B': np.int64(246), 'A': np.int64(230)}, logs after margin excl 10
+  n_track stored == recomputed over the stored set: True | rows where stored n_track differs: 0
+
+== TS static_all columns: ['ah_u0', 'ah_u1', 'ah_v0', 'ah_v1', 'along_axis_deg', 'anchor_u', 'anchor_v', 'assigned', 'camera', 'camera_object_id', 'category', 'column_third', 'cost', 'd_u', 'd_v', 'dt_fs_ms', 'e', 'e_u', 'e_v', 'ego_class', 'ego_speed', 'frame', 'frame_type', 'gate', 'height', 'hull_w0', 'hull_wmax', 'image_id', 'incl_moving', 'incl_static', 'inside_all', 'margin', 'most_visible', 'n_pts_LIDAR_LEFT', 'n_pts_LIDAR_REAR', 'n_pts_LIDAR_RIGHT', 'n_pts_LIDAR_TOP_FRONT', 'n_pts_LIDAR_TOP_LEFT', 'n_pts_LIDAR_TOP_RIGHT', 'num_pts', 'object_id', 'overlap', 'p0_u', 'p0_v', 'range_bin', 'range_m', 'row_third', 's', 'sdot', 'segment', 'speed', 'static_proj_ok', 'sweep_ns', 'theta_LIDAR_LEFT', 'theta_LIDAR_REAR', 'theta_LIDAR_RIGHT', 'theta_LIDAR_TOP_FRONT', 'theta_LIDAR_TOP_LEFT', 'theta_LIDAR_TOP_RIGHT', 'theta_sample', 'u_ref', 'v_ref', 'viewpoint_bin', 'vis_area', 'w_ref', 'width']
+  parked rows per camera: {1: np.int64(123), 2: np.int64(216), 3: np.int64(259), 4: np.int64(246)} | scenes 7
+   cam 1: n 123, z_b 0.88, sigma_b 6.30, scenes 6
+   cam 2: n 216, z_b -0.03, sigma_b 3.14, scenes 7
+   cam 3: n 259, z_b 0.66, sigma_b 4.81, scenes 5
+   cam 4: n 246, z_b 0.44, sigma_b 4.51, scenes 6
+  TS moving_assigned columns: ['ah_u0', 'ah_u1', 'ah_v0', 'ah_v1', 'along_axis_deg', 'anchor_u', 'anchor_v', 'assigned', 'camera', 'camera_object_id', 'category', 'column_third', 'cost', 'd_u', 'd_v', 'dt_fs_ms', 'e_u', 'e_v', 'ego_class', 'ego_speed', 'frame', 'frame_type', 'gate', 'height', 'hull_w0', 'hull_wmax', 'image_id', 'incl_moving', 'incl_static', 'inside_all', 'margin', 'most_visible', 'n_pts_LIDAR_LEFT', 'n_pts_LIDAR_REAR', 'n_pts_LIDAR_RIGHT', 'n_pts_LIDAR_TOP_FRONT', 'n_pts_LIDAR_TOP_LEFT', 'n_pts_LIDAR_TOP_RIGHT', 'num_pts', 'object_id', 'overlap', 'p0_u', 'p0_v', 'range_bin', 'range_m', 'row_third', 's', 'sdot', 'segment', 'speed', 'static_proj_ok', 'sweep_ns', 'theta_LIDAR_LEFT', 'theta_LIDAR_REAR', 'theta_LIDAR_RIGHT', 'theta_LIDAR_TOP_FRONT', 'theta_LIDAR_TOP_LEFT', 'theta_LIDAR_TOP_RIGHT', 'theta_sample', 'u_ref', 'v_ref', 'viewpoint_bin', 'vis_area', 'w_ref', 'width']
+  moving assigned rows 250 per camera {1: np.int64(25), 2: np.int64(78), 3: np.int64(131), 4: np.int64(16)}
+   cam 1: obs 25, tracks 21, scenes 6, margin<0.2 0
+      sample: rows 25, scenes 6
+      LIDAR_LEFT: rows 25, scenes 6
+      LIDAR_RIGHT: rows 25, scenes 6
+      LIDAR_TOP_FRONT: rows 17, scenes 5
+      LIDAR_TOP_LEFT: rows 14, scenes 5
+      LIDAR_TOP_RIGHT: rows 5, scenes 1
+      LIDAR_REAR: rows 0, scenes 0
+   cam 2: obs 78, tracks 69, scenes 7, margin<0.2 1
+      sample: rows 78, scenes 7
+      LIDAR_LEFT: rows 78, scenes 7
+      LIDAR_RIGHT: rows 78, scenes 7
+      LIDAR_TOP_FRONT: rows 49, scenes 7
+      LIDAR_TOP_LEFT: rows 58, scenes 7
+      LIDAR_TOP_RIGHT: rows 20, scenes 5
+      LIDAR_REAR: rows 0, scenes 0
+   cam 3: obs 131, tracks 105, scenes 8, margin<0.2 0
+      sample: rows 131, scenes 8
+      LIDAR_LEFT: rows 131, scenes 8
+      LIDAR_RIGHT: rows 26, scenes 4
+      LIDAR_TOP_FRONT: rows 26, scenes 5
+      LIDAR_TOP_LEFT: rows 78, scenes 8
+      LIDAR_TOP_RIGHT: rows 0, scenes 0
+      LIDAR_REAR: rows 54, scenes 7
+   cam 4: obs 16, tracks 6, scenes 2, margin<0.2 0
+      sample: rows 16, scenes 2
+      LIDAR_LEFT: rows 7, scenes 1
+      LIDAR_RIGHT: rows 16, scenes 2
+      LIDAR_TOP_FRONT: rows 8, scenes 1
+      LIDAR_TOP_LEFT: rows 0, scenes 0
+      LIDAR_TOP_RIGHT: rows 7, scenes 2
+      LIDAR_REAR: rows 6, scenes 2

@@ -1,0 +1,79 @@
+[1/2] 02a00399-3857-444e-8db3-a8f58489c394: 2233 images, 29451 dets, 316 s
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\paper\src\careport\xfc7_t2_detect.py", line 132, in <module>
+    sys.exit(main(sys.argv))
+             ^^^^^^^^^^^^^^
+  File "D:\paper\src\careport\xfc7_t2_detect.py", line 120, in main
+    raw.to_parquet(seg_file + ".tmp", index=False)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\frame.py", line 3124, in to_parquet
+    return to_parquet(
+           ^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parquet.py", line 482, in to_parquet
+    impl.write(
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parquet.py", line 199, in write
+    path_or_handle, handles, filesystem = _get_path_or_handle(
+                                          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parquet.py", line 141, in _get_path_or_handle
+    handles = get_handle(
+              ^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'E:/datasets/argoverse2_t3/derived/t3_det/raw\\04994d08-156c-3018-9717-ba0e29be8153.parquet.tmp'
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\paper\src\careport\xfc7_t2_detect.py", line 132, in <module>
+    sys.exit(main(sys.argv))
+             ^^^^^^^^^^^^^^
+  File "D:\paper\src\careport\xfc7_t2_detect.py", line 120, in main
+    raw.to_parquet(seg_file + ".tmp", index=False)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\frame.py", line 3124, in to_parquet
+    return to_parquet(
+           ^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parquet.py", line 482, in to_parquet
+    impl.write(
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parquet.py", line 199, in write
+    path_or_handle, handles, filesystem = _get_path_or_handle(
+                                          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parquet.py", line 141, in _get_path_or_handle
+    handles = get_handle(
+              ^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'E:/datasets/argoverse2_t3/derived/t3_det/raw\\04994d08-156c-3018-9717-ba0e29be8153.parquet.tmp'
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\paper\src\careport\xfc7_t2_detect.py", line 132, in <module>
+    sys.exit(main(sys.argv))
+             ^^^^^^^^^^^^^^
+  File "D:\paper\src\careport\xfc7_t2_detect.py", line 120, in main
+    raw.to_parquet(seg_file + ".tmp", index=False)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\frame.py", line 3124, in to_parquet
+    return to_parquet(
+           ^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parquet.py", line 482, in to_parquet
+    impl.write(
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parquet.py", line 229, in write
+    self.api.parquet.write_table(
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyarrow\parquet\core.py", line 1983, in write_table
+    writer.write_table(table, row_group_size=row_group_size)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyarrow\parquet\core.py", line 1166, in write_table
+    self.writer.write_table(table, row_group_size=row_group_size)
+  File "pyarrow\\_parquet.pyx", line 2386, in pyarrow._parquet.ParquetWriter.write_table
+  File "pyarrow\\error.pxi", line 92, in pyarrow.lib.check_status
+OSError: [Errno 22] Error writing bytes to file. Detail: [errno 22] Invalid argument
+2026-11-04T04:10:50Z download ended; detector covered 4 logs

@@ -1,0 +1,12 @@
+{
+ "final": {
+  "start": "ruled out",
+  "A": "not ruled out",
+  "B": "not ruled out",
+  "mid": "not ruled out"
+ },
+ "two_frame_failures": [],
+ "pi": 0.482,
+ "C2": "positive"
+}
+results: newpaper/autonomous_driving_crossmodal_fit_selection_2026-10-13/tier2_2026-11-01/T2_RESULTS_2026-11-01.json sha256 6faa981f71330b4d719140e93eac348bc0eecb28e494abdf5b1921adb504b6e3

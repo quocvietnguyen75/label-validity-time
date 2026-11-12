@@ -1,0 +1,1123 @@
+{
+ "dataset": "av2_sensor_ring",
+ "model": "fasterrcnn_resnet50_fpn_v2",
+ "weights": "https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_v2_coco-dd69338a.pth",
+ "weights_sha256": "dd69338a24b8d7381807e247652bdc356325bcbaf1cd3e092e00e0a1a58706bf",
+ "torch": "2.11.0+cu128",
+ "torchvision": "0.26.0+cu128",
+ "device": "NVIDIA H100 80GB HBM3",
+ "min_size": 1550,
+ "max_size": 2048,
+ "box_score_thresh": 0.05,
+ "box_detections_per_img": 300,
+ "per_class_nms_iou": 0.5,
+ "batch": 4,
+ "classes": {
+  "3": "car",
+  "4": "motorcycle",
+  "6": "bus",
+  "8": "truck"
+ },
+ "cameras": [
+  "ring_front_center",
+  "ring_front_left",
+  "ring_front_right",
+  "ring_side_left",
+  "ring_side_right",
+  "ring_rear_left",
+  "ring_rear_right"
+ ],
+ "started": "2026-11-04 16:56:26",
+ "files": {
+  "02a00399-3857-444e-8db3-a8f58489c394.parquet": {
+   "images": 2233,
+   "detections": 29362,
+   "sha256": "f1eeafa5a9af856c822662fdb43670050a8684679b249637a704a91909f7edf2"
+  },
+  "04994d08-156c-3018-9717-ba0e29be8153.parquet": {
+   "images": 2235,
+   "detections": 49095,
+   "sha256": "a35879b1fdcf1cf72393abb6de32074c7eb97ef1abf22b38964478a2ae1628df"
+  },
+  "070bbf42-31d3-3aa9-aca4-c262afc9077d.parquet": {
+   "images": 2234,
+   "detections": 50741,
+   "sha256": "4e4b1bcac6803e6ce3f90c14e11ffbb8b966a5f4906868f83884ae9c3f6cb131"
+  },
+  "0aa4e8f5-2f9a-39a1-8f80-c2fdde4405a2.parquet": {
+   "images": 2234,
+   "detections": 31003,
+   "sha256": "a181bb2f2501de95841f83c3f74831d05b61cccdc8c5ebe7ee86f290c85fbfe1"
+  },
+  "0b86f508-5df9-4a46-bc59-5b9536dbde9f.parquet": {
+   "images": 2234,
+   "detections": 70937,
+   "sha256": "06bf728236638d0b1afd5b71412c8925cc8c6e4248ad86356cab8c48cfbd8ccf"
+  },
+  "0bae3b5e-417d-3b03-abaa-806b433233b8.parquet": {
+   "images": 2235,
+   "detections": 86676,
+   "sha256": "a3eac20d9985747fff210f7b71e7aa3468c86a200de10e33ed6b6fdf0ce6090e"
+  },
+  "0c3bad78-9f1e-395d-a376-2eb7499229fd.parquet": {
+   "images": 2235,
+   "detections": 40055,
+   "sha256": "d2286514cee5c56882c9b20f3a4a8d4d6d80d456f51cd95f8cf38137902723b6"
+  },
+  "0fb7276f-ecb5-3e5b-87a8-cc74c709c715.parquet": {
+   "images": 2234,
+   "detections": 47572,
+   "sha256": "4ec9e7c8839e1586cc41fe2078d222de774ebb34f65609c92745cef6b8ef9324"
+  },
+  "185d3943-dd15-397a-8b2e-69cd86628fb7.parquet": {
+   "images": 2234,
+   "detections": 55469,
+   "sha256": "8a08f5aea05cf58d1485d95c23210ce74d33d2a31dbeaa853bbc002269f17a00"
+  },
+  "19f53e16-9f99-3035-9672-7e860f3b0048.parquet": {
+   "images": 2235,
+   "detections": 66847,
+   "sha256": "d61fde4ef4cced7a6d0f2d6821be5191b02a0bacbd7baaaa6ba4d13a82c53de2"
+  },
+  "1da4a0aa-22ae-3958-856d-05303de1f576.parquet": {
+   "images": 2235,
+   "detections": 97450,
+   "sha256": "be8343f6acfb709de3022ad72e4badb78ad52ba4d72a0553734ef4d159e2d687"
+  },
+  "1f434d15-8745-3fba-9c3e-ccb026688397.parquet": {
+   "images": 2234,
+   "detections": 70181,
+   "sha256": "01451c5a3f4b4eb9706dfa805d1ca7d09f580618d5b57248468637224ed52f4f"
+  },
+  "201fe83b-7dd7-38f4-9d26-7b4a668638a9.parquet": {
+   "images": 2234,
+   "detections": 53566,
+   "sha256": "3c2fee22f9f0f77878c6a408e4b2d20d5102309544fe73ad25a78093bc4d662b"
+  },
+  "20d47f81-46e8-3adf-a0ca-564fbb5c599d.parquet": {
+   "images": 2234,
+   "detections": 52802,
+   "sha256": "f66ca43b0fc1c6b4caeb24d3754ef2b974b4c6962a812077d4e470a5e5091fad"
+  },
+  "20dd185d-b4eb-3024-a17a-b4e5d8b15b65.parquet": {
+   "images": 2784,
+   "detections": 65254,
+   "sha256": "af40cd8090d2987d81a812f6424e79bf91ba7f2db0d4415ecc0c043434780fca"
+  },
+  "22052525-4f85-3fe8-9d7d-000a9fffce36.parquet": {
+   "images": 2233,
+   "detections": 55119,
+   "sha256": "dafe33c6e4c88b967690922230dde7bfa68fe761d1595565e53e4f1d7787d160"
+  },
+  "24642607-2a51-384a-90a7-228067956d05.parquet": {
+   "images": 2234,
+   "detections": 50508,
+   "sha256": "f6a381c0c8c66ba1412278bf113e8ad421f4ed6fa6e5b0cd4fc5baae935d171f"
+  },
+  "27be7d34-ecb4-377b-8477-ccfd7cf4d0bc.parquet": {
+   "images": 2233,
+   "detections": 59348,
+   "sha256": "ca35e3af6edb9c481b5e14b84a308ec1306f9a85872ee5ebff35288c86dc89a8"
+  },
+  "27c03d98-6ac3-38a3-ba5e-102b184d01ef.parquet": {
+   "images": 2234,
+   "detections": 95401,
+   "sha256": "29d7be2e8c68352ed7e5e1bca3028feba562d294f9545d9812214ef2c1c27d7a"
+  },
+  "29a00842-ead2-3050-b587-c5ef507e4125.parquet": {
+   "images": 2234,
+   "detections": 72577,
+   "sha256": "b5b9fd96f7f2ca34026ac69aaa0d54a74d8539413a9dc40ca6bc5485a06ee157"
+  },
+  "2f2321d2-7912-3567-a789-25e46a145bda.parquet": {
+   "images": 2235,
+   "detections": 81774,
+   "sha256": "041585d437eaa6906c505a3c7d97f493d080f935cb2a3d985364451c99d87cc9"
+  },
+  "335aabef-269e-3211-a99d-2c3a3a8f8475.parquet": {
+   "images": 2234,
+   "detections": 45008,
+   "sha256": "a9d93d0995bed7f9989d1ae206037decf47322b7f3a425685125375c8857346d"
+  },
+  "3b3570b4-7b0b-3268-a571-b0889dbf40b6.parquet": {
+   "images": 2234,
+   "detections": 56481,
+   "sha256": "406370b677169daee8934b443a302caa39e48f8b9d07a69a17345dde918135d2"
+  },
+  "3bffdcff-c3a7-38b6-a0f2-64196d130958.parquet": {
+   "images": 2235,
+   "detections": 71172,
+   "sha256": "fd8a1f560a13c46676a75b7c8c3674ab2e3e297871559c28fd11670c1bd0d287"
+  },
+  "42f92807-0c5e-3397-bd45-9d5303b4db2a.parquet": {
+   "images": 2235,
+   "detections": 47026,
+   "sha256": "1fb496aca7e7c6d39e972a5d8517e5b52a7892da69f3ab2d37d613794cec0de1"
+  },
+  "472a240a-10cd-39cd-8681-558f7c7cf868.parquet": {
+   "images": 2234,
+   "detections": 46378,
+   "sha256": "4cd172cc65cd3aa095cd98e838c45443bb7bc4246556d8d4d2f21fbdf4ae65ca"
+  },
+  "4c33fc38-5e59-34f8-96ba-4e5a404d3988.parquet": {
+   "images": 2235,
+   "detections": 42421,
+   "sha256": "514a5aa34b8ea8680718caa1ab95a697e4223f2ab86e2a0de169148f193fc482"
+  },
+  "4e3fedbb-847c-3d5b-8a62-c9ff84550985.parquet": {
+   "images": 2235,
+   "detections": 70721,
+   "sha256": "0effda8fdf2d0433f8a82f3fd79e524448a7c16ddf5e9f57e7b3daa5ca337ca8"
+  },
+  "51bbdd4d-3065-34ae-b369-b6e0444f34db.parquet": {
+   "images": 2235,
+   "detections": 53604,
+   "sha256": "8a34ec68467cc33151850edab96ffa6993fffb0342a8cf7563be2205ecdb00da"
+  },
+  "52071780-5758-3ed4-8835-0d64ecdc5575.parquet": {
+   "images": 2235,
+   "detections": 74232,
+   "sha256": "bc108fb46d9940a1e4cede4774ab21f95b87e68be6578ea84ff5b512fd622476"
+  },
+  "52971a8a-ed62-3bfd-bcd4-ca3308b594e0.parquet": {
+   "images": 2235,
+   "detections": 73955,
+   "sha256": "646838d7bdec881f72628907484786552b1fc06876456f726c8c79d17cdf9269"
+  },
+  "544a8102-0ef5-3044-921e-dc0544370376.parquet": {
+   "images": 2235,
+   "detections": 26309,
+   "sha256": "7e12f173f25c626e2b135c1baf3dcb0fb8f7a33bfe2f98eda5f38b7b00da9a27"
+  },
+  "5589de60-1727-3e3f-9423-33437fc5da4b.parquet": {
+   "images": 2234,
+   "detections": 27336,
+   "sha256": "54d6a2dfc149facfdf03dd94f525a4191bc90200d5b3a9947ff74af8b3f9e40a"
+  },
+  "58e82365-03bc-3b2f-b55a-a4ad0e3e792d.parquet": {
+   "images": 2235,
+   "detections": 47644,
+   "sha256": "6c4b2e3140db5b6ae4829241dbeeb5830ab95eb8772db2b5e53f0f42c62dbcd0"
+  },
+  "58fed0d4-97d5-469b-89a4-4394838e10c7.parquet": {
+   "images": 2234,
+   "detections": 41349,
+   "sha256": "b038125aff7f658f6f3bb84d0a26306c6bda7115fcecc2d9de9e1ca54ab723fe"
+  },
+  "5c0584a3-52a6-3029-b6ff-ca45a19d8aa6.parquet": {
+   "images": 2234,
+   "detections": 44309,
+   "sha256": "f57f82e5680210262ec50c2a5620d7a513e706bce68b54daaceffce8887b6044"
+  },
+  "5f278cdd-ca28-3c53-8f5c-04e62308811d.parquet": {
+   "images": 2234,
+   "detections": 47316,
+   "sha256": "7297623293ed664ae53da5dcbe99ed53110b6ca827974a8cc9280e97ddf0dbe3"
+  },
+  "5f8f4a26-59b1-3f70-bcab-b5e3e615d3bc.parquet": {
+   "images": 2235,
+   "detections": 52580,
+   "sha256": "173fd861d2389d514f4ddf3cf2c6705f0e8fe2b0c842c1a7140f087d5403eb52"
+  },
+  "6803104a-bb06-402e-8471-e5af492db0a8.parquet": {
+   "images": 2233,
+   "detections": 36314,
+   "sha256": "a1a2193e5544aa1670ba942b0c7a432799bd92e8a2820788fe45f3b8df7de2fc"
+  },
+  "6aaf5b08-9f84-3a2e-8a32-2e50e5e11a3c.parquet": {
+   "images": 2234,
+   "detections": 38512,
+   "sha256": "eddd3e429b0e81d8fd87569e80a21470661c8d1ffe1b0688acb791e6a2035790"
+  },
+  "6c932547-4c11-31d7-b8ef-0c16a13dbfc3.parquet": {
+   "images": 2234,
+   "detections": 58991,
+   "sha256": "803aae444c24d532d67a7b16d2d62b495adc908c8c4c64ea13f1ddd4bca01f9e"
+  },
+  "6f128f23-ee40-3ea9-8c50-c9cdb9d3e8b6.parquet": {
+   "images": 2235,
+   "detections": 43178,
+   "sha256": "e6f4e6b7449ed1e84c4fbe2cb0879ec420d0c3f5bb0805be8983e882bd012e03"
+  },
+  "7039e410-b5ab-35aa-96bc-2c4b89d3c5e3.parquet": {
+   "images": 2234,
+   "detections": 52705,
+   "sha256": "21e076d34457a85f27d44c6084fc847ad62b99f46a777d1173ea29ae502cceaa"
+  },
+  "72cf3ca1-1a9e-3254-bca0-29c62521e454.parquet": {
+   "images": 2234,
+   "detections": 39661,
+   "sha256": "c03f6a3d9ea0bb19ffa38f9700a62ba95c02b2599d2fc3ea76442db48859c3fb"
+  },
+  "76916359-96f4-3274-81fe-bb145d497c11.parquet": {
+   "images": 2234,
+   "detections": 73821,
+   "sha256": "3976db26932db37675f0cca81477943ca7634dfc5fa4709a19bec7b0162485d9"
+  },
+  "77574006-881f-3bc8-bbb6-81d79cf02d83.parquet": {
+   "images": 2235,
+   "detections": 78040,
+   "sha256": "2e1bbe693d860c3fc9a4266969a3ed9f0a419897a18edf1caccdf26fbb04fe1b"
+  },
+  "78683234-e6f1-3e4e-af52-6f839254e4c0.parquet": {
+   "images": 2234,
+   "detections": 44885,
+   "sha256": "474517647dd7d371dde039e31d5698e789e398d890703a2c68878ccb986422b2"
+  },
+  "78da7b7e-8ddf-3c7d-8716-eaa890106dd3.parquet": {
+   "images": 2233,
+   "detections": 69982,
+   "sha256": "a1cdef0ee155875e93b5ec1fc84963808fd96f83902ae9cec2ad868e2df3918c"
+  },
+  "78f7cb5c-9d51-34f0-b356-9b3d83263c75.parquet": {
+   "images": 2235,
+   "detections": 33151,
+   "sha256": "babd242a02406acc352194c1108bab566821e6bc9b6d2486705e46854a781bf2"
+  },
+  "7a2c222d-addc-30b2-aac6-596cb65a22e3.parquet": {
+   "images": 2234,
+   "detections": 52736,
+   "sha256": "6058d839dc88941faa7cbe6ea3a8e9e72e3276c2c1c4bff13659e189f2f25bac"
+  },
+  "7de2e535-81df-3d5f-a5ca-62e4b940eb54.parquet": {
+   "images": 2234,
+   "detections": 41983,
+   "sha256": "bbc27b06957aaa0013006990cc2ab3a3700d8e19a29ef6ee41bd2b41758b9623"
+  },
+  "7e4d67b3-c3cc-3288-afe5-043602ea3c70.parquet": {
+   "images": 2233,
+   "detections": 37555,
+   "sha256": "ce9c6e185cccdc4388911b9c6841d0d2e7a00ae63c8a7d7f99711b5583fec489"
+  },
+  "7fab2350-7eaf-3b7e-a39d-6937a4c1bede.parquet": {
+   "images": 2234,
+   "detections": 45021,
+   "sha256": "6d149e67f1419baebcc9df2ca79bfc98f8f0e2a459087f2e324a605cc1cf8db6"
+  },
+  "858d739b-a0ba-35aa-bafc-4f7988bcad17.parquet": {
+   "images": 2235,
+   "detections": 43150,
+   "sha256": "b953b7e3fa588e7484ce82bb3fe8ae8f2128686e23842c2ee644674fb296e359"
+  },
+  "8749f79f-a30b-3c3f-8a44-dbfa682bbef1.parquet": {
+   "images": 2233,
+   "detections": 76538,
+   "sha256": "4ecd3dbd2e23f15d03b505db20300bdde9bf7385873d4793010814819649cc07"
+  },
+  "87ca3d9f-f317-3efb-b1cb-aaaf525227e5.parquet": {
+   "images": 2234,
+   "detections": 83739,
+   "sha256": "fa7c7e7820e89141f8cc7edf99a45cac703a45f63ce7d40e1769bc894618918c"
+  },
+  "88f47a10-87b4-3ea8-a0c7-a07d825b647d.parquet": {
+   "images": 2235,
+   "detections": 77498,
+   "sha256": "d177c9b40c7af007763afb8b9eb97f33ab947590e397b68b95c1b2ecd409cbd7"
+  },
+  "91aab547-1912-3b8e-8e7f-df3b202147bf.parquet": {
+   "images": 2234,
+   "detections": 54496,
+   "sha256": "4bfb3548b26b8a9a01dce8340c811e7a12cc93d061873fca9ceac9a51b03724a"
+  },
+  "92b900b1-ac4a-3d41-b118-e42c66382c91.parquet": {
+   "images": 2234,
+   "detections": 68660,
+   "sha256": "1e214fe99fea99a111c2a7ff205a18229ba938435cf2d0ec7990c6690af3c161"
+  },
+  "96dd6923-994c-3afe-9830-b15bdfd60f64.parquet": {
+   "images": 2228,
+   "detections": 92570,
+   "sha256": "2849bf85759305026c8c87f837ab43a15901f17736998e7e04320335b33a9f9a"
+  },
+  "9bb1f857-8b61-369f-a537-484c1323ae32.parquet": {
+   "images": 2235,
+   "detections": 71373,
+   "sha256": "9e693f1e109ec94a0ce5a453020782777f44ef864620c8950372dae710ace7a9"
+  },
+  "9e9bcfb7-601d-3d80-bc12-ef7025174beb.parquet": {
+   "images": 2234,
+   "detections": 45937,
+   "sha256": "b23eb711ca3d26cd2c8294aef0b666efbfc55a44f587363591e5a0534428a3a7"
+  },
+  "a060c4c1-b9fc-39c1-9d30-d93a124c9066.parquet": {
+   "images": 2235,
+   "detections": 44047,
+   "sha256": "c9d6178800765b3199ac1d588ee16abd456430791546359eb1143dabfcefa60f"
+  },
+  "a1589ae2-2678-310e-91cc-c4b512cd7fa5.parquet": {
+   "images": 2234,
+   "detections": 26277,
+   "sha256": "e5ec1fc2ef7e29fe4b74bca77bdaa23758eb3f880b6bfa9fa4c3654db220c9d3"
+  },
+  "a7636fca-4d9e-3052-bef2-af0ce5d1df74.parquet": {
+   "images": 2234,
+   "detections": 49532,
+   "sha256": "b9c5f2dec2a606607c00e23cf68650f1afdb93f689e4e261087d881732a95cf8"
+  },
+  "a91d4c7b-bf55-3a0e-9eba-1a43577bcca8.parquet": {
+   "images": 2234,
+   "detections": 46088,
+   "sha256": "7163861bea71a66be995e7ec9fe1b1efb8ab596287aa91bd9e84e9ebce37d755"
+  },
+  "b19f3c1a-a84a-3a2d-8d1b-8a4ae201020b.parquet": {
+   "images": 2235,
+   "detections": 44868,
+   "sha256": "feda1c258b7f00f792b6433e378347641a81ce0f6b303091c97c85565583fb86"
+  },
+  "b2053fdc-0b94-30bc-aee7-5bc6fb7e9f52.parquet": {
+   "images": 2234,
+   "detections": 52247,
+   "sha256": "c295a85ff911f866f06cbf68b40a314b99a2a3ae667c310d33f5a41e6aecde6b"
+  },
+  "b213af37-7d89-342d-ae39-8a3c72159a01.parquet": {
+   "images": 2235,
+   "detections": 95255,
+   "sha256": "92e31a073191850e7c3beef9a562dd23ad29e0d61c7adb7c759b25082700994c"
+  },
+  "b50c4763-5d1e-37f4-a009-2244aeebabcd.parquet": {
+   "images": 2233,
+   "detections": 54125,
+   "sha256": "0ee6954630c9488d1836984d0113577e7334b822cffcc302fa0ccb4fe1a0f36a"
+  },
+  "b5a7ff7e-d74a-3be6-b95d-3fc0042215f6.parquet": {
+   "images": 2235,
+   "detections": 79997,
+   "sha256": "a2c1d143daa4fa9a5cf346b64e4161e0afa6f76037496e03a3e4782a60bbd144"
+  },
+  "b6500255-eba3-3f77-acfd-626c07aa8621.parquet": {
+   "images": 2235,
+   "detections": 36416,
+   "sha256": "d56f1ecba55c1838b8f66545bc8ac4f427f5d274c6cfa1138d0add7b28fa945f"
+  },
+  "b6e967f6-92bc-3bf5-99c9-1b0c4649fd67.parquet": {
+   "images": 2230,
+   "detections": 62380,
+   "sha256": "83bf6bbcbbceacabf548e1e1ab058ecb234a4e4b43e62e307afa69d15640c23c"
+  },
+  "bbd19ca1-805a-3c22-8df3-cd7501aa06f3.parquet": {
+   "images": 2234,
+   "detections": 52561,
+   "sha256": "5a3cbfd03347b3e933c77b4e9aa8d6156ef0e1b8897980b1d8b858c3efc03e23"
+  },
+  "bd90cd1a-38b6-33b7-adec-ba7d4207a8c0.parquet": {
+   "images": 2233,
+   "detections": 31449,
+   "sha256": "896f52152bfc7e9103775b07dab93874cf0fae08ef4f61e1714e359bfa6c739d"
+  },
+  "bdb9d309-f14b-3ff6-ad1f-5d3f3f95a13e.parquet": {
+   "images": 2234,
+   "detections": 84596,
+   "sha256": "e2f6a9b9bb8aac5ec743c60c60eb90df4fec905909a27c2656dbbf71dd528daf"
+  },
+  "bf360aeb-1bbd-3c1e-b143-09cf83e4f2e4.parquet": {
+   "images": 2234,
+   "detections": 32810,
+   "sha256": "7ec087b29773f443197e6172253579b0f445bb87e12e596924d91987969c0a84"
+  },
+  "bf382949-3515-3c16-b505-319442937a43.parquet": {
+   "images": 2234,
+   "detections": 54741,
+   "sha256": "66cc8c7fe9dfc2789883e145c8c8d717d497f3633b92f9e6e36ec5e6fd94a00a"
+  },
+  "c222c78d-b574-4b9d-82e1-96a4f3f8bb27.parquet": {
+   "images": 2234,
+   "detections": 27001,
+   "sha256": "3e0c68dad6d5666cdb5976ff7c40bdee940a69e4e01f02194b26a45224aae232"
+  },
+  "c2d44a70-9fd4-3298-ad0a-c4c9712e6f1e.parquet": {
+   "images": 2233,
+   "detections": 56434,
+   "sha256": "b6f25fe916a8b0d664bf7e5009a3a647e59614d78e0b7f440c38c3f8ff57313b"
+  },
+  "c85a88a8-c916-30a7-923c-0c66bd3ebbd3.parquet": {
+   "images": 2234,
+   "detections": 60416,
+   "sha256": "90d44a82f5efb4ed0780409a0b690bd24b00c603f3017c51b0ce5a83e28e1ab3"
+  },
+  "c8ec7be0-92aa-3222-946e-fbcf398c841e.parquet": {
+   "images": 2233,
+   "detections": 39564,
+   "sha256": "2eff64cd455095f766bbc86fc8e53786174bd597e03d98b5438875c02e34ecb8"
+  },
+  "cf5aaa11-4f92-3377-a7a2-861f305023eb.parquet": {
+   "images": 2234,
+   "detections": 57825,
+   "sha256": "94f2766bd6abdf52a14d8f8e8056b9513b64fa228d5ff476eaeb921be0089555"
+  },
+  "d3ca0450-2167-38fb-b34b-449741cb38f3.parquet": {
+   "images": 2235,
+   "detections": 99416,
+   "sha256": "7504796530b8fd56c4c14d29a79d3f2d7bfcdec06341e2e9a514619dcbee2bd0"
+  },
+  "d46ff5df-95e8-32da-a0d7-87f7b976a959.parquet": {
+   "images": 2233,
+   "detections": 46388,
+   "sha256": "2bb72fc2cba44173b66178d8189af4fbd3ffa8a9547ab250a50d14366617584c"
+  },
+  "d5fa4d54-74ba-369c-a758-636441ad7f07.parquet": {
+   "images": 2234,
+   "detections": 52709,
+   "sha256": "23b97a05ced2ec605d4490a9d9f70af6c977568496d5cb0c1c29e99a1429e78c"
+  },
+  "d89f80be-76d0-3853-8daa-76605cf4ce5e.parquet": {
+   "images": 2235,
+   "detections": 49023,
+   "sha256": "5cc51d21a269a3f5813bc001d4fcd66dae96997741aea73ab148c4587e171d4d"
+  },
+  "da036982-92bf-36a8-b880-4ccf4e20b74e.parquet": {
+   "images": 2235,
+   "detections": 85551,
+   "sha256": "68b05ed7d0d98421261c57616b52d8f3e774e907d03503fa032304e2c0bae1eb"
+  },
+  "dafe14f5-825c-4e7a-9009-6dfdfdd5b030.parquet": {
+   "images": 2235,
+   "detections": 45007,
+   "sha256": "0349114b7e30fcd15fd75a75931c3ab1d02ea8ec8a20c59c4948a0a9dab7a228"
+  },
+  "dc9077b9-2fe0-3d18-9b97-8067ff090874.parquet": {
+   "images": 2234,
+   "detections": 22530,
+   "sha256": "a30445e4c6b42b1cb810675c933f6cc39ccc60a601f5f87694294219b48cfbba"
+  },
+  "de9cf513-a0cd-3389-bc79-3f9f6f261317.parquet": {
+   "images": 2235,
+   "detections": 38596,
+   "sha256": "2b8063d888bd0098180d63fff6ccec7413ccc87f5e8084e7cc658c404590fc03"
+  },
+  "dfc32963-1524-34f4-9f5e-0292f0f223ae.parquet": {
+   "images": 2233,
+   "detections": 41000,
+   "sha256": "02895f86424d6d18e6ab2dcc6e6978c332c9924583f18d57c233968939030922"
+  },
+  "dfc6d65f-20f5-389d-a5cd-81c1c7ecb11f.parquet": {
+   "images": 2235,
+   "detections": 55523,
+   "sha256": "5dfcacd3e2a364956086d3c5405ee24fdf4e8cddc8d5d5a665223966bdd4a168"
+  },
+  "e0ea281b-6956-3605-b720-71b54ec87d25.parquet": {
+   "images": 2234,
+   "detections": 46684,
+   "sha256": "6e80eae98477705b8f32360319ce42780d0be9c2ae27277722ec829bb4cc8dd6"
+  },
+  "e13c06cb-cd01-380e-946f-6d92ac1af49d.parquet": {
+   "images": 2235,
+   "detections": 121288,
+   "sha256": "d9714f66ca9fc8758d73c9506567f20c0e44270fdaa4503fe90d0497d1244812"
+  },
+  "e1d68dde-22a9-3918-a526-0850b21ff2eb.parquet": {
+   "images": 2234,
+   "detections": 18875,
+   "sha256": "cb5e265f936bc5418cd47f35c61aa2347f36f4e707706b9a39588fa010b74dd7"
+  },
+  "e2e921fe-e489-3656-a0a2-5e17bd399ddf.parquet": {
+   "images": 2233,
+   "detections": 32359,
+   "sha256": "a75a96b19a02542565ed5e5e52555e6f17a2404718370f1cd6fab5dbd6a7c95e"
+  },
+  "e50e7698-de3d-355f-aca2-eddd09c09533.parquet": {
+   "images": 2234,
+   "detections": 55533,
+   "sha256": "49acd4ef9195db8b622e5eda1e94cbd48ec2b7d2eeb17a1901f86431dd5ae440"
+  },
+  "ecbe6def-7560-352c-8822-b2b92613e1e4.parquet": {
+   "images": 2235,
+   "detections": 94002,
+   "sha256": "3d011b2b3e8fa42353ebe13c97bdc56eb8a7c79bfce4810f5d6fc9784db0b747"
+  },
+  "eec284b2-840a-3c75-aa42-04d2e309bbe1.parquet": {
+   "images": 2235,
+   "detections": 26073,
+   "sha256": "075bfbaa44f8d770c0a5b886b690816ab411fdfbc52b222ed70c7d7500580073"
+  },
+  "f1275002-842e-3571-8f7d-05816bc7cf56.parquet": {
+   "images": 2235,
+   "detections": 64764,
+   "sha256": "aed857ceec2a07a19a73cc4b59d20ec3df68714bae335c1adf922f5405b6e631"
+  },
+  "f2576c8a-da9b-450e-88cf-a70af1b0eadf.parquet": {
+   "images": 2234,
+   "detections": 50561,
+   "sha256": "e58c9aefa599ea63b63f9d5ff1870eaae1942445d0602ea4887c164ea1a41973"
+  },
+  "f292cc5c-7a90-360d-b62a-074c643bdf59.parquet": {
+   "images": 2234,
+   "detections": 80927,
+   "sha256": "b8bc7d00cddf8cc002192a87ad873b937997833a57dac1f19e2b7af540be0b64"
+  },
+  "f3cd0d0d-8b71-3266-9732-d9f0d5778eb6.parquet": {
+   "images": 2234,
+   "detections": 69602,
+   "sha256": "12272c372dc3a41e28c6d86aecc73f47740f19ca63f6cba10241f61b75b0db81"
+  },
+  "f4c94798-4d77-36ab-bdc5-c1194e5e7aff.parquet": {
+   "images": 2235,
+   "detections": 55039,
+   "sha256": "f24f4cbb6bc690255a185d36a12013008a88b4cab17361d35fd5ec1c64a84054"
+  },
+  "f668074d-d6c6-3ea7-a7b5-aad0a1203b03.parquet": {
+   "images": 2235,
+   "detections": 28512,
+   "sha256": "adc7d647eb3c9cc5a02bd56e69a4800c4d1c0f4f75e7982dea92508fea086920"
+  },
+  "f6cc0ebf-fc6a-3bf2-8bcb-76d8c43f194e.parquet": {
+   "images": 2234,
+   "detections": 62023,
+   "sha256": "55b1f9026413aee12f0663978cbaf6ac0cf6d86a47c1524d2d22eb320ede7e72"
+  },
+  "fbee355f-8878-31fa-8ac8-b9a45a3f130a.parquet": {
+   "images": 2234,
+   "detections": 59137,
+   "sha256": "47c50151fdb929835d2453bfa18104712dc07fbf57aaaca0beba2fad644f939c"
+  },
+  "ed6ad297-ee09-3532-bcfc-c16ad5a05c49.parquet": {
+   "images": 2235,
+   "detections": 51119,
+   "sha256": "57d859b6bdb06d8fba0fc5a9f55e9665150ac1381d93dd0de4a10e60f80a37bb"
+  },
+  "57356998-297c-330a-af4e-c6a1ad64f923.parquet": {
+   "images": 2234,
+   "detections": 62646,
+   "sha256": "0976a8bce88b3c9db0e153ced8904479e9ed9549f2cbd7d299b8aec06752adbf"
+  },
+  "80da8956-f418-319c-9f49-3d47d9002546.parquet": {
+   "images": 2233,
+   "detections": 55272,
+   "sha256": "16bdd604017a4b2d30ceb2af54636ede3ffea48a3345e96c52b126bc53ab7eeb"
+  },
+  "919f13de-857f-3b1c-9f8e-7cbe500a60ae.parquet": {
+   "images": 2233,
+   "detections": 76191,
+   "sha256": "cadba72368788dc78b65c6a7b0d662a6231b04b8a13c563a510aa12b5320478c"
+  },
+  "bb9be2e6-8f0e-3bb3-8bb9-5d9aa9df384d.parquet": {
+   "images": 2234,
+   "detections": 73667,
+   "sha256": "0b0be176b2c07ac03eaf08f5b4db3f850a1cd2543e0b993bebf7514f7fdf58b3"
+  },
+  "e0cfd042-ae29-3d21-bb47-81eb8f933ec8.parquet": {
+   "images": 2235,
+   "detections": 31328,
+   "sha256": "0c9d391541b6b069bc6ebc59754c0ed04424285a813fea08d474017c7d7f7109"
+  },
+  "087695bd-c662-3e86-83b4-aedc3b8eec36.parquet": {
+   "images": 2235,
+   "detections": 56761,
+   "sha256": "43ed347514b4e973a1449a717902553411be5219d4034d98b689ef84968054e2"
+  },
+  "5d55a63a-3146-32d9-89ec-e207e95ecbde.parquet": {
+   "images": 2234,
+   "detections": 63183,
+   "sha256": "1b8f0989b50fc2b5f62bce5022f39c09154b570bde76be1402287b1f24332055"
+  },
+  "96284bbc-6b58-330f-a5a6-76cd518543f0.parquet": {
+   "images": 2234,
+   "detections": 64580,
+   "sha256": "ef7e69e4ae8a99c6d960683710a954c1543b63af43829355ebdf656c4b655248"
+  },
+  "04973bcf-fc64-367c-9642-6d6c5f363b61.parquet": {
+   "images": 2234,
+   "detections": 51031,
+   "sha256": "54bd3295d9f232f4945113c84e369bdbb94272920e544922682313bae88c5a99"
+  },
+  "f46707f9-435f-3a06-9017-deae11feab53.parquet": {
+   "images": 2234,
+   "detections": 52253,
+   "sha256": "7419efb64ed64f084fc56cccdca1e013b0706cc08002b886d455d607aede7047"
+  },
+  "cdd752d0-caee-3d95-b1db-7fc20cbbc783.parquet": {
+   "images": 2233,
+   "detections": 41631,
+   "sha256": "19cc07d5f1e2cce3a22db411ca205a11de93d4595d1b147c38ce8bfcdfdf9f06"
+  },
+  "df321672-461c-361b-aac9-e81cc9a88b9f.parquet": {
+   "images": 2234,
+   "detections": 65077,
+   "sha256": "2523eaa1f0b4230ba7b102c4cbe60b2f0065d4d9d759c2e64e828fb5a98028d4"
+  },
+  "e7e7ebad-79d2-3ae1-95ce-f3035bc8f719.parquet": {
+   "images": 2233,
+   "detections": 84833,
+   "sha256": "f3d0f59a1d0e4373fc8608afa0fffe7ccf42d1a8b0a6d01d0325a042f0ee42b5"
+  },
+  "1c7d3b85-6cec-373c-a4eb-5137d7cc6a7c.parquet": {
+   "images": 2234,
+   "detections": 99283,
+   "sha256": "c24b6fda6f23a30b16eb96a01151d76a2ab0b2b58ebab215a825c9a89da6e890"
+  },
+  "af170aac-8465-3d7b-82c5-64147e94af7d.parquet": {
+   "images": 2234,
+   "detections": 40717,
+   "sha256": "14a27855334c82e0513c9e8bf3f4547d32b109747fb79e73124ffa43796e446a"
+  },
+  "931b76ee-63df-36f6-9f2e-7fb16f2ee721.parquet": {
+   "images": 2233,
+   "detections": 38821,
+   "sha256": "87ae185d3b8e0a5c50603e80e37b2019f28bad3ea270c409a70ffc3b7ef1e8b8"
+  },
+  "0b1b993a-68b3-3232-9afa-fc9942b5b79b.parquet": {
+   "images": 2234,
+   "detections": 43696,
+   "sha256": "58b40028f18a0c7833dfc16b1217a93ecb11858255e31780759478ed481b9ecf"
+  },
+  "ac1b1697-42b9-4225-a666-d17f72204fa8.parquet": {
+   "images": 2234,
+   "detections": 56408,
+   "sha256": "16ec2e4c5bf390a39b1e662875c7c6420d702ab57835e0f7364d7aa6c9e67b77"
+  },
+  "43efcbe2-fe24-35b0-9e69-b07c1b0725d3.parquet": {
+   "images": 2234,
+   "detections": 25928,
+   "sha256": "81a2255b489ba68e4907e280afe583669f990267742d8a85ef4d2e08402bc21b"
+  },
+  "cf6a99cb-b8bc-34d7-bdca-30e50e66cd74.parquet": {
+   "images": 2234,
+   "detections": 92740,
+   "sha256": "7a37129b15952d620eb25b1ec10ba357f418a7ddd0684c6efadab891115d1678"
+  },
+  "b48d6d4b-f0dd-35da-850d-36a715691e2f.parquet": {
+   "images": 2233,
+   "detections": 44434,
+   "sha256": "dd83a9895cc4acc858592e0b023e0a22b41171a3fc2116ca836bc9ca869a3df1"
+  },
+  "633addf9-441c-35e7-868a-738aa612d51c.parquet": {
+   "images": 2235,
+   "detections": 44255,
+   "sha256": "4d67a3631a95794a7b98135b6773ce9772800d3a35dd2578a2762256b2f51fd8"
+  },
+  "35a15c5c-fa4a-3838-a724-396e112ec95c.parquet": {
+   "images": 2234,
+   "detections": 67123,
+   "sha256": "a84ffc5a11102060a23bf65323fb2afb7958c257b0c6cfb416eaca15783cb042"
+  },
+  "74f15437-b85e-314a-9d86-7294b98bf07f.parquet": {
+   "images": 2233,
+   "detections": 93203,
+   "sha256": "5ee0379378ae1d636cc36f31726d9ea67f48b51a6acf5bd2acd20eb60de2bdd0"
+  },
+  "768cf7e2-eb6c-3468-969e-e3b0fd87b34e.parquet": {
+   "images": 2233,
+   "detections": 49050,
+   "sha256": "ee9b32a721d7668f5cf2b8cf96e3ae78e1ab5663860d45fa810646055bd910b0"
+  },
+  "58a6bfcf-071e-3a6d-90f4-0e4cbdc298eb.parquet": {
+   "images": 2234,
+   "detections": 101999,
+   "sha256": "72498c63e17257000b75c003d4a12142893a7a5af19e35ae014b40e51b67d6c5"
+  },
+  "332b278a-a6b9-3bc3-b88c-241e4b03b4ef.parquet": {
+   "images": 2234,
+   "detections": 88171,
+   "sha256": "003ef1413dca39ff976beed81d25df038c3299a43f4f9ffb44007716bf5f4b31"
+  },
+  "7f7e4709-7596-35f9-89ac-d808178b1533.parquet": {
+   "images": 2233,
+   "detections": 55104,
+   "sha256": "b7d12d96dd450c347291966ca574ac1a4de5ce9543e60dcbf7e2a7f4ab5b2675"
+  },
+  "d0cc23f4-f4ab-3755-8e63-2e3940f68d89.parquet": {
+   "images": 2233,
+   "detections": 93905,
+   "sha256": "4ee0d8ead4053e5cbb2bf8020b7eee2ce009f5006cb5cd6969ebda158e3e0053"
+  },
+  "bd9636d2-7220-3585-9c7d-4acaea167b71.parquet": {
+   "images": 2233,
+   "detections": 41132,
+   "sha256": "aba7ff182183dbb2c2ab4c2c4206bd264ebdfd80ff07366eae032b6c092c67de"
+  },
+  "bb533c69-1e0b-341c-bedd-ff25fe9b84bf.parquet": {
+   "images": 2234,
+   "detections": 47838,
+   "sha256": "0d8a766314c62abdc2b1bdb19f455c761da241e122a3f8bc0404b0bd4eacb71b"
+  },
+  "c71cd96c-8e3f-3861-9ece-fcbabebc63a8.parquet": {
+   "images": 2234,
+   "detections": 45870,
+   "sha256": "0dba28414125c04b5004fd4eaf52e581facafc9a5ea7717ff0987edfa89c82a0"
+  },
+  "ba66bb3c-5437-4bc6-afe3-299109e5ced4.parquet": {
+   "images": 2235,
+   "detections": 42391,
+   "sha256": "5ca17217037fa633ec98452897ec55079995043442864dd1b6acd5c875156ead"
+  },
+  "95a47a36-1041-3924-bbd0-4dcad52c323a.parquet": {
+   "images": 2234,
+   "detections": 119016,
+   "sha256": "3192349abb08c16b96efe7bb5632db1ee73324224a81f0fde5f662c0a9bfea96"
+  },
+  "c93a30c8-168c-386c-a25a-cbd8d8410fbe.parquet": {
+   "images": 2795,
+   "detections": 43117,
+   "sha256": "70f5dd9e6ff33ea9b734557990d989850bc96736e8a305cc342305246b2b0c64"
+  },
+  "ad870270-f3d8-3790-866a-78d61b5b76ee.parquet": {
+   "images": 2235,
+   "detections": 72708,
+   "sha256": "0208da2773f5919438aa6a166613a4e8f38e7b149a2d53002ddf444ec685cd70"
+  },
+  "7d3f2f76-2f4f-3762-bf0f-f94f79eb0404.parquet": {
+   "images": 2793,
+   "detections": 117091,
+   "sha256": "0eb288ff545c21fbf9ae8f04e7f6b7cb554fb25890d240f0dc6496db4bdb15e0"
+  },
+  "49d76058-b4f0-3931-86fa-de160b4c1b88.parquet": {
+   "images": 2234,
+   "detections": 49787,
+   "sha256": "ac84ace0cc0a025c98704638010212cd9f877f7b24a9eed4a272199ef23f33af"
+  },
+  "a160c635-aa67-352c-a5e6-03b113493090.parquet": {
+   "images": 2235,
+   "detections": 91970,
+   "sha256": "ef4f72552e5bc81f48211f68bff9c918a8161c0c2d397ae7462602ca35bb75b0"
+  },
+  "57636c80-9335-3aae-af70-11755db93854.parquet": {
+   "images": 2234,
+   "detections": 36718,
+   "sha256": "9322f39d9263d8352ace3f16a3db1f2062c9b61830adc8588c59ee00e4703611"
+  },
+  "41c3597a-aab1-3123-85a1-dd5d459af461.parquet": {
+   "images": 2234,
+   "detections": 62378,
+   "sha256": "ca568fd16ecdfae8649b6e9c3a8ddaf66944937b11a1401f81274875063cf33d"
+  },
+  "e3a935bf-1428-32a4-8d53-caa71ee3de8f.parquet": {
+   "images": 2235,
+   "detections": 61996,
+   "sha256": "174dab8ae271abb75a4bfd20b1234fcb2e745d1268d51dfce5d5f3e74f6886a0"
+  },
+  "5c1db299-e2a2-35e5-84dd-acda8fb393bc.parquet": {
+   "images": 2234,
+   "detections": 29110,
+   "sha256": "fda91ba846d393b82a6a51fdcb002f9ffd7aba7029c32966b55a9a55ea2a73ef"
+  },
+  "0d9e4cff-73ff-33eb-9981-795475e62faf.parquet": {
+   "images": 2235,
+   "detections": 72346,
+   "sha256": "cf47c3d918a993d4bb7caf3e4a557c3e556d83dd6acd1cdd4e3b58d647777faf"
+  },
+  "c94991c0-3662-3936-972c-1af63db486d8.parquet": {
+   "images": 2234,
+   "detections": 44168,
+   "sha256": "bf16dbf27f4470eb12eb6c3d33a28c99b9a373ea7e68a10b109fbc3ef95c9a51"
+  },
+  "7e3d8631-3b7d-38c1-b833-ee7cfa7235ca.parquet": {
+   "images": 2234,
+   "detections": 63839,
+   "sha256": "e298cd41255ff8a14493cccdb171caf20fae13546ec4f0ae0e4191ad587a6dcc"
+  },
+  "b9fcb487-363e-30a7-a316-a42dd81d8fe5.parquet": {
+   "images": 2234,
+   "detections": 48779,
+   "sha256": "1be7bd9be7be6c0ab7a405ffe7b025a5afcb38b8464121fdbd623b05010f620c"
+  },
+  "c453a8e7-d3da-317a-946b-f8e9678a8582.parquet": {
+   "images": 2233,
+   "detections": 40883,
+   "sha256": "fa0bf876cfba8ff2880a18f575b78bf07deecef81e696e3ac0ce6d1fc0b81ce9"
+  },
+  "069cc46d-38bb-309d-88cf-296a3d0c0820.parquet": {
+   "images": 2234,
+   "detections": 64315,
+   "sha256": "5ed2a4381f9ce46e899077bcb000b0b6276d9fe7fe3ab5a3d876ab1df9e090bc"
+  },
+  "c08279c0-10b4-3d21-b13f-a1c1a0b87f8b.parquet": {
+   "images": 2235,
+   "detections": 37633,
+   "sha256": "323a7a0f7c06afa6b48abe2095e20f2b4df51fe6f1a1ba385fbf1a5c2552ce55"
+  },
+  "8aad8778-73ce-3fa0-93c7-804ac998667d.parquet": {
+   "images": 2235,
+   "detections": 61809,
+   "sha256": "883dcbaa4f9c1fe3a2845b947b2f8b24d7aa8545cb79152657af882c38aec6ee"
+  },
+  "f2b0585b-ada3-3123-963e-14df7d96ca9e.parquet": {
+   "images": 2234,
+   "detections": 82113,
+   "sha256": "037e25f218bd9840e4a8624fcdad3f397fdd1851cc50d22a393f12c446a3dc54"
+  },
+  "945f3b20-778a-3581-adef-544de4a089ef.parquet": {
+   "images": 2233,
+   "detections": 51110,
+   "sha256": "97c6acd618bc75bdd1f7705c181b1942136c1a19dbab210316d22b9a67bf667a"
+  },
+  "a8a2fbc2-8e77-35a0-9208-f882c3cb2a5c.parquet": {
+   "images": 2233,
+   "detections": 38462,
+   "sha256": "7e663e9c6d71854561480215d8b1444b0d9d68a62aa5dfe132cd62d78f6c6623"
+  },
+  "4f1b4bb2-b30b-3537-8fed-dd8f843f5adb.parquet": {
+   "images": 2234,
+   "detections": 45835,
+   "sha256": "d3e29bee6f99c2400ec2d4b0b0cdc8989b1ae6422284b9e4cd7135159ebe5b7f"
+  },
+  "64b24fd1-f639-4f7e-a535-dbfe9fd737a1.parquet": {
+   "images": 2233,
+   "detections": 47070,
+   "sha256": "8a4c8053c8bcfd4fa6e764de902c8472609bc16ac893f609323c7b5e76df2ee3"
+  },
+  "c67a748c-1e93-3a6d-be38-daedf175f911.parquet": {
+   "images": 2235,
+   "detections": 50987,
+   "sha256": "b2bf0f40b4742f5d54fd6656c25a56e6fe10fdcb0dc684d060ef5a9465cd8ed0"
+  },
+  "eb777faa-5b76-387e-a408-90524c6f2848.parquet": {
+   "images": 2234,
+   "detections": 53083,
+   "sha256": "f353127aa83c4cdbc332d3b29839b122ebdbe6f4f0257b5b1f51178dfc36cbdf"
+  },
+  "c730e199-fb8d-3abf-b7aa-bbc81bf8c08f.parquet": {
+   "images": 2235,
+   "detections": 35702,
+   "sha256": "8ff3ddd59430ec67cad78c2957bad300e536d754242f6c8453da41b6a49ac5e0"
+  },
+  "b0663029-8f8d-398a-8a28-81ba29224696.parquet": {
+   "images": 2234,
+   "detections": 53303,
+   "sha256": "83d96da0bae94af285a6b7ff5b4c48a573646b9de93c102121da225b5cbff16d"
+  },
+  "c96a09c8-46ed-391f-8a66-c46fa8b76029.parquet": {
+   "images": 2233,
+   "detections": 45977,
+   "sha256": "9dbb220198842a0c699004a9a53ad0dde3a6281200e9f2a67585a78884c34429"
+  },
+  "5ccb359a-2986-466c-88b2-a16f51774a8f.parquet": {
+   "images": 2234,
+   "detections": 47859,
+   "sha256": "b4dec4c27246bd52b9b1e63e1211bb5fc963cd2b252517e700262d6453d68b39"
+  },
+  "d1695c5e-08a9-44fd-8f45-93c23f700c8b.parquet": {
+   "images": 2234,
+   "detections": 55324,
+   "sha256": "bd435a946318f31f2a980661adc6eea5363bf6ed20d13622f7de79bc463e0760"
+  },
+  "7ce2a2ce-eed6-36d7-ba62-dda9acddb070.parquet": {
+   "images": 2234,
+   "detections": 34425,
+   "sha256": "a678e51a222fb71d770bd24732d7444c4f00e53b0357acf7b718a635e5a45f70"
+  },
+  "ea6895f2-504b-37b5-bfd0-cbf7017f22c3.parquet": {
+   "images": 2262,
+   "detections": 75679,
+   "sha256": "5e249ad73c8783d6e97a0bd2fd5fe41fa59536673632ebd94a22badac97b456d"
+  },
+  "105f47eb-491c-3cab-91af-83c5bc1f6c48.parquet": {
+   "images": 2234,
+   "detections": 61386,
+   "sha256": "c089a307e1655eb315e11891733e93aa327e9d92a694a6e621daa3fd25833e8c"
+  },
+  "2b6d18dc-4c95-3301-a498-3ed152798d5b.parquet": {
+   "images": 2233,
+   "detections": 54028,
+   "sha256": "f0633f9f14f97acb70fa6d9674b9f5e0e1897702381f9b65d37056cc7497f049"
+  },
+  "bee1146d-2e80-37e3-b08a-6ac8858e8973.parquet": {
+   "images": 2235,
+   "detections": 38788,
+   "sha256": "139b95d46d1b3ddab0db27287b2d372406165ad77b94447a6c57eade31331fbf"
+  },
+  "3153b5b3-d381-3664-8f82-1d3c5ca841d2.parquet": {
+   "images": 2233,
+   "detections": 41900,
+   "sha256": "da27662113e9981644ca9dcca281df83e9c75f556c6541bfba8d656eec93cc51"
+  },
+  "890cf3b7-3385-390c-8b2e-132c744b5d2d.parquet": {
+   "images": 2233,
+   "detections": 62935,
+   "sha256": "9d9ce9beabae13185c26d7e233b6062436131aae3ff0d9425b6897227a7924b6"
+  },
+  "a7bcdabb-f9b7-3c16-806d-3ddf1c2d49a2.parquet": {
+   "images": 2234,
+   "detections": 62476,
+   "sha256": "b8f04d40da65debec95f506eedb9ed14554298d671a3e6ee4e9b289e26b6589e"
+  },
+  "3c58172c-7a07-3ad4-bdf6-7cae60928c56.parquet": {
+   "images": 2234,
+   "detections": 37062,
+   "sha256": "39803421bd151fdf1843bb1135a69c8283f5482339a913f1865c1de36a5e6598"
+  },
+  "caabc342-aed4-3104-8195-7461a4add481.parquet": {
+   "images": 2233,
+   "detections": 48442,
+   "sha256": "1f08c965f392f04ee0db64081839f3eab54e20260ea68acd3c6142666e99ccfa"
+  },
+  "03fba633-8085-30bc-b675-687a715536ac.parquet": {
+   "images": 2234,
+   "detections": 51877,
+   "sha256": "a4b95dfaa48acf9d0842d72d495e0a5423eb6bbaaaf3accd2029a4c4f3553708"
+  },
+  "6c26dd11-e4a9-3d85-b118-09f65c6f0f2a.parquet": {
+   "images": 2234,
+   "detections": 32623,
+   "sha256": "6aa0c9c741db8e39933d5bf4ce2a49afcaff8810823867373318026f65f08e26"
+  },
+  "91cded81-9f72-3930-bab7-5d3e3fa0a220.parquet": {
+   "images": 2234,
+   "detections": 56183,
+   "sha256": "5e30d09e23a1c0f981d6efcc303b3b5cbedef0eae1be31a8d6c81f03469ca5c5"
+  },
+  "18bdf01b-6ba6-30a8-a707-1f1458529d3d.parquet": {
+   "images": 2234,
+   "detections": 50157,
+   "sha256": "2c927eb2cb925c644d632073aefa3c0c686c48ea7357d226badaafad8a414447"
+  },
+  "45433055-2b69-3cff-8135-67b3bfa04034.parquet": {
+   "images": 2235,
+   "detections": 44368,
+   "sha256": "e88838f587ad4837a77d8bd3f6669baf72cc6a4fc646c03faadcaf3e07387415"
+  },
+  "20b00c37-4fe4-31dc-a258-dae253ae6992.parquet": {
+   "images": 2235,
+   "detections": 94259,
+   "sha256": "3307152e2255d610cee8f177c06ab042d01a292dda4610133e0afbf2331044e1"
+  },
+  "90f360d8-35f7-3c54-b2da-e99b354bc4cb.parquet": {
+   "images": 2233,
+   "detections": 62431,
+   "sha256": "0822e0465d34e7344ba04cbbe0fdadddd5f057757af516ab6a8c2535824f7221"
+  },
+  "7ce85124-312b-35f0-a1a2-32206f75a947.parquet": {
+   "images": 2234,
+   "detections": 47167,
+   "sha256": "4833fe38aaf5bd4050d0e20e156644c29184581052bf697b553d1545fbed8fc0"
+  },
+  "a0cb0614-ee71-3cf3-b891-a4274883362f.parquet": {
+   "images": 2234,
+   "detections": 34525,
+   "sha256": "459e95f7f5793b167d90706b9577aad615bf2232d58fda8d56cfd952fa6fcb8e"
+  },
+  "639d4834-f922-3e27-9913-20aa649f815d.parquet": {
+   "images": 2233,
+   "detections": 55792,
+   "sha256": "681c30a6918462f7782f99e45f10d645accca727cf98e32b7d43790bbfd71251"
+  },
+  "ab83611b-436e-3de7-aad1-f0c9ad254196.parquet": {
+   "images": 2235,
+   "detections": 51681,
+   "sha256": "7b1dcb6348c7ae069e4a3fbcb4113ae6ee4335419ca766fbf5523ffc272d57cb"
+  },
+  "5cf52bbe-f7f4-30c9-a4c2-a1fbb93513e4.parquet": {
+   "images": 2233,
+   "detections": 53636,
+   "sha256": "2d41ac5a74ceb89a901f210b3fbaf2ffa158fd40071f2564114f17d247bb8fc3"
+  },
+  "453e5558-6363-38e3-bf9b-42b5ba0a6f1d.parquet": {
+   "images": 2234,
+   "detections": 60574,
+   "sha256": "12e54f756bb2a78dab9f0a8f0fd690c1ee6bfe4b11e405a22fcb3dc111b5afbe"
+  },
+  "2aea7bd1-432a-43c5-9445-651102487f65.parquet": {
+   "images": 2234,
+   "detections": 59168,
+   "sha256": "aeab675615c3f7e4c4b05a1e3d64e0f5508005f661e75b6af7069af4413fb532"
+  },
+  "76c3f58f-9003-3bdb-90a3-b87cfbfa1c3b.parquet": {
+   "images": 2234,
+   "detections": 56865,
+   "sha256": "fb8d8f6e8da65f3fff2b8efc1e5a826cab58419edaf5b5af1a5985d1312e3d19"
+  },
+  "5c7ee953-d8b0-33ef-a491-0bb716763cfe.parquet": {
+   "images": 2235,
+   "detections": 43922,
+   "sha256": "e3ac6036bc8ccaee3156bc0e44277045b29f793580540a49f7d9ff6c3f57c084"
+  },
+  "9441ffdd-f06e-36e0-839e-b836b0f19bc9.parquet": {
+   "images": 2233,
+   "detections": 50659,
+   "sha256": "0f998aa5e5995e1c128b8cb26c678965d1333f9dd70ad094a499538fa2faaa58"
+  },
+  "2716d83e-8c4f-39a3-a2a3-d5e255fe8a03.parquet": {
+   "images": 2223,
+   "detections": 57835,
+   "sha256": "673715fc7dea717a436f00c9ed37a022a6cb46fcad08bf3fb54b244d50dd99b1"
+  },
+  "c858bd6a-81ab-3f54-b46d-ffc091ef6945.parquet": {
+   "images": 2233,
+   "detections": 32721,
+   "sha256": "2d04143e467306afa1f89a42614f6fa169da5aff000617fcf888b4ea76656968"
+  },
+  "382dfbe0-836e-385c-86f2-f1afcf57a402.parquet": {
+   "images": 2235,
+   "detections": 44889,
+   "sha256": "5d9f0266658b5f378d00445ec7408946a84249bf52227eb05ff4599d7beff686"
+  },
+  "cd83b7cd-e2e7-34f6-bee7-1ff5ca3ed665.parquet": {
+   "images": 2234,
+   "detections": 38669,
+   "sha256": "17f0391bc8b429b828f315805547942311640de062066468bdceb3055e11197f"
+  },
+  "95acebfe-c694-3dab-9e6d-01cb501ff426.parquet": {
+   "images": 2234,
+   "detections": 101804,
+   "sha256": "193252d8319c6078bd1637e034b7c42a4a98001c27c4cd60ba7e6d6102bdc065"
+  }
+ },
+ "runs": [
+  "2026-11-04 16:56:26",
+  "2026-11-04 16:59:46",
+  "2026-11-04 17:03:13",
+  "2026-11-04 17:06:35",
+  "2026-11-04 17:09:56",
+  "2026-11-04 17:13:27",
+  "2026-11-04 17:16:52",
+  "2026-11-04 17:20:15",
+  "2026-11-04 17:23:37",
+  "2026-11-04 17:26:57",
+  "2026-11-04 17:30:16",
+  "2026-11-04 17:33:31",
+  "2026-11-04 17:36:53",
+  "2026-11-04 17:40:09",
+  "2026-11-04 17:43:30",
+  "2026-11-04 17:46:45",
+  "2026-11-04 17:50:07",
+  "2026-11-04 17:53:21",
+  "2026-11-04 17:56:40",
+  "2026-11-04 18:00:01",
+  "2026-11-04 18:03:22",
+  "2026-11-04 18:06:46",
+  "2026-11-04 18:10:07",
+  "2026-11-04 18:13:28",
+  "2026-11-04 18:16:50",
+  "2026-11-04 18:20:09",
+  "2026-11-04 18:23:25",
+  "2026-11-04 18:26:44",
+  "2026-11-04 18:29:58",
+  "2026-11-04 18:33:17",
+  "2026-11-04 18:36:38",
+  "2026-11-04 18:39:59",
+  "2026-11-04 18:43:24",
+  "2026-11-04 18:46:46",
+  "2026-11-04 18:50:07",
+  "2026-11-04 18:53:24",
+  "2026-11-04 18:56:41",
+  "2026-11-04 19:00:03",
+  "2026-11-04 19:03:26",
+  "2026-11-04 19:06:49",
+  "2026-11-04 19:10:16",
+  "2026-11-04 19:13:44",
+  "2026-11-04 19:17:07",
+  "2026-11-04 19:20:28",
+  "2026-11-04 19:23:47",
+  "2026-11-04 19:27:12",
+  "2026-11-04 19:30:33",
+  "2026-11-04 19:33:56",
+  "2026-11-04 19:37:46",
+  "2026-11-04 19:41:28",
+  "2026-11-04 19:44:55",
+  "2026-11-04 19:48:22",
+  "2026-11-04 19:51:46",
+  "2026-11-04 19:55:11",
+  "2026-11-04 19:58:35",
+  "2026-11-04 20:01:58",
+  "2026-11-04 20:05:27",
+  "2026-11-04 20:08:51",
+  "2026-11-04 20:12:19",
+  "2026-11-04 20:15:43",
+  "2026-11-04 20:19:11",
+  "2026-11-04 20:22:42",
+  "2026-11-04 20:26:09",
+  "2026-11-04 20:29:37",
+  "2026-11-04 20:33:05",
+  "2026-11-04 20:36:31",
+  "2026-11-04 20:39:58",
+  "2026-11-04 20:43:18"
+ ]
+}

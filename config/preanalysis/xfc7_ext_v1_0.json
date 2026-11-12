@@ -1,0 +1,59 @@
+{
+  "protocol": "newpaper/autonomous_driving_crossmodal_fit_selection_2026-10-13/PILOT_PROTOCOL_XF-C7_EXT_v1_0.md",
+  "status": "frozen with the protocol on 2026-11-01 (user: \"Freeze and run\"); section 11 option B confirmed by the user; hashed in the freeze record",
+  "parent_protocol_v2_0_sha256_prefix": "4190077f",
+  "instrument": {
+    "model": "torchvision fasterrcnn_resnet50_fpn_v2, weights COCO_V1",
+    "weights_sha256": "dd69338a24b8d7381807e247652bdc356325bcbaf1cd3e092e00e0a1a58706bf",
+    "min_size": 1280,
+    "max_size": 1920,
+    "raw_score_floor": 0.05,
+    "per_class_nms_iou": 0.5,
+    "max_detections_per_image": 300,
+    "coco_vehicle_classes": {"3": "car", "4": "motorcycle", "6": "bus", "8": "truck"},
+    "batch": 4,
+    "raw_manifest_sha256": "9857507764e56aeb44f02427ce7ff74c2537f0644c9b0ec8268ae1cb3344f892"
+  },
+  "reference_table": {"score_min_primary": 0.5, "score_min_sensitivity": 0.3, "class_agnostic_nms_iou": 0.7},
+  "e0": {
+    "gate_scale": 1.0,
+    "single_widening_rule": "not applied",
+    "summary_s050_sha256": "12238bd66cdb9f231c781142b1ef5b9a912b7d144fb3d40825668393e8d89ca1",
+    "summary_s030_sha256": "f8cfd7d8aed42b7ec6bf82d6b0b2fae5086184473633168d572f9028a8a29e91",
+    "association_s050_sha256": "0951961a345debe2c30aeab62b475f54c289751b89bd20064944ccf7094cb96f",
+    "reference_table_s050_sha256": "a3adcd88a5b6808ee00db511a9b449309228a3703a2d5ef2c4641926c8147d85",
+    "reference_table_s030_sha256": "b147c298d26895df842f9b6d47c1f47a319b252afc471c65f75531a9b90b6359",
+    "moving_det_s050_sha256": "2ca109db8a63d3ad7a43b9bb05dbae3babc44cfe259cbf6ff75425b5e3c1ff54",
+    "moving_det_s030_sha256": "575f141fac940e0e642deb97c28475c64de251a5979035a1f9004a33c8172033",
+    "frozen_human_moving_sha256": "54016253c11a29c367dc0c2590fcbdf793d380e6a6529cafcb98e2ef6bbff32f",
+    "label_only_sha256": "61da69dd36429b1d73bd7acd090a99d2b5885229b95f645094a6503d86aac6e5"
+  },
+  "e1": {
+    "rule": "v2.0 section 3, additive: reject in camera c if the 95% CR1 CI of delta_H,c lies outside +-(5 + B_c^det)",
+    "cameras": "detector cameras with >= 30 moving tracks in E0",
+    "ruled_out": "rejected in >= 2 cameras in both the primary and the margin-flag-excluded run (margin < 0.2 dropped)",
+    "replicated": "H_frame final verdict 'ruled out'; other hypotheses descriptive",
+    "failure_labels": "rejected / capacity failure (|est| > 5 + B_c^det, CI crosses) / estimate failure (|est| <= 5 + B_c^det)"
+  },
+  "e2": {
+    "cameras": ["FRONT", "FRONT_LEFT", "FRONT_RIGHT", "SIDE_LEFT"],
+    "min_common_tracks": 30,
+    "margin_ms": 5.0,
+    "weights": "sdot^2 / ((sigma_b_h^2 + sigma_b_d^2) * n_track_common)",
+    "interval": "95% CR1 by segment",
+    "camera_decision": "agree if CI within +-5; disagree if CI entirely outside +-5; else inconclusive",
+    "overall": "disagree if any camera disagrees; agree if >= 2 agree; else inconclusive",
+    "systematic_budget": "none",
+    "copy_bound": "max(upper CI end, 0) / separation; separation = E2-weighted mean over common rows of tau_lidar - tau_frame (LiDAR-time seeds) and tau_cap - tau_frame (capture-time seeds)",
+    "headline_rho": "largest bound over decision cameras whose E2 decision is 'agree' and over both seed types",
+    "measured_difference": "largest |CI end| of delta_pair,c over the four decision cameras"
+  },
+  "e3": "WLS of d on 1/sdot, CR1 by segment; descriptive",
+  "e4": {"deltas_ms": [-20, -10, 10, 20], "gate_scale": 1.0, "pass_band": [0.9, 1.1], "reference": "score >= 0.5 only", "changes_verdicts": false},
+  "e5": {"score_min": 0.3, "repeats": ["E1", "E2"], "changes_verdicts": false},
+  "tier2_gate": {
+    "pass_if": "E1 replicated and no decision camera disagrees in E2",
+    "or_capacity_exception": "H_frame not ruled out, but ruled out in both runs at point estimates, and E2 overall 'agree'",
+    "run": "score >= 0.5 only"
+  }
+}

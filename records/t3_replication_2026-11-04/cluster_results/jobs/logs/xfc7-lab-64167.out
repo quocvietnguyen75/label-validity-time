@@ -1,0 +1,1042 @@
+worker-0
+Wed Nov  4 19:19:57 UTC 2026
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+105f47eb-491c-3cab-91af-83c5bc1f6c48 45375 103 1086
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+2b6d18dc-4c95-3301-a498-3ed152798d5b 52719 266 1158
+bee1146d-2e80-37e3-b08a-6ac8858e8973 40799 178 655
+3153b5b3-d381-3664-8f82-1d3c5ca841d2 48374 18 1306
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+890cf3b7-3385-390c-8b2e-132c744b5d2d 52584 9 2180
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+a7bcdabb-f9b7-3c16-806d-3ddf1c2d49a2 58105 156 1207
+3c58172c-7a07-3ad4-bdf6-7cae60928c56 43194 87 802
+caabc342-aed4-3104-8195-7461a4add481 33127 17 839
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+03fba633-8085-30bc-b675-687a715536ac 41774 56 1240
+6c26dd11-e4a9-3d85-b118-09f65c6f0f2a 16382 93 263
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+91cded81-9f72-3930-bab7-5d3e3fa0a220 50675 212 1631
+18bdf01b-6ba6-30a8-a707-1f1458529d3d 45337 39 1754
+45433055-2b69-3cff-8135-67b3bfa04034 31152 66 1138
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+20b00c37-4fe4-31dc-a258-dae253ae6992 46796 404 786
+90f360d8-35f7-3c54-b2da-e99b354bc4cb 20645 0 1949
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+7ce85124-312b-35f0-a1a2-32206f75a947 49535 0 1416
+a0cb0614-ee71-3cf3-b891-a4274883362f 22511 118 714
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+639d4834-f922-3e27-9913-20aa649f815d 63876 71 867
+ab83611b-436e-3de7-aad1-f0c9ad254196 38633 0 736
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+5cf52bbe-f7f4-30c9-a4c2-a1fbb93513e4 50692 0 856
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+453e5558-6363-38e3-bf9b-42b5ba0a6f1d 49516 36 1348
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+2aea7bd1-432a-43c5-9445-651102487f65 40122 0 781
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+76c3f58f-9003-3bdb-90a3-b87cfbfa1c3b 50246 255 69
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+5c7ee953-d8b0-33ef-a491-0bb716763cfe 38855 72 952
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+9441ffdd-f06e-36e0-839e-b836b0f19bc9 36254 0 618
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+2716d83e-8c4f-39a3-a2a3-d5e255fe8a03 62534 9 701
+c858bd6a-81ab-3f54-b46d-ffc091ef6945 34094 422 208
+382dfbe0-836e-385c-86f2-f1afcf57a402 53159 32 952
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+cd83b7cd-e2e7-34f6-bee7-1ff5ca3ed665 36098 15 637
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+/mnt/data/vietnq/xfc7/code/src/careport/xfc7_observations.py:80: RuntimeWarning: invalid value encountered in divide
+  cosang = np.abs((v * los).sum(axis=1)) / (np.linalg.norm(v, axis=1) * np.linalg.norm(los, axis=1))
+95acebfe-c694-3dab-9e6d-01cb501ff426 78075 0 1715
+Wed Nov  4 19:28:14 UTC 2026
+LAB_DONE

@@ -1,0 +1,128 @@
+{
+  "protocol": "PILOT_PROTOCOL_XF-C7_T2_v1_0.md",
+  "inputs": [
+    {
+      "what": "AV2 label-side table, 50 logs",
+      "path": "$AV2_SENSOR_ROOT/derived/t2_labels_all50_label_side.parquet",
+      "sha256": "b4f595ef2818397c4f0f6603da7d12c22c328cdc3bbeebae425a8e4766ae96a7"
+    },
+    {
+      "what": "AV2 S3 summary, score >= 0.5",
+      "path": "newpaper/autonomous_driving_crossmodal_fit_selection_2026-10-13/tier2_2026-11-01/S3_summary_all50_s050.json",
+      "sha256": "23c05c24949e1ae6858f5b557cfcb4eab071e293208926236edfb483a43317d2"
+    },
+    {
+      "what": "AV2 moving analysis set, score >= 0.5",
+      "path": "$AV2_SENSOR_ROOT/derived/t2_static/all50_s050/moving_analysis_set_t2.parquet",
+      "sha256": "cdccdbe561e83209eafb9cf1b23468b80aba5c73a6aa913c6f76fca6f4e97d65"
+    },
+    {
+      "what": "AV2 zero-lined parked table, score >= 0.5",
+      "path": "$AV2_SENSOR_ROOT/derived/t2_static/all50_s050/static_zero_lined.parquet",
+      "sha256": "afffc639b8d5b0201673c93e3d23808d691f19cf27867cb058fbfeb93975fd1f"
+    },
+    {
+      "what": "AV2 S3 summary, score >= 0.3",
+      "path": "newpaper/autonomous_driving_crossmodal_fit_selection_2026-10-13/tier2_2026-11-01/S3_summary_all50_s030.json",
+      "sha256": "bee38a02be7dca51ba042b3d1f807a4f886475f4ed57c3926c0750de499f01c3"
+    },
+    {
+      "what": "AV2 moving analysis set, score >= 0.3",
+      "path": "$AV2_SENSOR_ROOT/derived/t2_static/all50_s030/moving_analysis_set_t2.parquet",
+      "sha256": "a2020a37817da9ffa67bb5dcd52908b649af9826c85ce22121d024c44e354a28"
+    },
+    {
+      "what": "AV2 zero-lined parked table, score >= 0.3",
+      "path": "$AV2_SENSOR_ROOT/derived/t2_static/all50_s030/static_zero_lined.parquet",
+      "sha256": "f739daada00d2114e0ad63844bd16ef3d0432d4e98c2ac38441f973091cfe0f2"
+    },
+    {
+      "what": "TruckScenes S3 summary, score >= 0.5",
+      "path": "newpaper/autonomous_driving_crossmodal_fit_selection_2026-10-13/tier2_2026-11-01/S3_summary_ts_s050.json",
+      "sha256": "c6452ce9c5b5cc9e7bb8b427f669f76734ecbf453e36d67e0b78853ce9b98096"
+    },
+    {
+      "what": "TruckScenes label-side table (centre row third)",
+      "path": "$TRUCKSCENES_DERIVED/t2_labels_rowthird_label_side.parquet",
+      "sha256": "b4233d529a4f172e8e920901894e629511e753b91a6a60991df45c04000339da"
+    },
+    {
+      "what": "TruckScenes static_all",
+      "path": "$TRUCKSCENES_DERIVED/t2_static/s050_rowthird/static_all.parquet",
+      "sha256": "fb0db366d868bf655d722305acb8d3fa1199cf4087a138bfc110b8864efd8a35"
+    },
+    {
+      "what": "TruckScenes moving_assigned",
+      "path": "$TRUCKSCENES_DERIVED/t2_static/s050_rowthird/moving_assigned.parquet",
+      "sha256": "8bab734b0463ff647e693e1d0a7c12e69e5b92d87b56ba77950ef12c5e038f20"
+    }
+  ],
+  "expected": {
+    "S1_rule": "far40",
+    "decision_cameras": {
+      "primary": [
+        "ring_front_left",
+        "ring_rear_left",
+        "ring_rear_right",
+        "ring_side_left"
+      ],
+      "sensitivity_score_0_3": [
+        "ring_front_left",
+        "ring_rear_left",
+        "ring_rear_right",
+        "ring_side_left"
+      ]
+    }
+  },
+  "primary": {
+    "s3_summary": "newpaper/autonomous_driving_crossmodal_fit_selection_2026-10-13/tier2_2026-11-01/S3_summary_all50_s050.json",
+    "moving_set": "$AV2_SENSOR_ROOT/derived/t2_static/all50_s050/moving_analysis_set_t2.parquet",
+    "static_zero_lined": "$AV2_SENSOR_ROOT/derived/t2_static/all50_s050/static_zero_lined.parquet"
+  },
+  "sensitivity_score_0_3": {
+    "s3_summary": "newpaper/autonomous_driving_crossmodal_fit_selection_2026-10-13/tier2_2026-11-01/S3_summary_all50_s030.json",
+    "moving_set": "$AV2_SENSOR_ROOT/derived/t2_static/all50_s030/moving_analysis_set_t2.parquet",
+    "static_zero_lined": "$AV2_SENSOR_ROOT/derived/t2_static/all50_s030/static_zero_lined.parquet"
+  },
+  "p01_logs": [
+    "3ca11a5e-50b2-3cc3-af7a-ce7ab02b9954",
+    "58d01358-5927-36fa-9e11-d18d1dc1f4f0",
+    "6b14d7c0-20f9-390b-af38-507a5de5998c",
+    "81d2b40a-c579-3e9c-b520-bee26cda947d",
+    "9a448a80-0e9a-3bf0-90f3-21750dfef55a",
+    "c556f8e0-a001-3586-b2cf-d3256685c39f",
+    "c780d53a-2d37-3cd8-9e89-530966aef53e",
+    "d5d6f11c-3026-3e0e-9d67-c111233e22de",
+    "f648b945-6c70-3105-bd23-9502894e37d4",
+    "fd5c6932-2ee2-3cfb-9bdc-0b30bfb33a91"
+  ],
+  "truckscenes": {
+    "static_all": "$TRUCKSCENES_DERIVED/t2_static/s050_rowthird/static_all.parquet",
+    "moving_assigned": "$TRUCKSCENES_DERIVED/t2_static/s050_rowthird/moving_assigned.parquet",
+    "hypotheses": [
+      "sample",
+      "LIDAR_LEFT",
+      "LIDAR_RIGHT",
+      "LIDAR_TOP_FRONT",
+      "LIDAR_TOP_LEFT",
+      "LIDAR_TOP_RIGHT",
+      "LIDAR_REAR"
+    ],
+    "camera_names": {
+      "1": "CAMERA_LEFT_FRONT",
+      "2": "CAMERA_RIGHT_FRONT",
+      "3": "CAMERA_LEFT_BACK",
+      "4": "CAMERA_RIGHT_BACK"
+    },
+    "report_cameras": [
+      "CAMERA_RIGHT_FRONT",
+      "CAMERA_LEFT_BACK"
+    ],
+    "moving_tracks_by_camera": {
+      "CAMERA_LEFT_FRONT": 21,
+      "CAMERA_RIGHT_FRONT": 69,
+      "CAMERA_LEFT_BACK": 105,
+      "CAMERA_RIGHT_BACK": 6
+    }
+  }
+}

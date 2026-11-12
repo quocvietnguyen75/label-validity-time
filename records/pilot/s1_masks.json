@@ -1,0 +1,127 @@
+{
+  "inputs": {
+    "label_only_sha256": "61da69dd36429b1d73bd7acd090a99d2b5885229b95f645094a6503d86aac6e5",
+    "association_sha256": "5094f4ee648293a1617f6ad62d6ba20350b0dc6709fe5d9206e267b3c759cfe9",
+    "mask_links": "D:/datasets/waymo_open_dataset_v_2_0_1\\derived\\s1\\mask_links.parquet",
+    "mask_links_sha256": "859afae464e0e5a8f46d0aa7ea65c3a5191e8a37ee207da5057f7104b8e74b5a"
+  },
+  "coverage": {
+    "images": 9650,
+    "vehicle_masks": 101260,
+    "human_vehicle_boxes_on_mask_images": 109133,
+    "linked": 59610,
+    "linked_share_of_human_boxes": 0.5462142523343076,
+    "static_rows": 2484,
+    "moving_rows": 118,
+    "moving_tracks": 45,
+    "moving_segments": 14
+  },
+  "cameras": {
+    "FRONT": {
+      "obs": 39,
+      "tracks": 16,
+      "segments": 8,
+      "informative": false,
+      "delta": {
+        "frame": {
+          "est": 44.16342215224611,
+          "lo": 35.51505803391623,
+          "hi": 52.81178627057599
+        },
+        "lidar": {
+          "est": -2.178660892951124,
+          "lo": -8.659876488542077,
+          "hi": 4.302554702639828
+        },
+        "pose": {
+          "est": -5.939189389691752,
+          "lo": -14.967290311851007,
+          "hi": 3.0889115324675043
+        },
+        "cam": {
+          "est": -20.97569671093084,
+          "lo": -32.77048237457523,
+          "hi": -9.180911047286452
+        }
+      }
+    },
+    "FRONT_LEFT": {
+      "obs": 64,
+      "tracks": 29,
+      "segments": 10,
+      "informative": false,
+      "delta": {
+        "frame": {
+          "est": 36.865592158546825,
+          "lo": 31.16536419026788,
+          "hi": 42.56582012682577
+        },
+        "lidar": {
+          "est": -1.8429703587009323,
+          "lo": -4.700783946756459,
+          "hi": 1.0148432293545953
+        },
+        "pose": {
+          "est": -13.89563518434518,
+          "lo": -18.87097097214135,
+          "hi": -8.920299396549009
+        },
+        "cam": {
+          "est": 8.231278967203881,
+          "lo": 2.4342772535093147,
+          "hi": 14.028280680898447
+        }
+      }
+    },
+    "FRONT_RIGHT": {
+      "obs": 14,
+      "tracks": 3,
+      "segments": 3,
+      "informative": false,
+      "delta": {
+        "frame": {
+          "est": 49.89276188511267,
+          "lo": 38.53889363278694,
+          "hi": 61.2466301374384
+        },
+        "lidar": {
+          "est": -12.160465511477163,
+          "lo": -22.66447484040424,
+          "hi": -1.6564561825500856
+        },
+        "pose": {
+          "est": 0.5070546763086007,
+          "lo": -11.099573928755014,
+          "hi": 12.113683281372214
+        },
+        "cam": {
+          "est": -14.664008316925965,
+          "lo": -29.176323361491914,
+          "hi": -0.15169327236001706
+        }
+      }
+    },
+    "SIDE_LEFT": null
+  },
+  "verdicts": {
+    "frame": {
+      "rejected_in": [
+        "FRONT",
+        "FRONT_LEFT"
+      ],
+      "ruled_out": true
+    },
+    "lidar": {
+      "rejected_in": [],
+      "ruled_out": false
+    },
+    "pose": {
+      "rejected_in": [],
+      "ruled_out": false
+    },
+    "cam": {
+      "rejected_in": [],
+      "ruled_out": false
+    }
+  }
+}

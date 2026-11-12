@@ -1,0 +1,189 @@
+{
+  "inputs": {
+    "label_only_sha256": "61da69dd36429b1d73bd7acd090a99d2b5885229b95f645094a6503d86aac6e5",
+    "human_vehicle_boxes": 1696446
+  },
+  "association": {
+    "attrition_ge8ms_scale1": {
+      "FRONT": 0.005050505050505051,
+      "FRONT_LEFT": 0.010290334435869165,
+      "FRONT_RIGHT": 0.007399577167019027,
+      "SIDE_LEFT": 0.00510204081632653,
+      "SIDE_RIGHT": 0.0
+    },
+    "widened": false,
+    "attrition_ge8ms_scale1_5": null,
+    "primary_gate_scale": 1.0,
+    "table": "D:/datasets/waymo_open_dataset_v_2_0_1\\derived\\g5\\association_primary.parquet",
+    "table_sha256": "5094f4ee648293a1617f6ad62d6ba20350b0dc6709fe5d9206e267b3c759cfe9"
+  },
+  "crowding_check": {
+    "included_moving": 7963,
+    "share_ge2_human_boxes_in_gate": 0.34635187743312823,
+    "share_0_in_gate": 0.006404621373854075
+  },
+  "assigned": {
+    "included_moving": 7963,
+    "moving_assigned": 7894,
+    "static_included": 81990,
+    "static_assigned": 79971
+  },
+  "zero_line": {
+    "tables": "D:/datasets/waymo_open_dataset_v_2_0_1\\derived\\g5\\zero_line_tables.parquet",
+    "tables_sha256": "42bd611838f734e83d9be020cb77841f71f7ff7e0841eff7e90d01ca0d58a30f",
+    "static_used": 79575,
+    "moving_levels": {
+      "0": 5456,
+      "1": 1386,
+      "2": 819,
+      "-1": 233
+    },
+    "moving_no_zero_line_excluded": 233,
+    "sigma_b_median_px": 6.574100678978411
+  },
+  "moving_analysis_set": {
+    "file": "D:/datasets/waymo_open_dataset_v_2_0_1\\derived\\g5\\moving_analysis_set.parquet",
+    "sha256": "54016253c11a29c367dc0c2590fcbdf793d380e6a6529cafcb98e2ef6bbff32f",
+    "rows": 7661,
+    "tracks": 769
+  },
+  "cameras": {
+    "FRONT": {
+      "obs": 1824,
+      "tracks": 307,
+      "segments": 86,
+      "DE": 496.24539009068917,
+      "V_ind": 0.038070561581079056,
+      "predicted_halfwidth_ms": 8.519202777663253,
+      "decision_camera": false,
+      "median_sdot": 0.4670833593185084,
+      "predicted_tau_bar": {
+        "frame": 0.0,
+        "lidar": 49.14256652022944,
+        "pose": 50.04808546458642,
+        "cam": 52.312067962411405
+      }
+    },
+    "FRONT_LEFT": {
+      "obs": 3437,
+      "tracks": 526,
+      "segments": 103,
+      "DE": 788.1653241362743,
+      "V_ind": 0.00923498783294433,
+      "predicted_halfwidth_ms": 5.287895903086115,
+      "decision_camera": false,
+      "median_sdot": 0.638006314021793,
+      "predicted_tau_bar": {
+        "frame": 0.0,
+        "lidar": 39.1863653065505,
+        "pose": 50.10558449886793,
+        "cam": 36.91420597975666
+      }
+    },
+    "FRONT_RIGHT": {
+      "obs": 1305,
+      "tracks": 135,
+      "segments": 45,
+      "DE": 517.5993368335836,
+      "V_ind": 0.0585324425038376,
+      "predicted_halfwidth_ms": 10.788256175615418,
+      "decision_camera": false,
+      "median_sdot": 0.4236931911055598,
+      "predicted_tau_bar": {
+        "frame": 0.0,
+        "lidar": 59.966569868149186,
+        "pose": 49.84542868711028,
+        "cam": 62.68413069799616
+      }
+    },
+    "SIDE_LEFT": {
+      "obs": 986,
+      "tracks": 310,
+      "segments": 69,
+      "DE": 848.2785274596383,
+      "V_ind": 0.013787095012798305,
+      "predicted_halfwidth_ms": 6.702883829471826,
+      "decision_camera": false,
+      "median_sdot": 1.0654052046938232,
+      "predicted_tau_bar": {
+        "frame": 0.0,
+        "lidar": 24.23953779493749,
+        "pose": 50.01482869280735,
+        "cam": 26.71664287363261
+      }
+    },
+    "SIDE_RIGHT": {
+      "obs": 109,
+      "tracks": 19,
+      "segments": 15,
+      "DE": 1250415.0302396503,
+      "V_ind": 0.6085220856347507,
+      "predicted_halfwidth_ms": 1709.7056093853084,
+      "decision_camera": false,
+      "median_sdot": 0.592921688417171,
+      "predicted_tau_bar": {
+        "frame": 0.0,
+        "lidar": 74.60203724485335,
+        "pose": 51.72845973320866,
+        "cam": 76.11117191507417
+      }
+    }
+  },
+  "slope_cells": {
+    "L2R": {
+      "obs": 2794,
+      "tracks": 281,
+      "DE": 1277.165902873065,
+      "V_ind": 0.39859438181536405,
+      "predicted_halfwidth_ms_per_xi": 44.22270619722448,
+      "slope_cell": false
+    },
+    "R2L": {
+      "obs": 4867,
+      "tracks": 488,
+      "DE": 8244.943165652185,
+      "V_ind": 0.22632445115605626,
+      "predicted_halfwidth_ms_per_xi": 84.66728672167675,
+      "slope_cell": false
+    }
+  },
+  "budget": {
+    "FRONT": {
+      "neighbour_bins_ms": 16.275353117733715,
+      "ego_class_spread_ms": 11.192562028531055,
+      "ego_speed_slope_ms": 1.326521927489065,
+      "static_slope_px_per_mps": 0.17456092371450388,
+      "ego_speed_median_diff_mps": -3.549456000328064
+    },
+    "FRONT_LEFT": {
+      "neighbour_bins_ms": 18.760006975942392,
+      "ego_class_spread_ms": 13.600747920360599,
+      "ego_speed_slope_ms": 0.16125539045247866,
+      "static_slope_px_per_mps": 0.023007606902588584,
+      "ego_speed_median_diff_mps": 4.471649646759033
+    },
+    "FRONT_RIGHT": {
+      "neighbour_bins_ms": 36.85016428689353,
+      "ego_class_spread_ms": 33.20865225851834,
+      "ego_speed_slope_ms": 1.2796116876505566,
+      "static_slope_px_per_mps": 0.17405046978578328,
+      "ego_speed_median_diff_mps": -3.114974409341812
+    },
+    "SIDE_LEFT": {
+      "neighbour_bins_ms": 12.639895989624138,
+      "ego_class_spread_ms": 5.62925293851371,
+      "ego_speed_slope_ms": 0.7099773788886589,
+      "static_slope_px_per_mps": 0.1917381905744588,
+      "ego_speed_median_diff_mps": 3.945033550262451
+    },
+    "SIDE_RIGHT": {
+      "neighbour_bins_ms": 5.023477013408457,
+      "ego_class_spread_ms": 7.502564043688673,
+      "ego_speed_slope_ms": 21.04924374287382,
+      "static_slope_px_per_mps": -4.401230657273243,
+      "ego_speed_median_diff_mps": -2.835696220397949
+    }
+  },
+  "decision_cameras": [],
+  "eligible_slope_cells": []
+}

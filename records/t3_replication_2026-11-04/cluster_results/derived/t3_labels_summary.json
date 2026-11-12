@@ -1,0 +1,9 @@
+{
+ "file": "$AV2_SENSOR_ROOT/derived/t3_labels_label_side.parquet",
+ "sha256": "5336fa031a14942adaa82e7d4667c724b64a64cf697505807e7de189ca8c0f83",
+ "rows": 19672598,
+ "logs": 407,
+ "incl_moving": 41459,
+ "incl_static": 433832,
+ "moving_tracks": 2153
+}

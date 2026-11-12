@@ -1,0 +1,33 @@
+worker-0
+Wed Nov  4 19:28:14 UTC 2026
+MEASURED module=careport.xfc7_t2_av2_labels peak_rss_GB=35.84 wall_s=70 exit=0
+{
+ "file": "$AV2_SENSOR_ROOT/derived/t3_labels_label_side.parquet",
+ "sha256": "5336fa031a14942adaa82e7d4667c724b64a64cf697505807e7de189ca8c0f83",
+ "rows": 19672598,
+ "logs": 407,
+ "incl_moving": 41459,
+ "incl_static": 433832,
+ "moving_tracks": 2153
+}
+{
+ "logs": 407,
+ "departing_logs": {},
+ "max_abs_departure_ms": 0.46,
+ "categories": {
+  "REGULAR_VEHICLE": 18095482,
+  "BUS": 321744,
+  "LARGE_VEHICLE": 418800,
+  "BOX_TRUCK": 304049,
+  "TRUCK": 192148,
+  "TRUCK_CAB": 78908,
+  "MOTORCYCLE": 179177,
+  "ARTICULATED_BUS": 30487,
+  "SCHOOL_BUS": 51803
+ }
+}
+5336fa031a14942adaa82e7d4667c724b64a64cf697505807e7de189ca8c0f83  /mnt/data/vietnq/xfc7/derived/t3_labels_label_side.parquet
+ede67d55ada09d7c09e81f1dcc9ed3f540203011c93c3886ca1913f0fc582b50  /mnt/data/vietnq/xfc7/derived/t3_labels_summary.json
+c1f4811cf6285de9164f84ab57cec36601ddb587db7d73a4f4d11b7b19464ddd  /mnt/data/vietnq/xfc7/derived/s0_t3.json
+Wed Nov  4 19:29:43 UTC 2026
+COMBINE_DONE

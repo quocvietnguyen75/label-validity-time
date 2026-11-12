@@ -1,0 +1,84 @@
+{
+ "summary": {
+  "pass": true,
+  "failures": []
+ },
+ "tables": {
+  "moving_analysis_set_t2.parquet": {
+   "rows": [
+    6006,
+    6006
+   ],
+   "columns_equal": true,
+   "pass_": true,
+   "differing_columns": [],
+   "max_abs_diff": {
+    "cost": 1.1102230246251565e-16,
+    "margin": 4.440892098500626e-16
+   }
+  },
+  "static_zero_lined.parquet": {
+   "rows": [
+    49618,
+    49618
+   ],
+   "columns_equal": true,
+   "pass_": true,
+   "differing_columns": [],
+   "max_abs_diff": {
+    "cost": 2.220446049250313e-16,
+    "margin": 4.440892098500626e-16
+   }
+  },
+  "reference_table.parquet": {
+   "rows": [
+    1086427,
+    1086427
+   ],
+   "columns_equal": true,
+   "pass_": true,
+   "differing_columns": [],
+   "max_abs_diff": {}
+  },
+  "association.parquet": {
+   "rows": [
+    2299169,
+    2299169
+   ],
+   "columns_equal": true,
+   "pass_": true,
+   "differing_columns": [],
+   "max_abs_diff": {
+    "cost": 8.881784197001252e-16,
+    "margin": 8.881784197001252e-16
+   }
+  },
+  "static_all.parquet": {
+   "rows": [
+    50676,
+    50676
+   ],
+   "columns_equal": true,
+   "pass_": true,
+   "differing_columns": [],
+   "max_abs_diff": {
+    "cost": 2.220446049250313e-16,
+    "margin": 4.440892098500626e-16
+   }
+  },
+  "moving_assigned.parquet": {
+   "rows": [
+    7011,
+    7011
+   ],
+   "columns_equal": true,
+   "pass_": true,
+   "differing_columns": [],
+   "max_abs_diff": {
+    "cost": 1.1102230246251565e-16,
+    "margin": 4.440892098500626e-16
+   }
+  }
+ },
+ "pass": true
+}

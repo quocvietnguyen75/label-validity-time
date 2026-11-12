@@ -1,0 +1,13 @@
+# run 2026-11-04T12:06:24Z; xfc7_t3_run 4454884119e57698
+seconds 1
+T2 CR1 final reproduced: True
+CR1 by-method final equals frozen: True
+max |difference| from R4 intervals (ms): 0.0
+R4 per-method finals: {'cr1': 'ruled out', 'cr2_bm': 'not ruled out', 'bootstrap': 'not ruled out'}
+T3 per-method finals: {'cr1': 'ruled out', 'cr2_bm': 'not ruled out', 'bootstrap': 'not ruled out'}
+three-method final: {'start': 'not ruled out', 'A': 'not ruled out', 'B': 'not ruled out', 'mid': 'not ruled out'}
+three-method primary start rejected_in: ['ring_side_left']
+compositions: {'rss': 'not ruled out', 'sum': 'not ruled out'}
+design primary: {"ring_front_left": {"tracks": 218, "logs": 37, "nu_bm": 9.998, "kish_logs": 10.841, "top_log_share": 0.218, "top5_track_share": 0.293, "V_ind": 0.051}, "ring_side_left": {"tracks": 175, "logs": 30, "nu_bm": 6.967, "kish_logs": 7.624, "top_log_share": 0.305, "top5_track_share": 0.407, "V_ind": 0.153}, "ring_rear_left": {"tracks": 184, "logs": 36, "nu_bm": 3.701, "kish_logs": 4.606, "top_log_share": 0.343, "top5_track_share": 0.858, "V_ind": 0.003}, "ring_rear_right": {"tracks": 35, "logs": 14, "nu_bm": 1.482, "kish_logs": 1.621, "top_log_share": 0.779, "top5_track_share": 0.903, "V_ind": 0.354}}
+gate hw_bm: {'ring_front_left': 26.12, 'ring_rear_left': 4.07, 'ring_rear_right': 35.13, 'ring_side_left': 7.14} thr: {'ring_front_left': 61.7, 'ring_rear_left': 51.28, 'ring_rear_right': 105.74, 'ring_side_left': 31.39}
+decidable (BM gate): {'start-A': False, 'start-B': True, 'start-mid': False, 'A-B': False, 'A-mid': False, 'B-mid': False}

@@ -1,0 +1,1038 @@
+{
+ "inputs": {
+  "s3_summary_sha256": "bca248c283080cdffaa2bdf8f2b97dc42c9b90a03f4ec8d56cc593ca7f454710",
+  "moving_set_sha256": "ac7731876a3c34d8d7a7bb6d00b977c21ab04579b082a423ca3df439e7a8fca0",
+  "columns_read": [
+   "segment",
+   "object_id",
+   "camera",
+   "frame",
+   "frame_type",
+   "margin",
+   "sdot",
+   "sigma_b",
+   "w"
+  ]
+ },
+ "decision_cameras": [
+  "ring_front_left",
+  "ring_rear_left",
+  "ring_rear_right",
+  "ring_side_left"
+ ],
+ "design": {
+  "primary": {
+   "ring_front_left": {
+    "tracks": 219,
+    "logs": 37,
+    "nu_bm": 11.171199827216475,
+    "kish_logs": 12.062743265923975,
+    "top_log_share": 0.1877861886711589,
+    "top5_track_share": 0.2813012378682952,
+    "V_ind": 0.05341783026689955
+   },
+   "ring_side_left": {
+    "tracks": 175,
+    "logs": 30,
+    "nu_bm": 6.1413994636258025,
+    "kish_logs": 6.714968115220723,
+    "top_log_share": 0.33835433942152315,
+    "top5_track_share": 0.43074048586210323,
+    "V_ind": 0.16147396735591457
+   },
+   "ring_rear_left": {
+    "tracks": 184,
+    "logs": 36,
+    "nu_bm": 3.722651465093898,
+    "kish_logs": 4.626821431569019,
+    "top_log_share": 0.34237366449139695,
+    "top5_track_share": 0.8560288686594661,
+    "V_ind": 0.003179790293327943
+   },
+   "ring_rear_right": {
+    "tracks": 35,
+    "logs": 14,
+    "nu_bm": 1.4297498165463263,
+    "kish_logs": 1.5309071510243935,
+    "top_log_share": 0.8040621973216169,
+    "top5_track_share": 0.900525748184786,
+    "V_ind": 0.3180228381743639
+   }
+  },
+  "margin_flag_excluded": {
+   "ring_front_left": {
+    "tracks": 219,
+    "logs": 37,
+    "nu_bm": 11.154127479915934,
+    "kish_logs": 12.045372875095179,
+    "top_log_share": 0.18803615064923893,
+    "top5_track_share": 0.2817134691344702,
+    "V_ind": 0.055013166274536944
+   },
+   "ring_side_left": {
+    "tracks": 174,
+    "logs": 30,
+    "nu_bm": 6.135857811279303,
+    "kish_logs": 6.709782422513346,
+    "top_log_share": 0.3384456344062054,
+    "top5_track_share": 0.4321625523297985,
+    "V_ind": 0.16652251618614908
+   },
+   "ring_rear_left": {
+    "tracks": 184,
+    "logs": 36,
+    "nu_bm": 3.826204356995928,
+    "kish_logs": 4.749008307555048,
+    "top_log_share": 0.3271505105955011,
+    "top5_track_share": 0.8527067805767516,
+    "V_ind": 0.0035109517064424263
+   },
+   "ring_rear_right": {
+    "tracks": 34,
+    "logs": 14,
+    "nu_bm": 1.3929669169941132,
+    "kish_logs": 1.4727272013686403,
+    "top_log_share": 0.8209909740372232,
+    "top5_track_share": 0.9117614022688569,
+    "V_ind": 0.30546184890164996
+   }
+  }
+ },
+ "gates": {
+  "primary": {
+   "max": {
+    "hw_bm_ms": {
+     "ring_front_left": 27.144053870571774,
+     "ring_rear_left": 3.9962193285006884,
+     "ring_rear_right": 24.804713599679136,
+     "ring_side_left": 14.465727504791198
+    },
+    "thresholds_ms": {
+     "ring_front_left": 63.317038394036594,
+     "ring_rear_left": 50.1692495616101,
+     "ring_rear_right": 84.00704803076107,
+     "ring_side_left": 37.702516855874244
+    },
+    "capacity": {
+     "cameras": {
+      "ring_front_left": {
+       "start-A": {
+        "gap": 27.499289200224318,
+        "threshold": 63.317038394036594,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 77.19296692026772,
+        "threshold": 63.317038394036594,
+        "decidable": true
+       },
+       "start-mid": {
+        "gap": 50.0,
+        "threshold": 63.317038394036594,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 49.693677720043404,
+        "threshold": 63.317038394036594,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 22.500710799775682,
+        "threshold": 63.317038394036594,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 27.19296692026772,
+        "threshold": 63.317038394036594,
+        "decidable": false
+       }
+      },
+      "ring_rear_left": {
+       "start-A": {
+        "gap": 96.41982250626627,
+        "threshold": 50.1692495616101,
+        "decidable": true
+       },
+       "start-B": {
+        "gap": 46.86063340115143,
+        "threshold": 50.1692495616101,
+        "decidable": false
+       },
+       "start-mid": {
+        "gap": 50.0,
+        "threshold": 50.1692495616101,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 49.55918910511484,
+        "threshold": 50.1692495616101,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 46.41982250626627,
+        "threshold": 50.1692495616101,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 3.139366598848568,
+        "threshold": 50.1692495616101,
+        "decidable": false
+       }
+      },
+      "ring_rear_right": {
+       "start-A": {
+        "gap": 83.46273789931098,
+        "threshold": 84.00704803076107,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 33.323334160169125,
+        "threshold": 84.00704803076107,
+        "decidable": false
+       },
+       "start-mid": {
+        "gap": 49.99999999999999,
+        "threshold": 84.00704803076107,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 50.139403739141855,
+        "threshold": 84.00704803076107,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 33.46273789931099,
+        "threshold": 84.00704803076107,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 16.676665839830868,
+        "threshold": 84.00704803076107,
+        "decidable": false
+       }
+      },
+      "ring_side_left": {
+       "start-A": {
+        "gap": 11.157209845733222,
+        "threshold": 37.702516855874244,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 60.44164095758555,
+        "threshold": 37.702516855874244,
+        "decidable": true
+       },
+       "start-mid": {
+        "gap": 50.00000000000001,
+        "threshold": 37.702516855874244,
+        "decidable": true
+       },
+       "A-B": {
+        "gap": 49.28443111185233,
+        "threshold": 37.702516855874244,
+        "decidable": true
+       },
+       "A-mid": {
+        "gap": 38.84279015426679,
+        "threshold": 37.702516855874244,
+        "decidable": true
+       },
+       "B-mid": {
+        "gap": 10.441640957585541,
+        "threshold": 37.702516855874244,
+        "decidable": false
+       }
+      }
+     },
+     "dataset": {
+      "start-A": false,
+      "start-B": true,
+      "start-mid": false,
+      "A-B": false,
+      "A-mid": false,
+      "B-mid": false
+     }
+    }
+   },
+   "rss": {
+    "hw_bm_ms": {
+     "ring_front_left": 27.144053870571774,
+     "ring_rear_left": 3.9962193285006884,
+     "ring_rear_right": 24.804713599679136,
+     "ring_side_left": 14.465727504791198
+    },
+    "thresholds_ms": {
+     "ring_front_left": 67.71868426226024,
+     "ring_rear_left": 56.692699642588096,
+     "ring_rear_right": 103.89637458389683,
+     "ring_side_left": 42.66346924970551
+    },
+    "capacity": {
+     "cameras": {
+      "ring_front_left": {
+       "start-A": {
+        "gap": 27.499289200224318,
+        "threshold": 67.71868426226024,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 77.19296692026772,
+        "threshold": 67.71868426226024,
+        "decidable": true
+       },
+       "start-mid": {
+        "gap": 50.0,
+        "threshold": 67.71868426226024,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 49.693677720043404,
+        "threshold": 67.71868426226024,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 22.500710799775682,
+        "threshold": 67.71868426226024,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 27.19296692026772,
+        "threshold": 67.71868426226024,
+        "decidable": false
+       }
+      },
+      "ring_rear_left": {
+       "start-A": {
+        "gap": 96.41982250626627,
+        "threshold": 56.692699642588096,
+        "decidable": true
+       },
+       "start-B": {
+        "gap": 46.86063340115143,
+        "threshold": 56.692699642588096,
+        "decidable": false
+       },
+       "start-mid": {
+        "gap": 50.0,
+        "threshold": 56.692699642588096,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 49.55918910511484,
+        "threshold": 56.692699642588096,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 46.41982250626627,
+        "threshold": 56.692699642588096,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 3.139366598848568,
+        "threshold": 56.692699642588096,
+        "decidable": false
+       }
+      },
+      "ring_rear_right": {
+       "start-A": {
+        "gap": 83.46273789931098,
+        "threshold": 103.89637458389683,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 33.323334160169125,
+        "threshold": 103.89637458389683,
+        "decidable": false
+       },
+       "start-mid": {
+        "gap": 49.99999999999999,
+        "threshold": 103.89637458389683,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 50.139403739141855,
+        "threshold": 103.89637458389683,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 33.46273789931099,
+        "threshold": 103.89637458389683,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 16.676665839830868,
+        "threshold": 103.89637458389683,
+        "decidable": false
+       }
+      },
+      "ring_side_left": {
+       "start-A": {
+        "gap": 11.157209845733222,
+        "threshold": 42.66346924970551,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 60.44164095758555,
+        "threshold": 42.66346924970551,
+        "decidable": true
+       },
+       "start-mid": {
+        "gap": 50.00000000000001,
+        "threshold": 42.66346924970551,
+        "decidable": true
+       },
+       "A-B": {
+        "gap": 49.28443111185233,
+        "threshold": 42.66346924970551,
+        "decidable": true
+       },
+       "A-mid": {
+        "gap": 38.84279015426679,
+        "threshold": 42.66346924970551,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 10.441640957585541,
+        "threshold": 42.66346924970551,
+        "decidable": false
+       }
+      }
+     },
+     "dataset": {
+      "start-A": false,
+      "start-B": true,
+      "start-mid": false,
+      "A-B": false,
+      "A-mid": false,
+      "B-mid": false
+     }
+    }
+   },
+   "sum": {
+    "hw_bm_ms": {
+     "ring_front_left": 27.144053870571774,
+     "ring_rear_left": 3.9962193285006884,
+     "ring_rear_right": 24.804713599679136,
+     "ring_side_left": 14.465727504791198
+    },
+    "thresholds_ms": {
+     "ring_front_left": 86.69495817853308,
+     "ring_rear_left": 76.28727314367598,
+     "ring_rear_right": 135.2130161201756,
+     "ring_side_left": 52.66511886567574
+    },
+    "capacity": {
+     "cameras": {
+      "ring_front_left": {
+       "start-A": {
+        "gap": 27.499289200224318,
+        "threshold": 86.69495817853308,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 77.19296692026772,
+        "threshold": 86.69495817853308,
+        "decidable": false
+       },
+       "start-mid": {
+        "gap": 50.0,
+        "threshold": 86.69495817853308,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 49.693677720043404,
+        "threshold": 86.69495817853308,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 22.500710799775682,
+        "threshold": 86.69495817853308,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 27.19296692026772,
+        "threshold": 86.69495817853308,
+        "decidable": false
+       }
+      },
+      "ring_rear_left": {
+       "start-A": {
+        "gap": 96.41982250626627,
+        "threshold": 76.28727314367598,
+        "decidable": true
+       },
+       "start-B": {
+        "gap": 46.86063340115143,
+        "threshold": 76.28727314367598,
+        "decidable": false
+       },
+       "start-mid": {
+        "gap": 50.0,
+        "threshold": 76.28727314367598,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 49.55918910511484,
+        "threshold": 76.28727314367598,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 46.41982250626627,
+        "threshold": 76.28727314367598,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 3.139366598848568,
+        "threshold": 76.28727314367598,
+        "decidable": false
+       }
+      },
+      "ring_rear_right": {
+       "start-A": {
+        "gap": 83.46273789931098,
+        "threshold": 135.2130161201756,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 33.323334160169125,
+        "threshold": 135.2130161201756,
+        "decidable": false
+       },
+       "start-mid": {
+        "gap": 49.99999999999999,
+        "threshold": 135.2130161201756,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 50.139403739141855,
+        "threshold": 135.2130161201756,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 33.46273789931099,
+        "threshold": 135.2130161201756,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 16.676665839830868,
+        "threshold": 135.2130161201756,
+        "decidable": false
+       }
+      },
+      "ring_side_left": {
+       "start-A": {
+        "gap": 11.157209845733222,
+        "threshold": 52.66511886567574,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 60.44164095758555,
+        "threshold": 52.66511886567574,
+        "decidable": true
+       },
+       "start-mid": {
+        "gap": 50.00000000000001,
+        "threshold": 52.66511886567574,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 49.28443111185233,
+        "threshold": 52.66511886567574,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 38.84279015426679,
+        "threshold": 52.66511886567574,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 10.441640957585541,
+        "threshold": 52.66511886567574,
+        "decidable": false
+       }
+      }
+     },
+     "dataset": {
+      "start-A": false,
+      "start-B": false,
+      "start-mid": false,
+      "A-B": false,
+      "A-mid": false,
+      "B-mid": false
+     }
+    }
+   },
+   "t_G_minus_1_thresholds_ms": {
+    "ring_front_left": 61.231600391018176,
+    "ring_rear_left": 49.009700130014714,
+    "ring_rear_right": 67.51219061739654,
+    "ring_side_left": 35.39537646762011
+   }
+  },
+  "margin_flag_excluded": {
+   "max": {
+    "hw_bm_ms": {
+     "ring_front_left": 27.551461967655968,
+     "ring_rear_left": 4.150617072971354,
+     "ring_rear_right": 25.29054782032179,
+     "ring_side_left": 14.693255719714573
+    },
+    "thresholds_ms": {
+     "ring_front_left": 63.72444649112079,
+     "ring_rear_left": 50.32364730608077,
+     "ring_rear_right": 84.49288225140373,
+     "ring_side_left": 37.93004507079762
+    },
+    "capacity": {
+     "cameras": {
+      "ring_front_left": {
+       "start-A": {
+        "gap": 27.499289200224318,
+        "threshold": 63.72444649112079,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 77.19296692026772,
+        "threshold": 63.72444649112079,
+        "decidable": true
+       },
+       "start-mid": {
+        "gap": 50.0,
+        "threshold": 63.72444649112079,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 49.693677720043404,
+        "threshold": 63.72444649112079,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 22.500710799775682,
+        "threshold": 63.72444649112079,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 27.19296692026772,
+        "threshold": 63.72444649112079,
+        "decidable": false
+       }
+      },
+      "ring_rear_left": {
+       "start-A": {
+        "gap": 96.41982250626627,
+        "threshold": 50.32364730608077,
+        "decidable": true
+       },
+       "start-B": {
+        "gap": 46.86063340115143,
+        "threshold": 50.32364730608077,
+        "decidable": false
+       },
+       "start-mid": {
+        "gap": 50.0,
+        "threshold": 50.32364730608077,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 49.55918910511484,
+        "threshold": 50.32364730608077,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 46.41982250626627,
+        "threshold": 50.32364730608077,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 3.139366598848568,
+        "threshold": 50.32364730608077,
+        "decidable": false
+       }
+      },
+      "ring_rear_right": {
+       "start-A": {
+        "gap": 83.46273789931098,
+        "threshold": 84.49288225140373,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 33.323334160169125,
+        "threshold": 84.49288225140373,
+        "decidable": false
+       },
+       "start-mid": {
+        "gap": 49.99999999999999,
+        "threshold": 84.49288225140373,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 50.139403739141855,
+        "threshold": 84.49288225140373,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 33.46273789931099,
+        "threshold": 84.49288225140373,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 16.676665839830868,
+        "threshold": 84.49288225140373,
+        "decidable": false
+       }
+      },
+      "ring_side_left": {
+       "start-A": {
+        "gap": 11.157209845733222,
+        "threshold": 37.93004507079762,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 60.44164095758555,
+        "threshold": 37.93004507079762,
+        "decidable": true
+       },
+       "start-mid": {
+        "gap": 50.00000000000001,
+        "threshold": 37.93004507079762,
+        "decidable": true
+       },
+       "A-B": {
+        "gap": 49.28443111185233,
+        "threshold": 37.93004507079762,
+        "decidable": true
+       },
+       "A-mid": {
+        "gap": 38.84279015426679,
+        "threshold": 37.93004507079762,
+        "decidable": true
+       },
+       "B-mid": {
+        "gap": 10.441640957585541,
+        "threshold": 37.93004507079762,
+        "decidable": false
+       }
+      }
+     },
+     "dataset": {
+      "start-A": false,
+      "start-B": true,
+      "start-mid": false,
+      "A-B": false,
+      "A-mid": false,
+      "B-mid": false
+     }
+    }
+   },
+   "rss": {
+    "hw_bm_ms": {
+     "ring_front_left": 27.551461967655968,
+     "ring_rear_left": 4.150617072971354,
+     "ring_rear_right": 25.29054782032179,
+     "ring_side_left": 14.693255719714573
+    },
+    "thresholds_ms": {
+     "ring_front_left": 68.12609235934443,
+     "ring_rear_left": 56.84709738705877,
+     "ring_rear_right": 104.38220880453949,
+     "ring_side_left": 42.89099746462888
+    },
+    "capacity": {
+     "cameras": {
+      "ring_front_left": {
+       "start-A": {
+        "gap": 27.499289200224318,
+        "threshold": 68.12609235934443,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 77.19296692026772,
+        "threshold": 68.12609235934443,
+        "decidable": true
+       },
+       "start-mid": {
+        "gap": 50.0,
+        "threshold": 68.12609235934443,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 49.693677720043404,
+        "threshold": 68.12609235934443,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 22.500710799775682,
+        "threshold": 68.12609235934443,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 27.19296692026772,
+        "threshold": 68.12609235934443,
+        "decidable": false
+       }
+      },
+      "ring_rear_left": {
+       "start-A": {
+        "gap": 96.41982250626627,
+        "threshold": 56.84709738705877,
+        "decidable": true
+       },
+       "start-B": {
+        "gap": 46.86063340115143,
+        "threshold": 56.84709738705877,
+        "decidable": false
+       },
+       "start-mid": {
+        "gap": 50.0,
+        "threshold": 56.84709738705877,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 49.55918910511484,
+        "threshold": 56.84709738705877,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 46.41982250626627,
+        "threshold": 56.84709738705877,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 3.139366598848568,
+        "threshold": 56.84709738705877,
+        "decidable": false
+       }
+      },
+      "ring_rear_right": {
+       "start-A": {
+        "gap": 83.46273789931098,
+        "threshold": 104.38220880453949,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 33.323334160169125,
+        "threshold": 104.38220880453949,
+        "decidable": false
+       },
+       "start-mid": {
+        "gap": 49.99999999999999,
+        "threshold": 104.38220880453949,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 50.139403739141855,
+        "threshold": 104.38220880453949,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 33.46273789931099,
+        "threshold": 104.38220880453949,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 16.676665839830868,
+        "threshold": 104.38220880453949,
+        "decidable": false
+       }
+      },
+      "ring_side_left": {
+       "start-A": {
+        "gap": 11.157209845733222,
+        "threshold": 42.89099746462888,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 60.44164095758555,
+        "threshold": 42.89099746462888,
+        "decidable": true
+       },
+       "start-mid": {
+        "gap": 50.00000000000001,
+        "threshold": 42.89099746462888,
+        "decidable": true
+       },
+       "A-B": {
+        "gap": 49.28443111185233,
+        "threshold": 42.89099746462888,
+        "decidable": true
+       },
+       "A-mid": {
+        "gap": 38.84279015426679,
+        "threshold": 42.89099746462888,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 10.441640957585541,
+        "threshold": 42.89099746462888,
+        "decidable": false
+       }
+      }
+     },
+     "dataset": {
+      "start-A": false,
+      "start-B": true,
+      "start-mid": false,
+      "A-B": false,
+      "A-mid": false,
+      "B-mid": false
+     }
+    }
+   },
+   "sum": {
+    "hw_bm_ms": {
+     "ring_front_left": 27.551461967655968,
+     "ring_rear_left": 4.150617072971354,
+     "ring_rear_right": 25.29054782032179,
+     "ring_side_left": 14.693255719714573
+    },
+    "thresholds_ms": {
+     "ring_front_left": 87.10236627561729,
+     "ring_rear_left": 76.44167088814665,
+     "ring_rear_right": 135.69885034081824,
+     "ring_side_left": 52.89264708059911
+    },
+    "capacity": {
+     "cameras": {
+      "ring_front_left": {
+       "start-A": {
+        "gap": 27.499289200224318,
+        "threshold": 87.10236627561729,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 77.19296692026772,
+        "threshold": 87.10236627561729,
+        "decidable": false
+       },
+       "start-mid": {
+        "gap": 50.0,
+        "threshold": 87.10236627561729,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 49.693677720043404,
+        "threshold": 87.10236627561729,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 22.500710799775682,
+        "threshold": 87.10236627561729,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 27.19296692026772,
+        "threshold": 87.10236627561729,
+        "decidable": false
+       }
+      },
+      "ring_rear_left": {
+       "start-A": {
+        "gap": 96.41982250626627,
+        "threshold": 76.44167088814665,
+        "decidable": true
+       },
+       "start-B": {
+        "gap": 46.86063340115143,
+        "threshold": 76.44167088814665,
+        "decidable": false
+       },
+       "start-mid": {
+        "gap": 50.0,
+        "threshold": 76.44167088814665,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 49.55918910511484,
+        "threshold": 76.44167088814665,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 46.41982250626627,
+        "threshold": 76.44167088814665,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 3.139366598848568,
+        "threshold": 76.44167088814665,
+        "decidable": false
+       }
+      },
+      "ring_rear_right": {
+       "start-A": {
+        "gap": 83.46273789931098,
+        "threshold": 135.69885034081824,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 33.323334160169125,
+        "threshold": 135.69885034081824,
+        "decidable": false
+       },
+       "start-mid": {
+        "gap": 49.99999999999999,
+        "threshold": 135.69885034081824,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 50.139403739141855,
+        "threshold": 135.69885034081824,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 33.46273789931099,
+        "threshold": 135.69885034081824,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 16.676665839830868,
+        "threshold": 135.69885034081824,
+        "decidable": false
+       }
+      },
+      "ring_side_left": {
+       "start-A": {
+        "gap": 11.157209845733222,
+        "threshold": 52.89264708059911,
+        "decidable": false
+       },
+       "start-B": {
+        "gap": 60.44164095758555,
+        "threshold": 52.89264708059911,
+        "decidable": true
+       },
+       "start-mid": {
+        "gap": 50.00000000000001,
+        "threshold": 52.89264708059911,
+        "decidable": false
+       },
+       "A-B": {
+        "gap": 49.28443111185233,
+        "threshold": 52.89264708059911,
+        "decidable": false
+       },
+       "A-mid": {
+        "gap": 38.84279015426679,
+        "threshold": 52.89264708059911,
+        "decidable": false
+       },
+       "B-mid": {
+        "gap": 10.441640957585541,
+        "threshold": 52.89264708059911,
+        "decidable": false
+       }
+      }
+     },
+     "dataset": {
+      "start-A": false,
+      "start-B": false,
+      "start-mid": false,
+      "A-B": false,
+      "A-mid": false,
+      "B-mid": false
+     }
+    }
+   },
+   "t_G_minus_1_thresholds_ms": null
+  }
+ }
+}

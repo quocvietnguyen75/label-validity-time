@@ -1,0 +1,67 @@
+{
+  "file": "/mnt/d/datasets/waymo_open_dataset_v_2_0_1/derived/g4_label_only.parquet",
+  "sha256": "61da69dd36429b1d73bd7acd090a99d2b5885229b95f645094a6503d86aac6e5",
+  "counts": {
+    "rows": 967799,
+    "segments": 201,
+    "most_visible_rows": 787958,
+    "incl_moving": 7963,
+    "incl_static": 81990,
+    "incl_along_axis_S5": 22163,
+    "moving_tracks": 782,
+    "incl_moving_by_camera_readout": {
+      "FRONT|L2R": 959,
+      "FRONT|R2L": 1032,
+      "FRONT_LEFT|L2R": 1206,
+      "FRONT_LEFT|R2L": 2287,
+      "FRONT_RIGHT|L2R": 385,
+      "FRONT_RIGHT|R2L": 935,
+      "SIDE_LEFT|L2R": 412,
+      "SIDE_LEFT|R2L": 622,
+      "SIDE_RIGHT|L2R": 24,
+      "SIDE_RIGHT|R2L": 101
+    }
+  },
+  "predicted_tau_bar_prelim_weights_sdot2_over_ntrack": {
+    "FRONT": {
+      "frame": 0.0,
+      "lidar": 49.92809951748593,
+      "pose": 49.91897317559816,
+      "cap": 51.772859450184384,
+      "n_obs": 1991,
+      "n_tracks": 328
+    },
+    "FRONT_LEFT": {
+      "frame": 0.0,
+      "lidar": 38.30568654681925,
+      "pose": 49.311608728330754,
+      "cap": 37.515727766563685,
+      "n_obs": 3493,
+      "n_tracks": 530
+    },
+    "FRONT_RIGHT": {
+      "frame": 0.0,
+      "lidar": 60.66226669108765,
+      "pose": 49.94581973596664,
+      "cap": 66.21201623111587,
+      "n_obs": 1320,
+      "n_tracks": 140
+    },
+    "SIDE_LEFT": {
+      "frame": 0.0,
+      "lidar": 24.661016509911555,
+      "pose": 49.72063249405417,
+      "cap": 26.36094260619651,
+      "n_obs": 1034,
+      "n_tracks": 313
+    },
+    "SIDE_RIGHT": {
+      "frame": 0.0,
+      "lidar": 75.66293381649409,
+      "pose": 51.81193546081192,
+      "cap": 72.51844522337616,
+      "n_obs": 125,
+      "n_tracks": 19
+    }
+  }
+}

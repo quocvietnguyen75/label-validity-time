@@ -1,0 +1,10 @@
+s050 margin-flag-excluded drops 100 of 7562
+  FRONT       hw_excl 4.70 threshold_excl 33.9
+  FRONT_LEFT  hw_excl 7.09 threshold_excl 32.0
+  FRONT_RIGHT hw_excl 60.21 threshold_excl 114.4
+  SIDE_LEFT   hw_excl 7.76 threshold_excl 24.0
+s030 margin-flag-excluded drops 134 of 7593
+  FRONT       hw_excl 5.88 threshold_excl 34.4
+  FRONT_LEFT  hw_excl 6.57 threshold_excl 31.6
+  FRONT_RIGHT hw_excl 60.47 threshold_excl 115.1
+  SIDE_LEFT   hw_excl 9.13 threshold_excl 25.4

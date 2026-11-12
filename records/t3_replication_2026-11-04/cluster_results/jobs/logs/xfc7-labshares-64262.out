@@ -1,0 +1,23 @@
+worker-0
+Thu Nov  5 04:56:55 UTC 2026
+POSTRUN_OK
+ring_front_center {'moving_before_seam_rule': 3469, 'removed_by_seam_rule': 0, 'share_removed': 0.0, 'included': 3469, 'share_theta_A_fallback': 0.0, 'share_theta_B_fallback': 0.004}
+ring_front_left {'moving_before_seam_rule': 14434, 'removed_by_seam_rule': 0, 'share_removed': 0.0, 'included': 14434, 'share_theta_A_fallback': 0.0, 'share_theta_B_fallback': 0.003}
+ring_front_right {'moving_before_seam_rule': 4564, 'removed_by_seam_rule': 903, 'share_removed': 0.198, 'included': 3661, 'share_theta_A_fallback': 0.003, 'share_theta_B_fallback': 0.004}
+ring_side_left {'moving_before_seam_rule': 5188, 'removed_by_seam_rule': 47, 'share_removed': 0.009, 'included': 5141, 'share_theta_A_fallback': 0.001, 'share_theta_B_fallback': 0.006}
+ring_side_right {'moving_before_seam_rule': 795, 'removed_by_seam_rule': 0, 'share_removed': 0.0, 'included': 795, 'share_theta_A_fallback': 0.013, 'share_theta_B_fallback': 0.013}
+ring_rear_left {'moving_before_seam_rule': 13237, 'removed_by_seam_rule': 4596, 'share_removed': 0.347, 'included': 8641, 'share_theta_A_fallback': 0.0, 'share_theta_B_fallback': 0.02}
+ring_rear_right {'moving_before_seam_rule': 5318, 'removed_by_seam_rule': 0, 'share_removed': 0.0, 'included': 5318, 'share_theta_A_fallback': 0.001, 'share_theta_B_fallback': 0.095}
+_all {'moving_before_seam_rule': 47005, 'removed_by_seam_rule': 5546, 'share_removed': 0.118}
+ring_front_center {'moving_before_seam_rule': 3792, 'removed_by_seam_rule': 0, 'share_removed': 0.0, 'included': 3792, 'share_theta_A_fallback': 0.0, 'share_theta_B_fallback': 0.004}
+ring_front_left {'moving_before_seam_rule': 17132, 'removed_by_seam_rule': 0, 'share_removed': 0.0, 'included': 17132, 'share_theta_A_fallback': 0.0, 'share_theta_B_fallback': 0.004}
+ring_front_right {'moving_before_seam_rule': 4959, 'removed_by_seam_rule': 988, 'share_removed': 0.199, 'included': 3971, 'share_theta_A_fallback': 0.003, 'share_theta_B_fallback': 0.004}
+ring_side_left {'moving_before_seam_rule': 6608, 'removed_by_seam_rule': 58, 'share_removed': 0.009, 'included': 6550, 'share_theta_A_fallback': 0.001, 'share_theta_B_fallback': 0.006}
+ring_side_right {'moving_before_seam_rule': 977, 'removed_by_seam_rule': 0, 'share_removed': 0.0, 'included': 977, 'share_theta_A_fallback': 0.01, 'share_theta_B_fallback': 0.01}
+ring_rear_left {'moving_before_seam_rule': 15482, 'removed_by_seam_rule': 5421, 'share_removed': 0.35, 'included': 10061, 'share_theta_A_fallback': 0.0, 'share_theta_B_fallback': 0.019}
+ring_rear_right {'moving_before_seam_rule': 6122, 'removed_by_seam_rule': 0, 'share_removed': 0.0, 'included': 6122, 'share_theta_A_fallback': 0.0, 'share_theta_B_fallback': 0.098}
+_all {'moving_before_seam_rule': 55072, 'removed_by_seam_rule': 6467, 'share_removed': 0.117}
+24f11a9446b4279beb59d4aad4a3867c73064d79d1a1776b6a3f07445f593121  /mnt/data/vietnq/xfc7/derived/postrun/t3_label_shares_407.json
+e8dff431bc55667f8d605f398757e19a581836ce225791d0399a039672d4c730  /mnt/data/vietnq/xfc7/derived/postrun/pooled457_label_shares.json
+Thu Nov  5 04:57:05 UTC 2026
+LABSHARES_DONE

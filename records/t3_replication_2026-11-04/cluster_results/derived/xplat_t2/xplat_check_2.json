@@ -1,0 +1,17 @@
+{
+ "t2_cr1_final_reproduced": true,
+ "cr1_by_method_equals_frozen": true,
+ "max_abs_diff_from_r4_ms": 7.105427357601002e-15,
+ "per_method_final_start": {
+  "cr1": "ruled out",
+  "cr2_bm": "not ruled out",
+  "bootstrap": "not ruled out"
+ },
+ "three_method_final": {
+  "start": "not ruled out",
+  "A": "not ruled out",
+  "B": "not ruled out",
+  "mid": "not ruled out"
+ },
+ "pass": true
+}

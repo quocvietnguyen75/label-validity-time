@@ -1,0 +1,162 @@
+{
+  "generated_utc": "2026-10-20T09:15:27Z",
+  "inputs": {
+    "camera_image_rows": 199935,
+    "lidar_box_rows": 2424599,
+    "lidar_camera_synced_box_rows": 1508136,
+    "camera_name_codes_seen": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "timing": [
+    {
+      "camera": "FRONT",
+      "n_images": 39987,
+      "trigger_delay_ms_median": 28.110027313232422,
+      "trigger_delay_ms_p05": 23.28205108642578,
+      "trigger_delay_ms_p95": 29.549598693847656,
+      "pose_delay_ms_median": 51.27406120300293,
+      "pose_delay_ms_p05": 46.395063400268555,
+      "pose_delay_ms_p95": 55.49168586730957,
+      "readout_ms_median": 44.97814178466797,
+      "shutter_ms_median": 0.8629006915725768
+    },
+    {
+      "camera": "FRONT_LEFT",
+      "n_images": 39987,
+      "trigger_delay_ms_median": 15.6707763671875,
+      "trigger_delay_ms_p05": 10.982036590576172,
+      "trigger_delay_ms_p95": 17.10796356201172,
+      "pose_delay_ms_median": 38.324594497680664,
+      "pose_delay_ms_p05": 33.93051624298096,
+      "pose_delay_ms_p95": 43.29252243041992,
+      "readout_ms_median": 45.15719413757324,
+      "shutter_ms_median": 1.0604143608361483
+    },
+    {
+      "camera": "FRONT_RIGHT",
+      "n_images": 39987,
+      "trigger_delay_ms_median": 40.334224700927734,
+      "trigger_delay_ms_p05": 35.695552825927734,
+      "trigger_delay_ms_p95": 42.00887680053711,
+      "pose_delay_ms_median": 63.7054443359375,
+      "pose_delay_ms_p05": 58.85889530181885,
+      "pose_delay_ms_p95": 68.26441287994385,
+      "readout_ms_median": 45.26543617248535,
+      "shutter_ms_median": 1.0745225008577108
+    },
+    {
+      "camera": "SIDE_LEFT",
+      "n_images": 39987,
+      "trigger_delay_ms_median": 3.006458282470703,
+      "trigger_delay_ms_p05": -1.5618085861206055,
+      "trigger_delay_ms_p95": 4.573512077331542,
+      "pose_delay_ms_median": 25.91848373413086,
+      "pose_delay_ms_p05": 21.66316509246826,
+      "pose_delay_ms_p95": 30.800747871398926,
+      "readout_ms_median": 45.212745666503906,
+      "shutter_ms_median": 1.1309549445286393
+    },
+    {
+      "camera": "SIDE_RIGHT",
+      "n_images": 39987,
+      "trigger_delay_ms_median": 52.86049842834473,
+      "trigger_delay_ms_p05": 48.2940673828125,
+      "trigger_delay_ms_p95": 54.60469722747803,
+      "pose_delay_ms_median": 75.85787773132324,
+      "pose_delay_ms_p05": 71.62585258483887,
+      "pose_delay_ms_p95": 80.73699474334717,
+      "readout_ms_median": 45.37796974182129,
+      "shutter_ms_median": 1.2579280883073807
+    }
+  ],
+  "pose_delay_order_holds": true,
+  "trigger_delay_order_holds": true,
+  "expected_order": [
+    "SIDE_LEFT",
+    "FRONT_LEFT",
+    "FRONT",
+    "FRONT_RIGHT",
+    "SIDE_RIGHT"
+  ],
+  "population": [
+    {
+      "camera": "FRONT",
+      "eligible_vehicles": 199590,
+      "moving_ge_3": 47780,
+      "moving_ge_8": 27071,
+      "static_le_0_5": 140710,
+      "moving_tracks": 1348,
+      "moving_segments": 157,
+      "moving_speed_ms_median": 8.744762725055004,
+      "moving_shift_m_median": 0.448379499170209,
+      "moving_shift_m_p90": 0.9957984399372177
+    },
+    {
+      "camera": "FRONT_LEFT",
+      "eligible_vehicles": 111639,
+      "moving_ge_3": 16510,
+      "moving_ge_8": 9048,
+      "static_le_0_5": 88909,
+      "moving_tracks": 1027,
+      "moving_segments": 150,
+      "moving_speed_ms_median": 8.582036997799925,
+      "moving_shift_m_median": 0.32890308790477485,
+      "moving_shift_m_p90": 0.721658006574447
+    },
+    {
+      "camera": "FRONT_RIGHT",
+      "eligible_vehicles": 82626,
+      "moving_ge_3": 8256,
+      "moving_ge_8": 3554,
+      "static_le_0_5": 69781,
+      "moving_tracks": 381,
+      "moving_segments": 99,
+      "moving_speed_ms_median": 7.185185005987569,
+      "moving_shift_m_median": 0.45773540344235386,
+      "moving_shift_m_p90": 0.9263865721369965
+    },
+    {
+      "camera": "SIDE_LEFT",
+      "eligible_vehicles": 102385,
+      "moving_ge_3": 9387,
+      "moving_ge_8": 5207,
+      "static_le_0_5": 90082,
+      "moving_tracks": 894,
+      "moving_segments": 143,
+      "moving_speed_ms_median": 8.71449743405396,
+      "moving_shift_m_median": 0.2258665599956527,
+      "moving_shift_m_p90": 0.4786216104082097
+    },
+    {
+      "camera": "SIDE_RIGHT",
+      "eligible_vehicles": 68854,
+      "moving_ge_3": 3421,
+      "moving_ge_8": 1305,
+      "static_le_0_5": 63594,
+      "moving_tracks": 203,
+      "moving_segments": 85,
+      "moving_speed_ms_median": 6.865195447752324,
+      "moving_shift_m_median": 0.5207791568772328,
+      "moving_shift_m_p90": 1.1388689387717184
+    }
+  ],
+  "population_totals": {
+    "eligible_vehicles": 565094,
+    "moving_ge_3": 85354,
+    "moving_ge_8": 46185,
+    "static_le_0_5": 453076
+  },
+  "moving_segments_any_camera": 168,
+  "camera_names": {
+    "1": "FRONT",
+    "2": "FRONT_LEFT",
+    "3": "FRONT_RIGHT",
+    "4": "SIDE_LEFT",
+    "5": "SIDE_RIGHT"
+  }
+}

@@ -1,0 +1,21 @@
+{
+ "logs": 50,
+ "tracks": 3906,
+ "tracks_length_varies": 0,
+ "share_varies": 0.0,
+ "regular_vehicle": {
+  "tracks": 3692,
+  "share_varies": 0.0
+ },
+ "step2_eligible_tracks": 0,
+ "fallback": {
+  "tracks": 758,
+  "logs": 48,
+  "slope_m_per_mps": [
+   0.04113229484929621,
+   0.023419893154916948,
+   0.058730423103383646
+  ],
+  "median_speed": 11.336895765852478
+ }
+}

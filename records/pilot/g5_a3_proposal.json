@@ -1,0 +1,66 @@
+{
+  "seed": 20261021,
+  "zero_line_tables_rebuilt_identical": true,
+  "static_rows_full": 79575,
+  "static_rows_subsampled": 18083,
+  "cameras": {
+    "FRONT": {
+      "DE_preregistered": 496.24539009068917,
+      "DE_A3": 147.27870288630623,
+      "halfwidth_preregistered_ms": 8.519202777663253,
+      "halfwidth_A3_ms": 4.6410974580903215,
+      "tracks": 307,
+      "decision_camera_A3": false
+    },
+    "FRONT_LEFT": {
+      "DE_preregistered": 788.1653241362743,
+      "DE_A3": 294.93045218817406,
+      "halfwidth_preregistered_ms": 5.287895903086115,
+      "halfwidth_A3_ms": 3.2347002604115658,
+      "tracks": 526,
+      "decision_camera_A3": false
+    },
+    "FRONT_RIGHT": {
+      "DE_preregistered": 517.5993368335836,
+      "DE_A3": 276.5920538834506,
+      "halfwidth_preregistered_ms": 10.788256175615418,
+      "halfwidth_A3_ms": 7.886317263389737,
+      "tracks": 135,
+      "decision_camera_A3": false
+    },
+    "SIDE_LEFT": {
+      "DE_preregistered": 848.2785274596383,
+      "DE_A3": 175.52193571878286,
+      "halfwidth_preregistered_ms": 6.702883829471826,
+      "halfwidth_A3_ms": 3.0490051331170727,
+      "tracks": 310,
+      "decision_camera_A3": false
+    },
+    "SIDE_RIGHT": {
+      "DE_preregistered": 1250415.0302396503,
+      "DE_A3": 356155.4833892522,
+      "halfwidth_preregistered_ms": 1709.7056093853084,
+      "halfwidth_A3_ms": 912.4604755293552,
+      "tracks": 19,
+      "decision_camera_A3": false
+    }
+  },
+  "slope_cells": {
+    "L2R": {
+      "DE_preregistered": 1277.165902873065,
+      "DE_A3": 656.7916288623227,
+      "halfwidth_preregistered_ms_per_xi": 44.22270619722448,
+      "halfwidth_A3_ms_per_xi": 31.712863796111723,
+      "slope_cell_A3": false
+    },
+    "R2L": {
+      "DE_preregistered": 8244.943165652185,
+      "DE_A3": 2473.5738368121265,
+      "halfwidth_preregistered_ms_per_xi": 84.66728672167675,
+      "halfwidth_A3_ms_per_xi": 46.375034812557054,
+      "slope_cell_A3": false
+    }
+  },
+  "decision_cameras_A3": [],
+  "eligible_slope_cells_A3": []
+}

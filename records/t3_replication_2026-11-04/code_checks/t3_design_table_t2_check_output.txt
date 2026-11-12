@@ -1,0 +1,4 @@
+score 0.5: primary theta-bar vs S3 max |diff| 0.0 ms; excluded-run gaps vs t2_margin_capacity max |diff| 0.0 ms
+   hw_BM gate, decidable in both runs: ['start-B']
+score 0.3: primary theta-bar vs S3 max |diff| 0.0 ms; excluded-run gaps vs t2_margin_capacity max |diff| 0.0 ms
+   hw_BM gate, decidable in both runs: ['start-A', 'start-B']

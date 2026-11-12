@@ -1,0 +1,1088 @@
+{
+  "run_utc": "2026-11-02T03:45:26Z",
+  "pin": "pilot/PILOT_RECORD_XF-C7.md, entry '2026-11-02, post hoc set V1-V5' (pinned 2026-11-02T03:38Z)",
+  "inputs_sha256": {
+    "t2_results": "6faa981f71330b4d719140e93eac348bc0eecb28e494abdf5b1921adb504b6e3",
+    "s3_summary": "23c05c24949e1ae6858f5b557cfcb4eab071e293208926236edfb483a43317d2",
+    "tier1_results": "634709cb57cef942230037a24ecc1c2381b27925cb66467d6d05041c88e98f25",
+    "e0_summary": "12238bd66cdb9f231c781142b1ef5b9a912b7d144fb3d40825668393e8d89ca1",
+    "moving_set": "cdccdbe561e83209eafb9cf1b23468b80aba5c73a6aa913c6f76fca6f4e97d65",
+    "static_all": "1752cc82ec34328d76604bc9d5548ecc183b9add10848b481f076b1d6a87cb33",
+    "association": "f8569d4ca675b4ce38593c90cd3e2b36cfd7c14a35b9a08e2916757c14e45830",
+    "label_side": "b4f595ef2818397c4f0f6603da7d12c22c328cdc3bbeebae425a8e4766ae96a7"
+  },
+  "status": "post hoc; no frozen verdict changes",
+  "V1_tolerance_composition": {
+    "AV2": {
+      "budgets": {
+        "ring_front_left": {
+          "max": 30.575655282886355,
+          "rss": 34.993622551548604,
+          "sum": 53.67705602818074
+        },
+        "ring_rear_left": {
+          "max": 42.20511960756142,
+          "rss": 50.492011238363595,
+          "sum": 72.11209055479758
+        },
+        "ring_rear_right": {
+          "max": 65.60444175345845,
+          "rss": 86.70834984515078,
+          "sum": 123.27376441566386
+        },
+        "ring_side_left": {
+          "max": 19.246843903516712,
+          "rss": 23.607817663230605,
+          "sum": 33.13692898980401
+        }
+      },
+      "verdicts": {
+        "max": {
+          "tolerance_ms": {
+            "ring_front_left": 35.57565528288636,
+            "ring_rear_left": 47.20511960756142,
+            "ring_rear_right": 70.60444175345845,
+            "ring_side_left": 24.246843903516712
+          },
+          "runs": {
+            "primary": {
+              "start": {
+                "rejected_in": [
+                  "ring_rear_left",
+                  "ring_side_left"
+                ],
+                "ruled_out": true
+              },
+              "A": {
+                "rejected_in": [],
+                "ruled_out": false
+              },
+              "B": {
+                "rejected_in": [],
+                "ruled_out": false
+              },
+              "mid": {
+                "rejected_in": [],
+                "ruled_out": false
+              }
+            },
+            "margin_flag_excluded": {
+              "start": {
+                "rejected_in": [
+                  "ring_rear_left",
+                  "ring_side_left"
+                ],
+                "ruled_out": true
+              },
+              "A": {
+                "rejected_in": [
+                  "ring_side_left"
+                ],
+                "ruled_out": false
+              },
+              "B": {
+                "rejected_in": [],
+                "ruled_out": false
+              },
+              "mid": {
+                "rejected_in": [],
+                "ruled_out": false
+              }
+            }
+          },
+          "final": {
+            "start": "ruled out",
+            "A": "not ruled out",
+            "B": "not ruled out",
+            "mid": "not ruled out"
+          }
+        },
+        "rss": {
+          "tolerance_ms": {
+            "ring_front_left": 39.993622551548604,
+            "ring_rear_left": 55.492011238363595,
+            "ring_rear_right": 91.70834984515078,
+            "ring_side_left": 28.607817663230605
+          },
+          "runs": {
+            "primary": {
+              "start": {
+                "rejected_in": [
+                  "ring_side_left"
+                ],
+                "ruled_out": false
+              },
+              "A": {
+                "rejected_in": [],
+                "ruled_out": false
+              },
+              "B": {
+                "rejected_in": [],
+                "ruled_out": false
+              },
+              "mid": {
+                "rejected_in": [],
+                "ruled_out": false
+              }
+            },
+            "margin_flag_excluded": {
+              "start": {
+                "rejected_in": [
+                  "ring_side_left"
+                ],
+                "ruled_out": false
+              },
+              "A": {
+                "rejected_in": [],
+                "ruled_out": false
+              },
+              "B": {
+                "rejected_in": [],
+                "ruled_out": false
+              },
+              "mid": {
+                "rejected_in": [],
+                "ruled_out": false
+              }
+            }
+          },
+          "final": {
+            "start": "not ruled out",
+            "A": "not ruled out",
+            "B": "not ruled out",
+            "mid": "not ruled out"
+          }
+        },
+        "sum": {
+          "tolerance_ms": {
+            "ring_front_left": 58.67705602818074,
+            "ring_rear_left": 77.11209055479758,
+            "ring_rear_right": 128.27376441566386,
+            "ring_side_left": 38.13692898980401
+          },
+          "runs": {
+            "primary": {
+              "start": {
+                "rejected_in": [],
+                "ruled_out": false
+              },
+              "A": {
+                "rejected_in": [],
+                "ruled_out": false
+              },
+              "B": {
+                "rejected_in": [],
+                "ruled_out": false
+              },
+              "mid": {
+                "rejected_in": [],
+                "ruled_out": false
+              }
+            },
+            "margin_flag_excluded": {
+              "start": {
+                "rejected_in": [],
+                "ruled_out": false
+              },
+              "A": {
+                "rejected_in": [],
+                "ruled_out": false
+              },
+              "B": {
+                "rejected_in": [],
+                "ruled_out": false
+              },
+              "mid": {
+                "rejected_in": [],
+                "ruled_out": false
+              }
+            }
+          },
+          "final": {
+            "start": "not ruled out",
+            "A": "not ruled out",
+            "B": "not ruled out",
+            "mid": "not ruled out"
+          }
+        }
+      }
+    },
+    "WOD_detector_primary_run_only": {
+      "budgets": {
+        "FRONT": {
+          "max": 24.23086199393664,
+          "rss": 32.78126196223269,
+          "sum": 46.481414012882006
+        },
+        "FRONT_LEFT": {
+          "max": 19.903480664692914,
+          "rss": 24.182872883242688,
+          "sum": 33.93674831508804
+        },
+        "FRONT_RIGHT": {
+          "max": 49.186091053474264,
+          "rss": 56.294460372472344,
+          "sum": 86.27588269237896
+        },
+        "SIDE_LEFT": {
+          "max": 11.212553450106487,
+          "rss": 13.286225405701199,
+          "sum": 19.05625423925101
+        }
+      },
+      "rejections": {
+        "max": {
+          "frame": {
+            "rejected_in": [
+              "FRONT",
+              "FRONT_LEFT",
+              "SIDE_LEFT"
+            ],
+            "ruled_out": true
+          },
+          "lidar": {
+            "rejected_in": [],
+            "ruled_out": false
+          },
+          "cam": {
+            "rejected_in": [],
+            "ruled_out": false
+          },
+          "pose": {
+            "rejected_in": [
+              "SIDE_LEFT"
+            ],
+            "ruled_out": false
+          }
+        },
+        "rss": {
+          "frame": {
+            "rejected_in": [
+              "FRONT",
+              "FRONT_LEFT",
+              "SIDE_LEFT"
+            ],
+            "ruled_out": true
+          },
+          "lidar": {
+            "rejected_in": [],
+            "ruled_out": false
+          },
+          "cam": {
+            "rejected_in": [],
+            "ruled_out": false
+          },
+          "pose": {
+            "rejected_in": [
+              "SIDE_LEFT"
+            ],
+            "ruled_out": false
+          }
+        },
+        "sum": {
+          "frame": {
+            "rejected_in": [],
+            "ruled_out": false
+          },
+          "lidar": {
+            "rejected_in": [],
+            "ruled_out": false
+          },
+          "cam": {
+            "rejected_in": [],
+            "ruled_out": false
+          },
+          "pose": {
+            "rejected_in": [],
+            "ruled_out": false
+          }
+        }
+      }
+    },
+    "WOD_human": "quoted from K5 (pilot record, 25 Oct): quadrature ruled out in all six runs; linear sum in four of six (not with gate x2 or the frustum-edge exclusion)"
+  },
+  "V2_realized_decidability": {
+    "cameras": {
+      "ring_front_left": {
+        "start-A": {
+          "gap": 27.332820507966915,
+          "threshold_realized": 47.64218479946548,
+          "decidable": false
+        },
+        "start-B": {
+          "gap": 77.02987969048303,
+          "threshold_realized": 47.64218479946548,
+          "decidable": true
+        },
+        "start-mid": {
+          "gap": 50.00000000000001,
+          "threshold_realized": 47.64218479946548,
+          "decidable": true
+        },
+        "A-B": {
+          "gap": 49.697059182516114,
+          "threshold_realized": 47.64218479946548,
+          "decidable": true
+        },
+        "A-mid": {
+          "gap": 22.667179492033092,
+          "threshold_realized": 47.64218479946548,
+          "decidable": false
+        },
+        "B-mid": {
+          "gap": 27.02987969048302,
+          "threshold_realized": 47.64218479946548,
+          "decidable": false
+        }
+      },
+      "ring_rear_left": {
+        "start-A": {
+          "gap": 96.37725560242082,
+          "threshold_realized": 63.11369655829993,
+          "decidable": true
+        },
+        "start-B": {
+          "gap": 46.864534636854685,
+          "threshold_realized": 63.11369655829993,
+          "decidable": false
+        },
+        "start-mid": {
+          "gap": 50.000000000000014,
+          "threshold_realized": 63.11369655829993,
+          "decidable": false
+        },
+        "A-B": {
+          "gap": 49.51272096556613,
+          "threshold_realized": 63.11369655829993,
+          "decidable": false
+        },
+        "A-mid": {
+          "gap": 46.3772556024208,
+          "threshold_realized": 63.11369655829993,
+          "decidable": false
+        },
+        "B-mid": {
+          "gap": 3.135465363145329,
+          "threshold_realized": 63.11369655829993,
+          "decidable": false
+        }
+      },
+      "ring_rear_right": {
+        "start-A": {
+          "gap": 83.51122925227784,
+          "threshold_realized": 113.45607000607106,
+          "decidable": false
+        },
+        "start-B": {
+          "gap": 33.358258144657384,
+          "threshold_realized": 113.45607000607106,
+          "decidable": false
+        },
+        "start-mid": {
+          "gap": 50.00000000000001,
+          "threshold_realized": 113.45607000607106,
+          "decidable": false
+        },
+        "A-B": {
+          "gap": 50.15297110762046,
+          "threshold_realized": 113.45607000607106,
+          "decidable": false
+        },
+        "A-mid": {
+          "gap": 33.511229252277836,
+          "threshold_realized": 113.45607000607106,
+          "decidable": false
+        },
+        "B-mid": {
+          "gap": 16.641741855342623,
+          "threshold_realized": 113.45607000607106,
+          "decidable": false
+        }
+      },
+      "ring_side_left": {
+        "start-A": {
+          "gap": 11.318122951433095,
+          "threshold_realized": 31.374314636221236,
+          "decidable": false
+        },
+        "start-B": {
+          "gap": 60.5770974123319,
+          "threshold_realized": 31.374314636221236,
+          "decidable": true
+        },
+        "start-mid": {
+          "gap": 50.0,
+          "threshold_realized": 31.374314636221236,
+          "decidable": true
+        },
+        "A-B": {
+          "gap": 49.258974460898806,
+          "threshold_realized": 31.374314636221236,
+          "decidable": true
+        },
+        "A-mid": {
+          "gap": 38.6818770485669,
+          "threshold_realized": 31.374314636221236,
+          "decidable": true
+        },
+        "B-mid": {
+          "gap": 10.577097412331902,
+          "threshold_realized": 31.374314636221236,
+          "decidable": false
+        }
+      }
+    },
+    "dataset": {
+      "start-A": false,
+      "start-B": true,
+      "start-mid": true,
+      "A-B": true,
+      "A-mid": false,
+      "B-mid": false
+    },
+    "realized_half_width_ms": {
+      "ring_front_left": 12.066529516579124,
+      "ring_rear_left": 15.908576950738507,
+      "ring_rear_right": 42.85162825261261,
+      "ring_side_left": 7.1274707327045235
+    },
+    "predicted_dataset": {
+      "start-A": true,
+      "start-B": true,
+      "start-mid": false,
+      "A-B": false,
+      "A-mid": false,
+      "B-mid": false
+    }
+  },
+  "V3_speed_models": {
+    "joint_camera_fixed_effects": {
+      "speed": {
+        "coef": -3.8228335254894343,
+        "se": 0.43410585665746976,
+        "lo": -4.700194189167669,
+        "hi": -2.9454728618112
+      },
+      "inv_sdot": {
+        "coef": -15.207709300270755,
+        "se": 5.515949263832135,
+        "lo": -26.355858611579883,
+        "hi": -4.059559988961626
+      },
+      "G": 41,
+      "n": 5599,
+      "units": {
+        "speed": "ms per m/s",
+        "inv_sdot": "px"
+      }
+    },
+    "per_camera": {
+      "ring_front_left": {
+        "speed": {
+          "coef": -3.383825488023577,
+          "se": 1.5246394981294291,
+          "lo": -6.4759377078377165,
+          "hi": -0.29171326820943744
+        },
+        "inv_sdot": {
+          "coef": -22.8411179208305,
+          "se": 7.257810645428386,
+          "lo": -37.56064015107586,
+          "hi": -8.121595690585139
+        },
+        "G": 37,
+        "n": 2464,
+        "units": {
+          "speed": "ms per m/s",
+          "inv_sdot": "px"
+        }
+      },
+      "ring_side_left": {
+        "speed": {
+          "coef": -0.6231077050725634,
+          "se": 0.8243604905705358,
+          "lo": -2.30911421619048,
+          "hi": 1.0628988060453533
+        },
+        "inv_sdot": {
+          "coef": -15.465751351684096,
+          "se": 7.484715201546412,
+          "lo": -30.773712744808066,
+          "hi": -0.15778995856012656
+        },
+        "G": 30,
+        "n": 1302,
+        "units": {
+          "speed": "ms per m/s",
+          "inv_sdot": "px"
+        }
+      },
+      "ring_rear_left": {
+        "speed": {
+          "coef": -3.69805546615805,
+          "se": 0.44470844353663985,
+          "lo": -4.600861603141652,
+          "hi": -2.7952493291744474
+        },
+        "inv_sdot": {
+          "coef": -9.933107120816677,
+          "se": 5.572475849770879,
+          "lo": -21.245834523420108,
+          "hi": 1.3796202817867513
+        },
+        "G": 36,
+        "n": 1212,
+        "units": {
+          "speed": "ms per m/s",
+          "inv_sdot": "px"
+        }
+      },
+      "ring_rear_right": {
+        "speed": {
+          "coef": -16.41733915738785,
+          "se": 8.479548680567426,
+          "lo": -34.736290347821054,
+          "hi": 1.9016120330453532
+        },
+        "inv_sdot": {
+          "coef": -92.02321711744727,
+          "se": 58.28756306718574,
+          "lo": -217.94584142928989,
+          "hi": 33.89940719439532
+        },
+        "G": 14,
+        "n": 621,
+        "units": {
+          "speed": "ms per m/s",
+          "inv_sdot": "px"
+        }
+      }
+    }
+  },
+  "V4_conventions": {
+    "final": {
+      "midpoint": "not ruled out",
+      "pooled": "not ruled out"
+    },
+    "estimates": {
+      "ring_front_left": {
+        "midpoint": {
+          "est": -12.732342486731602,
+          "se": 5.842063652776654,
+          "lo": -24.58059673427387,
+          "hi": -0.8840882391893352,
+          "G": 37,
+          "t": 2.0280940009804502
+        },
+        "pooled": {
+          "est": -4.065003493430286,
+          "se": 5.487885020012955,
+          "lo": -15.19495018058904,
+          "hi": 7.0649431937284675,
+          "G": 37,
+          "t": 2.0280940009804502
+        },
+        "_tracks": 218
+      },
+      "ring_side_left": {
+        "midpoint": {
+          "est": 5.507208450580322,
+          "se": 3.408323002331648,
+          "lo": -1.4635947837510948,
+          "hi": 12.478011684911738,
+          "G": 30,
+          "t": 2.045229642132703
+        },
+        "pooled": {
+          "est": 13.527057173503918,
+          "se": 3.9330643465495534,
+          "lo": 5.483037387525481,
+          "hi": 21.571076959482355,
+          "G": 30,
+          "t": 2.045229642132703
+        },
+        "_tracks": 175
+      },
+      "ring_rear_left": {
+        "midpoint": {
+          "est": -0.9595612425664526,
+          "se": 7.991909692351978,
+          "lo": -17.18400047087096,
+          "hi": 15.264877985738055,
+          "G": 36,
+          "t": 2.030107928250343
+        },
+        "pooled": {
+          "est": -8.448507432351688,
+          "se": 7.7032138804448556,
+          "lo": -24.086863004050876,
+          "hi": 7.189848139347502,
+          "G": 36,
+          "t": 2.030107928250343
+        },
+        "_tracks": 184
+      },
+      "ring_rear_right": {
+        "midpoint": {
+          "est": -25.633788937466882,
+          "se": 19.899798517971824,
+          "lo": -68.62468992558252,
+          "hi": 17.35711205064876,
+          "G": 14,
+          "t": 2.1603686564610127
+        },
+        "pooled": {
+          "est": -35.66896306185332,
+          "se": 19.115759053640325,
+          "lo": -76.96604976579872,
+          "hi": 5.628123642092071,
+          "G": 14,
+          "t": 2.1603686564610127
+        },
+        "_tracks": 35
+      }
+    },
+    "runs": {
+      "primary": {
+        "midpoint": {
+          "rejected_in": [],
+          "ruled_out": false
+        },
+        "pooled": {
+          "rejected_in": [],
+          "ruled_out": false
+        }
+      },
+      "margin_flag_excluded": {
+        "midpoint": {
+          "rejected_in": [],
+          "ruled_out": false
+        },
+        "pooled": {
+          "rejected_in": [],
+          "ruled_out": false
+        }
+      }
+    },
+    "estimates_margin_flag_excluded": {
+      "ring_front_left": {
+        "midpoint": {
+          "est": -12.986620893215042,
+          "se": 5.70463989802201,
+          "lo": -24.556166848147207,
+          "hi": -1.4170749382828767,
+          "G": 37,
+          "t": 2.0280940009804502
+        },
+        "pooled": {
+          "est": -4.326597688879551,
+          "se": 5.355140368103266,
+          "lo": -15.187325743838024,
+          "hi": 6.534130366078922,
+          "G": 37,
+          "t": 2.0280940009804502
+        },
+        "_tracks": 217
+      },
+      "ring_side_left": {
+        "midpoint": {
+          "est": 5.558770676788198,
+          "se": 2.8395333857353826,
+          "lo": -0.2487271735432408,
+          "hi": 11.366268527119637,
+          "G": 30,
+          "t": 2.045229642132703
+        },
+        "pooled": {
+          "est": 13.910667497776242,
+          "se": 3.165004448992938,
+          "lo": 7.437506581214002,
+          "hi": 20.38382841433848,
+          "G": 30,
+          "t": 2.045229642132703
+        },
+        "_tracks": 173
+      },
+      "ring_rear_left": {
+        "midpoint": {
+          "est": -0.9543082592674218,
+          "se": 7.993108184217962,
+          "lo": -17.181180555411007,
+          "hi": 15.272564036876165,
+          "G": 36,
+          "t": 2.030107928250343
+        },
+        "pooled": {
+          "est": -8.442904294251598,
+          "se": 7.7044119389225205,
+          "lo": -24.083692053964803,
+          "hi": 7.197883465461608,
+          "G": 36,
+          "t": 2.030107928250343
+        },
+        "_tracks": 184
+      },
+      "ring_rear_right": {
+        "midpoint": {
+          "est": -26.00577354316149,
+          "se": 20.76379461288317,
+          "lo": -70.86322461402833,
+          "hi": 18.85167752770534,
+          "G": 14,
+          "t": 2.1603686564610127
+        },
+        "pooled": {
+          "est": -36.110721508551435,
+          "se": 20.049917649157575,
+          "lo": -79.42593516241593,
+          "hi": 7.204492145313061,
+          "G": 14,
+          "t": 2.1603686564610127
+        },
+        "_tracks": 34
+      }
+    },
+    "cameras": [
+      "ring_front_left",
+      "ring_rear_left",
+      "ring_rear_right",
+      "ring_side_left"
+    ],
+    "undefined_intervals": []
+  },
+  "V5_checks": {
+    "a_seam_restored": {
+      "comparison": {
+        "ring_front_left": {
+          "retained": {
+            "obs": 2464,
+            "tracks": 218,
+            "mean_speed": 12.662641645201472,
+            "mean_theta_hat": 39.44900761249337
+          },
+          "restored": {
+            "obs": 0,
+            "tracks": 0,
+            "mean_speed": NaN,
+            "mean_theta_hat": NaN
+          }
+        },
+        "ring_side_left": {
+          "retained": {
+            "obs": 1302,
+            "tracks": 175,
+            "mean_speed": 12.600533347746046,
+            "mean_theta_hat": 41.448905576637735
+          },
+          "restored": {
+            "obs": 10,
+            "tracks": 9,
+            "mean_speed": 12.510209777997597,
+            "mean_theta_hat": 36.800767690890524
+          }
+        },
+        "ring_rear_left": {
+          "retained": {
+            "obs": 1212,
+            "tracks": 184,
+            "mean_speed": 16.609436039890433,
+            "mean_theta_hat": 70.56896368812343
+          },
+          "restored": {
+            "obs": 783,
+            "tracks": 169,
+            "mean_speed": 12.952118789899476,
+            "mean_theta_hat": 38.412042258662716
+          }
+        },
+        "ring_rear_right": {
+          "retained": {
+            "obs": 621,
+            "tracks": 35,
+            "mean_speed": 15.505242054765311,
+            "mean_theta_hat": 32.80095476100074
+          },
+          "restored": {
+            "obs": 0,
+            "tracks": 0,
+            "mean_speed": NaN,
+            "mean_theta_hat": NaN
+          }
+        }
+      },
+      "verdicts": {
+        "final": {
+          "start": "ruled out",
+          "mid": "not ruled out"
+        },
+        "estimates": {
+          "ring_front_left": {
+            "start": {
+              "est": 39.44900761249337,
+              "se": 5.949689467423971,
+              "lo": 27.382478095914244,
+              "hi": 51.51553712907249,
+              "G": 37,
+              "t": 2.0280940009804502
+            },
+            "mid": {
+              "est": -10.550992387506636,
+              "se": 5.949689467423971,
+              "lo": -22.617521904085763,
+              "hi": 1.5155371290724897,
+              "G": 37,
+              "t": 2.0280940009804502
+            },
+            "_tracks": 218
+          },
+          "ring_side_left": {
+            "start": {
+              "est": 41.42123595755127,
+              "se": 3.470464593339208,
+              "lo": 34.3233388992819,
+              "hi": 48.519133015820636,
+              "G": 30,
+              "t": 2.045229642132703
+            },
+            "mid": {
+              "est": -8.578764042448737,
+              "se": 3.4704645933392073,
+              "lo": -15.6766611007181,
+              "hi": -1.4808669841793742,
+              "G": 30,
+              "t": 2.045229642132703
+            },
+            "_tracks": 177
+          },
+          "ring_rear_left": {
+            "start": {
+              "est": 69.39360218848661,
+              "se": 7.582183621115688,
+              "lo": 54.01622107216966,
+              "hi": 84.77098330480356,
+              "G": 37,
+              "t": 2.0280940009804502
+            },
+            "mid": {
+              "est": 19.393602188486597,
+              "se": 7.582183621115688,
+              "lo": 4.0162210721696425,
+              "hi": 34.77098330480355,
+              "G": 37,
+              "t": 2.0280940009804502
+            },
+            "_tracks": 214
+          },
+          "ring_rear_right": {
+            "start": {
+              "est": 32.80095476100074,
+              "se": 19.835331402562375,
+              "lo": -10.050673491611875,
+              "hi": 75.65258301361335,
+              "G": 14,
+              "t": 2.1603686564610127
+            },
+            "mid": {
+              "est": -17.19904523899927,
+              "se": 19.835331402562378,
+              "lo": -60.05067349161189,
+              "hi": 25.652583013613352,
+              "G": 14,
+              "t": 2.1603686564610127
+            },
+            "_tracks": 35
+          }
+        },
+        "runs": {
+          "primary": {
+            "start": {
+              "rejected_in": [
+                "ring_rear_left",
+                "ring_side_left"
+              ],
+              "ruled_out": true
+            },
+            "mid": {
+              "rejected_in": [],
+              "ruled_out": false
+            }
+          },
+          "margin_flag_excluded": {
+            "start": {
+              "rejected_in": [
+                "ring_rear_left",
+                "ring_side_left"
+              ],
+              "ruled_out": true
+            },
+            "mid": {
+              "rejected_in": [],
+              "ruled_out": false
+            }
+          }
+        },
+        "estimates_margin_flag_excluded": {
+          "ring_front_left": {
+            "start": {
+              "est": 39.20075349565952,
+              "se": 5.799098279150901,
+              "lo": 27.43963706461752,
+              "hi": 50.96186992670152,
+              "G": 37,
+              "t": 2.0280940009804502
+            },
+            "mid": {
+              "est": -10.799246504340484,
+              "se": 5.799098279150901,
+              "lo": -22.56036293538248,
+              "hi": 0.9618699267015121,
+              "G": 37,
+              "t": 2.0280940009804502
+            },
+            "_tracks": 217
+          },
+          "ring_side_left": {
+            "start": {
+              "est": 41.3644824535643,
+              "se": 2.971399073869669,
+              "lo": 35.287288989080395,
+              "hi": 47.441675918048205,
+              "G": 30,
+              "t": 2.045229642132703
+            },
+            "mid": {
+              "est": -8.635517546435704,
+              "se": 2.971399073869668,
+              "lo": -14.712711010919609,
+              "hi": -2.558324081951798,
+              "G": 30,
+              "t": 2.045229642132703
+            },
+            "_tracks": 175
+          },
+          "ring_rear_left": {
+            "start": {
+              "est": 69.39553252523754,
+              "se": 7.591357380849918,
+              "lo": 53.99954616183716,
+              "hi": 84.79151888863792,
+              "G": 37,
+              "t": 2.0280940009804502
+            },
+            "mid": {
+              "est": 19.395532525237524,
+              "se": 7.591357380849917,
+              "lo": 3.9995461618371433,
+              "hi": 34.7915188886379,
+              "G": 37,
+              "t": 2.0280940009804502
+            },
+            "_tracks": 214
+          },
+          "ring_rear_right": {
+            "start": {
+              "est": 32.44191542637767,
+              "se": 20.68284077863597,
+              "lo": -12.24064551836117,
+              "hi": 77.12447637111651,
+              "G": 14,
+              "t": 2.1603686564610127
+            },
+            "mid": {
+              "est": -17.55808457362233,
+              "se": 20.68284077863597,
+              "lo": -62.24064551836117,
+              "hi": 27.124476371116508,
+              "G": 14,
+              "t": 2.1603686564610127
+            },
+            "_tracks": 34
+          }
+        },
+        "cameras": [
+          "ring_front_left",
+          "ring_rear_left",
+          "ring_rear_right",
+          "ring_side_left"
+        ],
+        "undefined_intervals": []
+      }
+    },
+    "ring_rear_left": {
+      "b_leave_one_log_out_start": {
+        "full": 70.6613338770713,
+        "min": 67.88780658375838,
+        "max": 80.7524304082984,
+        "n_logs": 36
+      },
+      "c_theta_hat_quantiles_5_25_50_75_95": [
+        50.11825816127552,
+        51.84506980568787,
+        72.71285326700425,
+        87.03925048429176,
+        98.1482301248005
+      ],
+      "d_per_frame_delta_start": {
+        "A": {
+          "est": 71.06028581929147,
+          "se": 7.850192579920497,
+          "lo": 55.12354762450285,
+          "hi": 86.99702401408008,
+          "G": 36,
+          "t": 2.030107928250343
+        },
+        "B": {
+          "est": 70.206172745188,
+          "se": 7.900088783442845,
+          "lo": 54.1333212640656,
+          "hi": 86.2790242263104,
+          "G": 34,
+          "t": 2.0345152974493383
+        }
+      },
+      "e_velocity_scale_from_two_frame": {
+        "est": 0.07826192483698466,
+        "lo": 0.0020601452875326663,
+        "hi": 0.15446370438643664
+      }
+    },
+    "ring_side_left": {
+      "b_leave_one_log_out_start": {
+        "full": 41.45481863246282,
+        "min": 40.569495960510885,
+        "max": 44.28801355611935,
+        "n_logs": 30
+      },
+      "c_theta_hat_quantiles_5_25_50_75_95": [
+        -16.462795876522353,
+        37.97494215747045,
+        37.97494215747045,
+        55.32542998510051,
+        76.1828408687772
+      ],
+      "d_per_frame_delta_start": {
+        "A": {
+          "est": 43.10022714182303,
+          "se": 4.58799934965496,
+          "lo": 33.70213650743787,
+          "hi": 52.49831777620818,
+          "G": 29,
+          "t": 2.048407141795244
+        },
+        "B": {
+          "est": 41.06189954974198,
+          "se": 3.964468444682451,
+          "lo": 32.9536511713777,
+          "hi": 49.17014792810626,
+          "G": 30,
+          "t": 2.045229642132703
+        }
+      },
+      "e_velocity_scale_from_two_frame": {
+        "est": 0.054148606659379664,
+        "lo": -0.07043040389342001,
+        "hi": 0.17872761721217933
+      }
+    }
+  }
+}

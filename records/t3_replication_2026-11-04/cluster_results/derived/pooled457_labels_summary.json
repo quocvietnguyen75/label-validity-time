@@ -1,0 +1,9 @@
+{
+ "file": "$AV2_SENSOR_ROOT/derived/pooled457_labels_label_side.parquet",
+ "sha256": "e8ee3e2f0f1603526796db1555ff7773c7f90b8df53b68671f83eb22e58e3d01",
+ "rows": 21971767,
+ "logs": 457,
+ "incl_moving": 48605,
+ "incl_static": 487950,
+ "moving_tracks": 2512
+}

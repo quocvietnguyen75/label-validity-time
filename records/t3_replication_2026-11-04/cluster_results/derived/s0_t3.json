@@ -1,0 +1,16 @@
+{
+ "logs": 407,
+ "departing_logs": {},
+ "max_abs_departure_ms": 0.46,
+ "categories": {
+  "REGULAR_VEHICLE": 18095482,
+  "BUS": 321744,
+  "LARGE_VEHICLE": 418800,
+  "BOX_TRUCK": 304049,
+  "TRUCK": 192148,
+  "TRUCK_CAB": 78908,
+  "MOTORCYCLE": 179177,
+  "ARTICULATED_BUS": 30487,
+  "SCHOOL_BUS": 51803
+ }
+}

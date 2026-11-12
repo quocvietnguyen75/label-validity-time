@@ -1,0 +1,12 @@
+score 0.5: dropped 61 rows
+  ring_front_left   kept 2435/2464 logs 37 hw 23.97 (primary 23.78) thr 59.55 (primary 59.35) {'start-A': (27.3, False), 'start-B': (77.0, True), 'start-mid': (50.0, False), 'A-B': (49.7, False), 'A-mid': (22.7, False), 'B-mid': (27.0, False)}
+  ring_side_left    kept 1280/1302 logs 30 hw 6.31 (primary 6.17) thr 30.56 (primary 30.42) {'start-A': (11.2, False), 'start-B': (60.5, True), 'start-mid': (50.0, True), 'A-B': (49.2, True), 'A-mid': (38.8, True), 'B-mid': (10.5, False)}
+  ring_rear_left    kept 1208/1212 logs 36 hw 2.88 (primary 2.88) thr 50.09 (primary 50.09) {'start-A': (96.4, True), 'start-B': (46.9, False), 'start-mid': (50.0, False), 'A-B': (49.5, False), 'A-mid': (46.4, False), 'B-mid': (3.1, False)}
+  ring_rear_right   kept 617/621 logs 14 hw 12.22 (primary 12.40) thr 82.82 (primary 83.01) {'start-A': (83.5, True), 'start-B': (33.4, False), 'start-mid': (50.0, False), 'A-B': (50.2, False), 'A-mid': (33.5, False), 'B-mid': (16.6, False)}
+  dataset: {'start-A': True, 'start-B': True, 'start-mid': False, 'A-B': False, 'A-mid': False, 'B-mid': False}
+score 0.3: dropped 80 rows
+  ring_front_left   kept 2432/2469 logs 37 hw 24.04 (primary 23.75) thr 60.10 (primary 59.81) {'start-A': (27.3, False), 'start-B': (77.0, True), 'start-mid': (50.0, False), 'A-B': (49.7, False), 'A-mid': (22.7, False), 'B-mid': (27.0, False)}
+  ring_side_left    kept 1280/1307 logs 30 hw 11.14 (primary 10.92) thr 35.21 (primary 34.98) {'start-A': (11.3, False), 'start-B': (60.5, True), 'start-mid': (50.0, True), 'A-B': (49.3, True), 'A-mid': (38.7, True), 'B-mid': (10.5, False)}
+  ring_rear_left    kept 1205/1212 logs 36 hw 2.94 (primary 2.79) thr 49.96 (primary 49.82) {'start-A': (96.4, True), 'start-B': (46.9, False), 'start-mid': (50.0, True), 'A-B': (49.5, False), 'A-mid': (46.4, False), 'B-mid': (3.1, False)}
+  ring_rear_right   kept 622/629 logs 14 hw 8.38 (primary 8.51) thr 60.89 (primary 61.03) {'start-A': (83.6, True), 'start-B': (33.4, False), 'start-mid': (50.0, False), 'A-B': (50.2, False), 'A-mid': (33.6, False), 'B-mid': (16.6, False)}
+  dataset: {'start-A': True, 'start-B': True, 'start-mid': True, 'A-B': False, 'A-mid': False, 'B-mid': False}

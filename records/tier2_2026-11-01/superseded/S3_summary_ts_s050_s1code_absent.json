@@ -1,0 +1,63 @@
+{
+  "protocol": "PILOT_PROTOCOL_XF-C7_T2_v0_1.md (draft), steps S1, S3, S4",
+  "dataset": "ts",
+  "score_min": 0.5,
+  "nms_iou": 0.7,
+  "inputs": {
+    "label_side_sha256": "b63927fbc1bc755769a0853e9dc9b1311386c13eeb03b2075f9e503627c5a2a2",
+    "logs": 10,
+    "raw_files": 10,
+    "raw_detections_used": 47397,
+    "reference_rows": 16242,
+    "reference_table_sha256": "0fa27107056a8920276fc3ddc582f869ad8c0c327e86697eb9a1fa29162b70eb"
+  },
+  "S1_projection_check": {
+    "CAMERA_LEFT_FRONT": {
+      "n": 53,
+      "median_px": 6.029592046771395,
+      "p90_px": 31.809008001128642,
+      "pass": true
+    },
+    "CAMERA_RIGHT_FRONT": {
+      "n": 53,
+      "median_px": 4.708851968485213,
+      "p90_px": 30.525628948404442,
+      "pass": true
+    },
+    "CAMERA_LEFT_BACK": {
+      "n": 133,
+      "median_px": 3.6931555043471263,
+      "p90_px": 19.04711296398822,
+      "pass": true
+    },
+    "CAMERA_RIGHT_BACK": {
+      "n": 114,
+      "median_px": 4.340913907577697,
+      "p90_px": 23.484417461045997,
+      "pass": true
+    }
+  },
+  "counts": {
+    "moving_included": 99,
+    "moving_assigned": 79,
+    "static_included": 411,
+    "static_assigned": 353,
+    "static_used": 0,
+    "moving_no_zero_line_excluded": 79,
+    "moving_analysis_rows": 0,
+    "moving_levels": {
+      "-1": 79
+    },
+    "sigma_b_median_px": NaN
+  },
+  "cameras": {},
+  "budget": {},
+  "decision_cameras": [],
+  "thresholds_ms": {},
+  "capacity": {},
+  "moving_analysis_set_sha256": "b2839b34cfabc867b8aabcb7ee25b958cd5588ee1458dd678a282362df4e7d8e",
+  "descriptive_tables_sha256": {
+    "static_all.parquet": "5d5f50c407fc7c811b3327401fa588387fcd6e5f999d6420ff5653af40aada5d",
+    "moving_assigned.parquet": "e2cba16c2c5d60aece019d352a7936a29ff973c7bffafe35623ec42cf8484da5"
+  }
+}
